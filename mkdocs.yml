@@ -26,6 +26,9 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      locale: en
+      type: datetime  
 
 markdown_extensions:
   - tables
@@ -36,4 +39,4 @@ nav:
     - "Surface Water Quality": 
       - "[AIMS] Surface Water Chemistry Field Sampling": Protocols/Surface Water Quality/AIMS_SOP_Surface_Water_Chemistry_Field_Sampling.md
     - "Ecological & Biological Monitoring": 
-      - "[AIMS] Benthic Macroinvertebrate Field Sampling,": Protocols/Ecological & Biological Monitoring/AIMS_SOP_Benthic_Macroinvertebrate_Field_Sampling.md
+      - "[AIMS] Benthic Macroinvertebrate Field Sampling": Protocols/Ecological & Biological Monitoring/AIMS_SOP_Benthic_Macroinvertebrate_Field_Sampling.md

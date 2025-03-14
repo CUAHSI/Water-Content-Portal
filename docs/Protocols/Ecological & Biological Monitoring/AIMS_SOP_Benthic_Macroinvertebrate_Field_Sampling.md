@@ -2,7 +2,7 @@
 
 **Daniel C. Allen [Pennsylvania State University], Michelle H. Busch [University of Kansas], Released 02/2024**
 
-# 1.0 Abstract
+## 1.0 Abstract
 
 The following standard operating procedure (SOP) was created for the the Aquatic Intermittency effects on Microbiomes in Streams (AIMS), an NSF EPSCoR funded project (OIA 2019603) seeking to explore the impacts of stream drying on downstream water quality across Kansas, Oklahoma, Alabama, Idaho, and Mississippi. AIMS integrates datasets on hydrology, microbiomes, macroinvertebrates, and biogeochemistry in three regions (Mountain West, Great Plains, and Southeast Forests) to test the overarching hypothesis that physical drivers (e.g., climate, hydrology) interact with biological drivers (e.g., microbes, biogeochemistry) to control water quality in intermittent streams. An overview of the AIMS project can be found here:
 
@@ -12,7 +12,7 @@ This protocol will detail the process for collecting and storing benthic macroin
 
 From this SOP, the following data types will be created: Macroinvertebrate DNA sequences, presence / absence data [AIMS rType: MACR]
 
-# 2.0 Definitions and Variables
+## 2.0 Definitions and Variables
 
 *2.1 Key Terms:*
 
@@ -37,15 +37,17 @@ From this SOP, the following data types will be created: Macroinvertebrate DNA s
 -   Flow status at sampling points (water status [wet/dry], isolated [y/n])
 -   Wetted width (m)
 
-    3.0 Safety Considerations *3.1 Field Safety Preparation*:
+## 3.0 Safety Considerations 
+
+*3.1 Field Safety Preparation*:
 
 -   Nothing beyond normal field safety precautions for fieldwork
 
-    *3.2 Required Safety Precautions:*
+*3.2 Required Safety Precautions:*
 
 -   EtOH is flammable, use standard fire precautions around EtOH
 
-# 4.0 Personnel and Equipment
+## 4.0 Personnel and Equipment
 
 4.1 Checklist of equipment needed:
 
@@ -70,7 +72,9 @@ From this SOP, the following data types will be created: Macroinvertebrate DNA s
 
 -   At least 2 people, one in the stream doing sampling, and the other assisting. Having a third can be helpful and speed up processing.
 
-    5.0 Standard Operating Procedures *5.1 Calibration and maintenance:*
+## 5.0 Standard Operating Procedures 
+
+*5.1 Calibration and maintenance:*
 
 -   Not applicable
 
@@ -150,7 +154,7 @@ b. Across the entire reach:
 
                 A YouTube video tutorial was created to describe this data collection protocol, which can be found here: <https://youtu.be/6niLLGBOoeU>
 
-# 6.0 Sample Generated/Storage & Preservation
+## 6.0 Sample Generated/Storage & Preservation
 
 *6.1 Processing and Preserving Samples:*
 
@@ -165,7 +169,7 @@ Samples preserved in 95% EtOH in the field
 -   Within 24 hours, refresh the ethanol in the sample (empty the contents of the sample into the 500 micron sieve, put the material back into the sampling jar, and replace with new ethanol) and then freeze the sample at (-20**°**C).
 -   For samples with large amounts of organic material, another EtOH refresh may be needed. If the EtOH becomes “stained” green or brown, that means that organics are leaching from algae/detritus, which can compromise the preservation. So if the EtOH is not clear, that is an indicator that another refresh of EtOH could be beneficial.
 
-# 7.0 Sample Tracking and Destination
+## 7.0 Sample Tracking and Destination
 
 *7.1 Data Entry into sample Tracking System:*
 
@@ -186,14 +190,14 @@ Samples preserved in 95% EtOH in the field
 -   Make sure to arrange with someone at the receiving university prior to shipping so that they are aware a sample is coming and are prepared to receive it and immediately refill the containers with ethanol in the lab.
 -   Ship samples via 2-day shipping early in the week (i.e. Monday or Tuesday) to ensure they will arrive by the end of the week.
 
-# 8.0 Questions and Ownership
+## 8.0 Questions and Ownership
 
 *8.1 Point of contact for SOP*
 
 -   Daniel Allen, Penn State, (daniel.c.allen@psu.edu) *8.2 Contact for data ownership questions (if different than above):*
 -   Same as above.
 
-# 9.0 Updates / Change Record
+## 9.0 Updates / Change Record
 
 *9.1 A running table of updates/changes made to the protocol:*
 
@@ -206,6 +210,6 @@ Samples preserved in 95% EtOH in the field
 | E        | 20240118 | 1.3        | Changed “1.0 Overview" to "1.0 Abstract" in accordance with revisions to AIMS SOP template for submission to Hydroshare. |
 | F        | 20241008 | 1.3        | Edits made to ensure clarity prior to posting                                                                            |
 
-10.0 Acknowledgements:
+## 10.0 Acknowledgements:
 
 This protocol is a modification of the StreamCLIMES invertebrate sampling protocol, which was developed by Michael Bogan, Albert Ruhi, and Daniel Allen.

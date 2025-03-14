@@ -1,6 +1,6 @@
 **AIMS SOP - Surface Water Chemistry Field Sampling, Version 1.3 Amy Burgin, [University of Kansas], Released February 2022**
 
-# 1.0 Abstract
+## 1.0 Abstract
 
 The following standard operating procedure (SOP) was created for the the Aquatic Intermittency effects on Microbiomes in Streams (AIMS), an NSF EPSCoR funded project (OIA 2019603) seeking to explore the impacts of stream drying on downstream water quality across Kansas, Oklahoma, Alabama, Idaho, and Mississippi. AIMS integrates datasets on hydrology, microbiomes, macroinvertebrates, and biogeochemistry in three regions (Mountain West, Great Plains, and Southeast Forests) to test the overarching hypothesis that physical drivers (e.g., climate, hydrology) interact with biological drivers (e.g., microbes, biogeochemistry) to control water quality in intermittent streams. An overview of the AIMS project can be found here:
 
@@ -10,7 +10,9 @@ This protocol details the process for collecting and storing filtered water samp
 
 From this SOP, the following data types will be created: water anions, cations, ammonium, soluble reactive phosphate, dissolved organic carbon, dissolved organic matter, total suspended solids, alkalinity, and water isotopes. [AIMS rTypes: anions (ANIO), cations (CAIO), soluble reactive phosphate (SRPS), and ammonium (AMMO) together in **Dissolved solutes (DISS)**. Dissolved organic carbon: DOCS; dissolved organic matter: DOMS; total suspended solids: TSSS; alkalinity: ALKA; water isotopes: WAIS]
 
-# 2.0 Definitions and Variables *2.1 Key Terms*: Not applicable
+## 2.0 Definitions and Variables 
+
+*2.1 Key Terms*: Not applicable
 
 *2.2 Primary Data Values:*
 
@@ -44,7 +46,9 @@ From this SOP, the following data types will be created: water anions, cations, 
 
     *2.3 Supplemental Data*: Not applicable
 
-    3.0 Safety Considerations *3.1 Field Safety Preparation*:
+## 3.0 Safety Considerations 
+
+*3.1 Field Safety Preparation*:
 
 Follow any field precautions specific to your site or region. Always bring a personal water supply, sun protection (hat, sunscreen), animal protection (gaiters, bug spray), and field appropriate footwear. The greatest field safety concern during sample collection is the local weather conditions, which can change from the time of departure from the lab and arrival at the field site. We will use NEON’s contingency decision framework (Table 1) for water sampling for delays/rescheduling of weather related events impacting collection of surface water samples. **Table 1:** Potential field-related conditions and recommended actions.
 
@@ -60,7 +64,7 @@ Follow any field precautions specific to your site or region. Always bring a per
 
 This protocol requires handling acid to preserve samples. When using acid, use protective eyewear and gloves. Apply acid on a stable surface (e.g., table) using appropriate PPE and near a source of water for rinsing.
 
-# 4.0 Personnel and Equipment
+## 4.0 Personnel and Equipment
 
 *4.1 Checklist of equipment needed:*
 
@@ -100,7 +104,7 @@ This protocol requires handling acid to preserve samples. When using acid, use p
 
         Person 2: take unfiltered samples for TSS and isotopes first to minimize any benthic disturbance that may affect the sampling; filter water at 0.22 um (cartridge filters) for DOM first; filter water using GF/F filters (cartridge filter) for DOC
 
-# 5.0 Standard Operating Procedures
+## 5.0 Standard Operating Procedures
 
 *5.1 Calibration and maintenance:*
 
@@ -181,7 +185,7 @@ A series of videos were created to describe this protocol, which can be found he
 | 2         | Cations and Anions Sample Collection | <https://youtu.be/ZD8LDTE9bww>                                                   |
 | 3         | Dissolved Organic Carbon Collection  | <https://youtu.be/BO6F8oUhUdA>                                                   |
 
-# 6.0 Sample Generated/Storage & Preservation
+## 6.0 Sample Generated/Storage & Preservation
 
 *6.1 Processing and Preserving Samples:* See Table 2.
 
@@ -222,7 +226,7 @@ i. Keep refrigerated, send on blue ice
 
     See Table 2.
 
-# 7.0 Sample Tracking and Destination
+## 7.0 Sample Tracking and Destination
 
 *7.1 Data Entry into sample Tracking System:*
 
@@ -242,13 +246,15 @@ All samples collected must be recorded in the proper Sample Inventory sheet (mic
 
     2.  *Processing Lab Info (where are they ultimately headed?):* Reference information about processing in section 6.0
 
-        8.0 Questions and Ownership *8.1 Point of contact for SOP:*
+## 8.0 Questions and Ownership 
+
+*8.1 Point of contact for SOP:*
 
         Amy Burgin and Biogeochemistry Team, burginam@ku.edu
 
         *8.2 Contact for data ownership questions (if different than above):* Same as above
 
-# 9.0 Updates / Change Record
+## 9.0 Updates / Change Record
 
 *9.1 A running table of updates/changes made to the protocol:*
 
@@ -259,4 +265,4 @@ All samples collected must be recorded in the proper Sample Inventory sheet (mic
 | Version 1.2 | 19 Sept 2022  | Remove Google Drive hyperlinks and replace them with OSF-based hyperlinks. ECS updated post field processing specifications (2% nitric acid) |
 | Version 1.3 | 02 Feb 2024   | Changed “1.0 Overview" to "1.0 Abstract" in accordance with revisions to AIMS SOP template for submission to Hydroshare.                     |
 
-# 10.0 References
+## 10.0 References
