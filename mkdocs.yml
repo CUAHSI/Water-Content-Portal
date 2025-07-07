@@ -1,0 +1,39 @@
+site_name: CUAHSI Water Content Portal
+repo_name: Water-Content-Portal
+repo_url: https://github.com/CUAHSI/Water-Content-Portal
+edit_uri_template: 'https://github.com/CUAHSI/Water-Content-Portal'
+
+theme:
+  name: "material"
+  features:
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - navigation.footer
+    - toc.integrate
+  icon:
+    edit: material/pencil
+    view: material/eye
+  palette:
+    - scheme: default
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+    - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      locale: en
+      type: datetime
+  - monorepo
+
+markdown_extensions:
+  - tables
+
+nav:
+  - Home: index.md
+  - Data Collection Protocols: '!include ./data-collection-protocols/mkdocs.yml'
