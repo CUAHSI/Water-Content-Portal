@@ -1,3 +1,4 @@
 [submodule "data-collection-protocols"]
 	path = data-collection-protocols
 	url = https://github.com/CUAHSI/data-collection-protocols
+	branch = main
