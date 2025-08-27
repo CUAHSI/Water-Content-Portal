@@ -5,8 +5,12 @@ channels:
 dependencies:
   - python=3.10
   - pip
+  - r-base~=4.4.3
+  - r-tidyverse~=2.0.0
+  - r-quarto~=1.5.0
   - pip:
-      - mkdocs
-      - mkdocs-material
+      - "mkdocs~=1.6.1"
+      - "mkquartodocs~=0.6.0" 
+      - "mkdocs-material~=9.6.16"
       - mkdocs-git-revision-date-localized-plugin
       - mkdocs-monorepo-plugin

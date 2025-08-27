@@ -36,4 +36,4 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Data Collection Protocols: '!include ./data-collection-protocols/mkdocs.yml'
+  - Data Collection Protocols: '!include data-collection-protocols/mkdocs.yml'
