@@ -24,16 +24,33 @@ theme:
           icon: material/brightness-4
           name: Switch to light mode
 
+extra_css:
+  - stylesheets/extra.css
+
+
 plugins:
   - search
   - git-revision-date-localized:
       locale: en
       type: datetime
+      fallback_to_build_date: true
   - monorepo
+  - mkquartodocs:
+      force_rebuild: true
 
 markdown_extensions:
   - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+hooks:
+  - scripts/strip_quarto_cell_notation.py
 
 nav:
   - Home: index.md
   - Data Collection Protocols: '!include data-collection-protocols/mkdocs.yml'
+  - HydroInformatics Textbook:  
+    - Chapter 2: 
+      - 'Programming Basics Complete': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
+

@@ -2,3 +2,9 @@
 	path = data-collection-protocols
 	url = https://github.com/CUAHSI/data-collection-protocols
 	branch = main
+[submodule "hydroinformatics/2-Programming-Basics"]
+	path = hydroinformatics/2-Programming-Basics
+	url = https://github.com/abnerbog/2-Programming-Basics
+[submodule "docs/hydroinformatics/2-Programming-Basics"]
+	path = docs/hydroinformatics/2-Programming-Basics
+	url = https://github.com/abnerbog/2-Programming-Basics.git

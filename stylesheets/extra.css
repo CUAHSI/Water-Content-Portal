@@ -1,0 +1,12 @@
+/* Only remove background for code blocks inside admonitions */
+
+.admonition pre {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.admonition pre code {
+  background: transparent;
+  box-shadow: none;
+}
+
