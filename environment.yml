@@ -8,6 +8,9 @@ dependencies:
   - r-base~=4.4.3
   - r-tidyverse~=2.0.0
   - r-quarto~=1.5.0
+  - r-patchwork
+#  - r-terra
+#  - r-sf
   - pip:
       - "mkdocs~=1.6.1"
       - "mkquartodocs~=0.6.0" 

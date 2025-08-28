@@ -36,7 +36,8 @@ plugins:
       fallback_to_build_date: true
   - monorepo
   - mkquartodocs:
-      force_rebuild: true
+#     force_rebuild: true
+     ignore_pattern: "^.*/hydroinformatics/(6|7|8|9|10|11|12|13|14|15|16|17|18).*"
 
 markdown_extensions:
   - tables
@@ -51,7 +52,15 @@ nav:
   - Home: index.md
   - Data Collection Protocols: '!include data-collection-protocols/mkdocs.yml'
   - HydroInformatics Textbook:  
+    - Chapter 1:
+      - 'Intro to Plotting': hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'  
     - Chapter 2: 
       - 'Programming Basics Blank': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_BLANK.md'
       - 'Programming Basics Complete': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
+    - Chapter 3:
+      - 'Activity Intro Skills': 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
+    - Chapter 4:
+      - 'Intro to Stats': 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
+    - Chapter 5:
+      - 'Stats Activity': 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.md'
 
