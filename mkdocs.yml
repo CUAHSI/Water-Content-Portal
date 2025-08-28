@@ -52,5 +52,6 @@ nav:
   - Data Collection Protocols: '!include data-collection-protocols/mkdocs.yml'
   - HydroInformatics Textbook:  
     - Chapter 2: 
+      - 'Programming Basics Blank': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_BLANK.md'
       - 'Programming Basics Complete': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
 

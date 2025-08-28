@@ -22,6 +22,10 @@ shell:
 down:
 	docker compose down portal
 
+.PHONY: update
+update:
+	git submodule update --remote
+
 .PHONY: help
 help:
 	@echo "Available commands:"
@@ -31,3 +35,4 @@ help:
 	@echo "  make serve-d      - Serve the MkDocs documentation in detached mode"
 	@echo "  make shell        - Open a shell in the portal container"
 	@echo "  make down         - Stop the portal container"
+	@echo "  make update       - Update git submodules"
