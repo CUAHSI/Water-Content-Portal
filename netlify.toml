@@ -2,4 +2,4 @@
 environment = { PYTHON_VERSION = "3.13" }
 base = "."
 publish = "site"
-command = "mkdocs build -d site"
+command = "mkdocs build -f mkdocs-minify.yml"
