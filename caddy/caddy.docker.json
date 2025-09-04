@@ -1,0 +1,24 @@
+{
+  "apps": {
+    "http": {
+      "servers": {
+        "web": {
+          "automatic_https": {
+            "disable": true
+          },
+          "listen": [":8000"],
+          "routes": [
+            {
+              "handle": [
+                {
+                  "handler": "file_server",
+                  "root": "/srv"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

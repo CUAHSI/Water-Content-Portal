@@ -1,0 +1,10 @@
+INHERIT: ./mkdocs.yml
+# https://www.mkdocs.org/user-guide/configuration/#configuration-inheritance
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      cache_safe: true
+      minify_css: true
+      minify_js: true

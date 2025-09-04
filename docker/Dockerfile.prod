@@ -1,0 +1,34 @@
+FROM ghcr.io/mamba-org/micromamba:latest AS build-stage
+
+USER root
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+
+RUN git config --global --add safe.directory /home/mambauser
+
+WORKDIR /home/mambauser
+
+COPY environment.yml /home/mambauser/environment.yml
+
+RUN micromamba env update --file environment.yml --name base && \
+    micromamba clean -a -y
+
+ENV PATH="/opt/conda/bin:/opt/conda/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:${PATH}"
+
+COPY . /water-content-portal
+WORKDIR /water-content-portal
+
+RUN git submodule init
+RUN git submodule update --remote
+
+RUN mkdocs build -f mkdocs-minify.yml
+
+FROM caddy:2.7.6-alpine AS prod
+
+COPY caddy/caddy.docker.json /etc/caddy/caddy.json
+
+# Copy source dist
+COPY --from=build-stage /water-content-portal/site /srv
+
+EXPOSE 8000
+
+CMD ["caddy", "run", "--config", "/etc/caddy/caddy.json"]
