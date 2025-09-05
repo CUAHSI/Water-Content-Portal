@@ -2,13 +2,14 @@
 
 set -e
 
-# update submodules
-git submodule init
-git submodule update --remote
+# # update submodules
+# git submodule init
+# git submodule update --remote
 
 # install micromamba
 curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj -C /tmp
-/tmp/micromamba shell init -p ~/micromamba
+ls -l /tmp
+/tmp/micromamba shell init -p ~/micromamba 
 eval "$(/tmp/micromamba shell hook -s posix)"
 
 # create and activate environment
