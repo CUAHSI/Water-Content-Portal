@@ -1,4 +1,4 @@
 [build]
-  command = "./build.sh"
+  command = "chmod 777 build.sh && ./build.sh"
   publish = "site/"
-  environment = { PYTHON_VERSION = "3.13" }
+  environment = { PYTHON_VERSION = "3.11" }

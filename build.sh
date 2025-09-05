@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Run the Docker image build
-make build
-
-# Run the documentation build within the container
-make build-docs
+git submodule init
+git submodule update --remote
+mkdocs build
+# mkdocs build -f mkdocs-minify.yml
