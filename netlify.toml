@@ -1,4 +1,14 @@
 [build]
 base = "."
 publish = "site"
-command = "make update && make build-docs"
+command = """
+    curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj -C /tmp
+    /tmp/micromamba shell init -p ~/micromamba
+    eval "$(/tmp/micromamba shell hook -s posix)"
+
+    # Use Micromamba to create and activate the environment
+    /tmp/micromamba env create -f environment.yml
+    /tmp/micromamba activate water-content-portal-env
+
+    mkdocs build
+    """
