@@ -15,7 +15,7 @@ export PATH="$PWD/bin:$PATH"
 
 # create and activate environment
 micromamba env create -f environment.yml
-micromamba activate water-content-portal-env
+# micromamba activate water-content-portal-env
 
 # build documentation
-mkdocs build
+micromamba run -n water-content-portal-env mkdocs build
