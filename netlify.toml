@@ -1,5 +1,4 @@
 [build]
-environment = { PYTHON_VERSION = "3.13" }
 base = "."
 publish = "site"
-command = "mkdocs build -f mkdocs-minify.yml"
+command = "make update && make build-docs"
