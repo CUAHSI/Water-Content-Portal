@@ -1,6 +1,0 @@
-mkdocs
-mkdocs-material
-mkdocs-minify-plugin
-mkdocs-git-revision-date-localized-plugin
-mkdocs-monorepo-plugin
-mkquartodocs~=0.6.0
