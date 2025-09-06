@@ -17,3 +17,4 @@ dependencies:
       - "mkdocs-material~=9.6.16"
       - mkdocs-git-revision-date-localized-plugin
       - mkdocs-monorepo-plugin
+      - mkdocs-minify-plugin
