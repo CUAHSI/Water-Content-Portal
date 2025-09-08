@@ -45,12 +45,8 @@ You will see a local link to the server in the command line (e.g., `http://127.0
 
 ### Prod deployment
 
-A single deployment of this project exists in Google CloudRun:
+We have configured DNS CNAME to point at Netlify
 
-1. [Production](TODO)
-   - This deployment is configured with Continuous Deployment. Build and deploy is triggered by merge/push to the `main` branch of https://github.com/CUAHSI/Water-Content-Portal
+[Netlify Configuration](https://app.netlify.com/projects/cuahsi-water-portal/domain-management#production-domains)
 
-* Load balancer is [here](TODO)
-* The backend is considered "serverless" and are permitted to scale down to 0 instances when there is low traffic. This can result in "cold starts" where users will encounted a delay after logging in, as the container "spins up" (should this prove undesireable in the future, we can limit the scaling to at least one replica).
-* Because the `mkdocs serve` command is not considered secure for deployment, we use [Caddy](https://caddyserver.com/) as a static file server. The [Caddy configuration](caddy/caddy.docker.json) can be modified for other assets if desired.
-* The deployments are built using a single [Dockerfile](docker/Dockerfile.prod)
+[GCP DNS](https://console.cloud.google.com/net-services/dns/zones/cuahsi-io/rrsets/water-content-portal.cuahsi.io./CNAME/view?project=apps-320517)
