@@ -5,12 +5,19 @@ channels:
 dependencies:
   - python=3.10
   - pip
-  - r-base~=4.4.3
-  - r-tidyverse~=2.0.0
-  - r-quarto~=1.5.0
+  - r-base>=4.3
+  - r-tidyverse
+  - r-quarto
   - r-patchwork
-#  - r-terra
-#  - r-sf
+  - r-terra>= 1.8.5 
+  - r-sf
+  - r-plotly
+  - r-lubridate
+  - r-webexercises
+  - r-dataretrieval
+  - r-whitebox
+  - r-tmap
+  - r-extremes
   - pip:
       - "mkdocs~=1.6.1"
       - "mkquartodocs~=0.6.0" 
