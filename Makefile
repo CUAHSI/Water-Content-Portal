@@ -2,6 +2,10 @@
 build:
 	docker compose --profile portal build portal
 
+.PHONY: build-no-cache
+build:
+	docker compose --profile portal build portal --no-cache
+
 .PHONY: build-docs
 build-docs:
 	docker compose --profile portal run --rm portal "source ~/.bashrc && mkdocs build"
