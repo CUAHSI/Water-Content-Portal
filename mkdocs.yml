@@ -35,9 +35,7 @@ plugins:
       type: datetime
       fallback_to_build_date: true
   - monorepo
-  - mkquartodocs:
-#     force_rebuild: true
-     ignore_pattern: "^.*/hydroinformatics/(6|7|8|9|10|11|12|13|14|15|16|17|18).*"
+  - mkquartodocs
 
 markdown_extensions:
   - tables
@@ -50,17 +48,41 @@ hooks:
 
 nav:
   - Home: index.md
-  - Data Collection Protocols: '!include data-collection-protocols/mkdocs.yml'
+  - Data Collection Protocols: '!include docs/data-collection-protocols/mkdocs.yml'
   - HydroInformatics Textbook:  
     - Chapter 1:
-      - 'Intro to Plotting': hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'  
+      - 'Intro-plotting-R': 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'
     - Chapter 2: 
-      - 'Programming Basics Blank': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_BLANK.md'
-      - 'Programming Basics Complete': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
+      - 'Programming-Basics': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
     - Chapter 3:
-      - 'Activity Intro Skills': 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
+      - 'Activity-Intro-Skills': 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
     - Chapter 4:
-      - 'Intro to Stats': 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
+      - 'Intro-Stats-Completed': 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
     - Chapter 5:
-      - 'Stats Activity': 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.md'
-
+      - 'Intro-Stats-Activity': 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.md'
+    - Chapter 6:
+      - 'Get-Format-Plot-HydroData': 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.md'
+    - Chapter 7:
+      - 'Activity-Joins-Pivots_dataRetrieval': 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.md'
+    - Chapter 8:
+      - '8-Test_1': 'hydroinformatics/8-Test_1/08-Summative_Activity.md'
+    - Chapter 9: 
+      - '9-Flow-Duration-Curves': 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.md'
+    - Chapter 10:
+      - '10-Low-Flow-Analysis': 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.md'
+    - Chapter 11:
+      - '11-Flood-Frequency-and-Functions': 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.md'
+    - Chapter 12:
+      - '12-Intro_Geospatial_Vector': 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.md'
+    - Chapter 13:
+      - '13-Geospatial-Raster-Hydro': 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.md'
+    - Chapter 14:
+      - '14-Summative2': 'hydroinformatics/14-Summative2/14-Summative-2-Student.md' # this is a missing quarto doc
+    - Chapter 15:
+      - '15-Watershed-Delineation': 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.md'
+    - Chapter 16:
+      - '16-Intro-Modeling-HBV': 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
+    - Chapter 17:
+      - '17-calibrate-model-for-loops': 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
+    - Chapter 18:
+      - '18-Final-Summative-Asses': 'hydroinformatics/18-Final-Summative-Assess/Final-Code.md'
