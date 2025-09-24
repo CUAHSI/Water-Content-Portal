@@ -14,12 +14,13 @@ dependencies:
   - r-sf
   - r-plotly
   - r-lubridate
-  - r-webexercises  # this removes some important packages, might be causing a problem.
+  - r-webexercises
   - r-dataretrieval
   - r-whitebox
   - r-extremes
   - r-xml           # required by r-tmap
-#  - r-lwgeom        # required by r-tmap
+  - r-zoo
+  - r-moments
 # - r-tmap # install in Docker because we need terra >= 1.8.5 and the conda version is built with an older version
   - pip:
       - "mkdocs~=1.6.1"
