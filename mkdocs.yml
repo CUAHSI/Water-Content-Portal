@@ -35,7 +35,8 @@ plugins:
       type: datetime
       fallback_to_build_date: true
   - monorepo
-  - mkquartodocs
+  - mkquartodocs:
+      ignore_pattern: "^.*/hydroinformatics/(10|11|12|13|14|15|16|17|18).*|^.*/hydroinformatics/.*BLANK.*"
 
 markdown_extensions:
   - tables
