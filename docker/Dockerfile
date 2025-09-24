@@ -35,7 +35,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 ENV PROJ_LIB=/opt/conda/share/proj \
     PKG_CONFIG_PATH=/opt/conda/lib/pkgconfig \
     LD_LIBRARY_PATH=/opt/conda/lib:$LD_LIBRARY_PATH \
-    PATH=/opt/conda/bin:$PATH
+    PATH=/opt/conda/bin:$PATH \
+    WHITEBOX_EXE=/opt/conda/bin/whitebox_tools
 
 #Rscript -e 'install.packages("lwgeom", repos="https://cloud.r-project.org")'
 RUN Rscript -e 'install.packages(c("lwgeom", "tmap"), repos="https://cloud.r-project.org")' \

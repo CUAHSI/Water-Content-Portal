@@ -17,6 +17,7 @@ dependencies:
   - r-webexercises
   - r-dataretrieval
   - r-whitebox
+  - whitebox_tools
   - r-extremes
   - r-xml           # required by r-tmap
   - r-zoo
