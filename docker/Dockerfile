@@ -39,7 +39,7 @@ ENV PROJ_LIB=/opt/conda/share/proj \
     WHITEBOX_EXE=/opt/conda/bin/whitebox_tools
 
 #Rscript -e 'install.packages("lwgeom", repos="https://cloud.r-project.org")'
-RUN Rscript -e 'install.packages(c("lwgeom", "tmap"), repos="https://cloud.r-project.org")' \
+RUN Rscript -e 'install.packages(c("lwgeom", "tmap", "codetools"), repos="https://cloud.r-project.org")' \
  && Rscript -e 'unlink(tempdir(), recursive=TRUE, force=TRUE)'
 ##############################################
 # END - install the tmap R package from CRAN #
