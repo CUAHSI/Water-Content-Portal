@@ -22,6 +22,7 @@ dependencies:
   - r-xml           # required by r-tmap
   - r-zoo
   - r-moments
+  - r-webshot2
 # - r-tmap # install in Docker because we need terra >= 1.8.5 and the conda version is built with an older version
   - pip:
       - "mkdocs~=1.6.1"
