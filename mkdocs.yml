@@ -54,8 +54,8 @@ nav:
   - HydroInformatics Textbook:  
     - Chapter 1:
       - 'Intro-plotting-R': 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'
-    - Chapter 2: 
-      - 'Programming-Basics': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
+    # - Chapter 2: 
+    #   - 'Programming-Basics': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
     - Chapter 3:
       - 'Activity-Intro-Skills': 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
     - Chapter 4:
@@ -74,17 +74,17 @@ nav:
       - '10-Low-Flow-Analysis': 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.md'
     - Chapter 11:
       - '11-Flood-Frequency-and-Functions': 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.md'
-    - Chapter 12:
-      - '12-Intro_Geospatial_Vector': 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.md'
-    - Chapter 13:
-      - '13-Geospatial-Raster-Hydro': 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.md'
-    - Chapter 14:
-      - '14-Summative2': 'hydroinformatics/14-Summative2/14-Summative-2-Student.md' # this is a missing quarto doc
-    - Chapter 15:
-      - '15-Watershed-Delineation': 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.md'
-    - Chapter 16:
-      - '16-Intro-Modeling-HBV': 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
-    - Chapter 17:
-      - '17-calibrate-model-for-loops': 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
+    # - Chapter 12:
+    #   - '12-Intro_Geospatial_Vector': 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.md'
+    # - Chapter 13:
+    #   - '13-Geospatial-Raster-Hydro': 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.md'
+    # - Chapter 14:
+    #   - '14-Summative2': 'hydroinformatics/14-Summative2/14-Summative-2-Student.md' # this is a missing quarto doc
+    # - Chapter 15:
+    #   - '15-Watershed-Delineation': 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.md'
+    # - Chapter 16:
+    #   - '16-Intro-Modeling-HBV': 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
+    # - Chapter 17:
+    #   - '17-calibrate-model-for-loops': 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
     - Chapter 18:
       - '18-Final-Summative-Asses': 'hydroinformatics/18-Final-Summative-Assess/Final-Code.md'
