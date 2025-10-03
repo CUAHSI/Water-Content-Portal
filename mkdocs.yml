@@ -36,8 +36,8 @@ plugins:
       fallback_to_build_date: true
   - monorepo
   - mkquartodocs:
-      ignore_pattern: "^.*/hydroinformatics/.*BLANK.*|^.*/hydroinformatics/.*IN-CLASS.*"
-      ignore_pattern: "^.*/hydroinformatics/(2|12|13|14|15|16|17).*|^.*/hydroinformatics/.*BLANK.*|^.*/hydroinformatics/.*IN-CLASS.*"
+      # skip chapters 12-17 as these have rendering issues -- see https://github.com/CUAHSI/Water-Content-Portal/issues/11
+      ignore_pattern: "^.*/hydroinformatics/(12|13|14|15|16|17).*|^.*/hydroinformatics/.*BLANK.*|^.*/hydroinformatics/.*IN-CLASS.*"
 
 markdown_extensions:
   - tables
@@ -54,8 +54,8 @@ nav:
   - HydroInformatics Textbook:  
     - Chapter 1:
       - 'Intro-plotting-R': 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'
-    # - Chapter 2: 
-    #   - 'Programming-Basics': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
+    - Chapter 2: 
+      - 'Programming-Basics': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
     - Chapter 3:
       - 'Activity-Intro-Skills': 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
     - Chapter 4:
