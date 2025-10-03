@@ -1,23 +1,26 @@
-# Contribute
+## Guide for Contributing to the CUAHSI Water Content Portal
+This guide outlines the process for contributing content to the CUAHSI Water Content Portal, which is hosted through Netlify and built using `mkdocs`. We welcome proposals for updates, new pages, or improvements. All content in this platform is managed in version control using GitHub, a tool that facilitates collaborative change tracking and maintains an accurate revision history.
 
-## Decap CMS Open Authoring Workflow
-Decap CMS Open Authoring is a workflow that lets people contribute to a version-controlled document without needing to write code or even clone the repository. Contributors only need a GitHub account. When a user makes a change, the CMS automatically creates a new branch and submits a pull request (PR) with their edits. This is a great way to enable non-technical users to contribute to your content.
+### Quick Start Contribution Options
+1. **Create a GitHub Issue.** You can suggest edits or content by creating an issue in the main GitHub repository (https://github.com/CUAHSI/Water-Content-Portal).
+    - Process: Post your suggested edits, new content ideas, or external content proposals in the issue. This is also the best method for submitting content that is not currently in a GitHub repository.
+    - Discussion: Others can comment and discuss the suggestion before any changes are made to the page itself.
+    - Tracking: Keep an eye on your GitHub notifications to follow how your suggestion is being implemented.
+    - _Addition note on external content proposal:_ If you are proposing content not in GitHub, please include details on where the file lives (e.g., a link or storage location), the file name, and any relevant rendering information so that we can ingest and render the outside content properly. Alternatively, you may reach out to help@cuahsi.org to initiate the contribution process for external content.
+2. **Direct Edits in GitHub.** For those comfortable suggesting edits directly to the content already in the repository, you can use direct browser editing or make edits on your local machine that can be pushed to GitHub. If you have write access, you can follow a process similar to the one outlined in the reference document for editing:
+    - Create a new branch.
+    - Find the file you wish to edit.
+    - Edit the file directly in the browser editor and commit changes to your new branch. Remember the website uses Markdown (.md) for text.
+    - Start a pull request to get your changes reviewed and merged into the `main` branch.
 
-### How to Contribute using Decap CMS Open Authoring Workflow
-1. Find the CMS URL
-The first step is to locate the Decap CMS administration panel. The URL is typically the main website's URL followed by /admin/. For example, if the website is https://example.com, the CMS is likely at https://example.com/admin/.
+### Contributing Content already living in a seperate GitHub repository
+Our platform is configured to support [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), which allows us to embed content from other repositories (like yours) into the portal. If you have content in a separate GitHub repository (e.g., a tutorial, documentation, or textbook) that you would like to contribute:
 
-2. Sign in with GitHub
-When you navigate to the /admin/ URL, you'll be prompted to sign in. Since the open authoring workflow is configured with GitHub, select the Login with GitHub option. This will redirect you to GitHub to authorize the Decap CMS application.
-
-3. Create or Edit Content
-After logging in, you'll be taken to the Decap CMS dashboard. From here, you can:
-    - Create a new entry: Click the New button for the collection you want to add content to (e.g., a new blog post).
-    - Edit an existing entry: Select an existing entry from the list to modify it.
-    - Use the user-friendly editor to make your changes, which might include adding text, uploading images, or updating metadata.
-
-4. Save and Publish
-When you've finished your edits, look for the Save or Publish button, usually in the top right corner. Clicking this will prompt the CMS to create a new branch in the GitHub repository and commit your changes to it. Since open authoring is enabled, it won't merge your changes directly. Instead, it will create a pull request.
-
-5. Review the Pull Request
-You'll receive a link to the new pull request on GitHub. A pull request is where the repository maintainers can review your changes before merging them into the main branch. They can comment on the changes, suggest revisions, or approve and merge the PR. This entire process is handled by Decap CMS and GitHub, so you don't need to manually interact with Git commands.
+- Create a New Issue: Start by following the Create an Issue step above.
+- Provide Repository Details: In the issue, clearly specify:
+    - The GitHub URL of your repository.
+    - The specific file name(s) or folder(s) you want to include in the portal.
+    - The desired location and title within the portal's navigation structure (which is defined in `mkdocs.yml`).
+- Core Team Action: A core team member will be responsible for:
+    - Adding your repository as a Git submodule.
+    - Updating the main project's `mkdocs.yml` file to include the paths to your documentation files in the navigation (nav section).
