@@ -1,16 +1,29 @@
 name: water-content-portal-env
 channels:
   - conda-forge
+  - r
   - defaults
 dependencies:
   - python=3.10
+  - r-base>=4.3
+  - r-terra>= 1.8.5 
   - pip
-  - r-base~=4.4.3
-  - r-tidyverse~=2.0.0
-  - r-quarto~=1.5.0
+  - r-tidyverse
+  - r-quarto
   - r-patchwork
-#  - r-terra
-#  - r-sf
+  - r-sf
+  - r-plotly
+  - r-lubridate
+  - r-webexercises
+  - r-dataretrieval
+  - r-whitebox
+  - whitebox_tools
+  - r-extremes
+  - r-xml           # required by r-tmap
+  - r-zoo
+  - r-moments
+  - r-webshot2
+# - r-tmap # install in Docker because we need terra >= 1.8.5 and the conda version is built with an older version
   - pip:
       - "mkdocs~=1.6.1"
       - "mkquartodocs~=0.6.0" 

@@ -1,5 +1,5 @@
-[submodule "data-collection-protocols"]
-	path = data-collection-protocols
+[submodule "docs/data-collection-protocols"]
+	path = docs/data-collection-protocols
 	url = https://github.com/CUAHSI/data-collection-protocols
 	branch = main
 [submodule "docs/docs/hydroinformatics/1-Intro-plotting-R"]
