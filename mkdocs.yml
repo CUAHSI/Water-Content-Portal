@@ -89,3 +89,4 @@ nav:
     #   - '17-calibrate-model-for-loops': 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
     - Chapter 18:
       - '18-Final-Summative-Asses': 'hydroinformatics/18-Final-Summative-Assess/Final-Code.md'
+  - Contribute: contribute.md
