@@ -36,9 +36,9 @@ plugins:
       fallback_to_build_date: true
   - monorepo
   - mkquartodocs:
-      # skip chapter 2 as this is not building in Netlify -- see https://github.com/CUAHSI/Water-Content-Portal/issues/15
+      # skip chapters 2, 4, 6, 9 and 11 as this is not properly rendering in Netlify -- see https://github.com/CUAHSI/Water-Content-Portal/issues/15
       # skip chapters 12-17 as these have rendering issues -- see https://github.com/CUAHSI/Water-Content-Portal/issues/11
-      ignore_pattern: "^.*/hydroinformatics/(2|12|13|14|15|16|17).*|^.*/hydroinformatics/.*BLANK.*|^.*/hydroinformatics/.*IN-CLASS.*"
+      ignore_pattern: "^.*/hydroinformatics/(2|4|6|9|11|12|13|14|15|16|17).*|^.*/hydroinformatics/.*BLANK.*|^.*/hydroinformatics/.*IN-CLASS.*"
 
 markdown_extensions:
   - tables
@@ -59,22 +59,22 @@ nav:
     #   - 'Programming-Basics': 'hydroinformatics/2-Programming-Basics/docs/02-Programming_Basics_Demo_COMPLETE.md'
     - Chapter 3:
       - 'Activity-Intro-Skills': 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
-    - Chapter 4:
-      - 'Intro-Stats-Completed': 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
+    # - Chapter 4:
+    #   - 'Intro-Stats-Completed': 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
     - Chapter 5:
       - 'Intro-Stats-Activity': 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.md'
-    - Chapter 6:
-      - 'Get-Format-Plot-HydroData': 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.md'
+    # - Chapter 6:
+    #   - 'Get-Format-Plot-HydroData': 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.md'
     - Chapter 7:
       - 'Activity-Joins-Pivots_dataRetrieval': 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.md'
     - Chapter 8:
       - '8-Test_1': 'hydroinformatics/8-Test_1/08-Summative_Activity.md'
-    - Chapter 9: 
-      - '9-Flow-Duration-Curves': 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.md'
+    # - Chapter 9: 
+    #   - '9-Flow-Duration-Curves': 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.md'
     - Chapter 10:
       - '10-Low-Flow-Analysis': 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.md'
-    - Chapter 11:
-      - '11-Flood-Frequency-and-Functions': 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.md'
+    # - Chapter 11:
+    #   - '11-Flood-Frequency-and-Functions': 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.md'
     # - Chapter 12:
     #   - '12-Intro_Geospatial_Vector': 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.md'
     # - Chapter 13:
