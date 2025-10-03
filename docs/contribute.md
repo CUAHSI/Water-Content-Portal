@@ -2,6 +2,8 @@
 This guide outlines the process for contributing content to the CUAHSI Water Content Portal, which is hosted through Netlify and built using `mkdocs`. We welcome proposals for updates, new pages, or improvements. All content in this platform is managed in version control using GitHub, a tool that facilitates collaborative change tracking and maintains an accurate revision history.
 
 ### Quick Start Contribution Options
+_Note on GitHub Account:_ For options 1 and 2 below, you will need a GitHub account. If you don't have one already, you will need to go to https://github.com to create a user account, or you can use for option 3 (_Send us an email!_) for suggesting edits or content.
+
 1. **Create a GitHub Issue.** You can suggest edits or content by creating an issue in the main GitHub repository (https://github.com/CUAHSI/Water-Content-Portal).
     - Process: Post your suggested edits, new content ideas, or external content proposals in the issue. This is also the best method for submitting content that is not currently in a GitHub repository.
     - Discussion: Others can comment and discuss the suggestion before any changes are made to the page itself.
@@ -12,6 +14,7 @@ This guide outlines the process for contributing content to the CUAHSI Water Con
     - Find the file you wish to edit.
     - Edit the file directly in the browser editor and commit changes to your new branch. Remember the website uses Markdown (.md) for text.
     - Start a pull request to get your changes reviewed and merged into the `main` branch.
+3. **Send us an email!** Send us an email directly at help@cuahsi.org with your suggested edits or content to the platform.
 
 ### Contributing Content already living in a seperate GitHub repository
 Our platform is configured to support [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), which allows us to embed content from other repositories (like yours) into the portal. If you have content in a separate GitHub repository (e.g., a tutorial, documentation, or textbook) that you would like to contribute:
