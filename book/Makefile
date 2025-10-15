@@ -5,15 +5,15 @@ update:
 
 .PHONY: serve
 serve:
-	cd book && jupyter-book start
+	jupyter-book start
 
 .PHONY: ci
 ci:
-	cd book && jupyter-book build --html --ci
+	jupyter-book build --html --ci
 
 .PHONY: clean
 clean:
-	jupyter-book clean --all --yes ./book/_build
+	jupyter-book clean --all --yes ./_build
 
 
 .PHONY: help
