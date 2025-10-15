@@ -2,4 +2,4 @@
 base = "book/"
 command = "make ci"
 environment = { PYTHON_VERSION = "3.10" }
-publish = "book/_build/html"
+publish = "_build/html"
