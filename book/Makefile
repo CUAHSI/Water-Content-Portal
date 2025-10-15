@@ -9,7 +9,7 @@ serve:
 
 .PHONY: ci
 ci:
-	jupyter-book build --html --ci
+	cd book && jupyter-book build --html --ci
 
 .PHONY: clean
 clean:
