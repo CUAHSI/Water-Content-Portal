@@ -8,54 +8,15 @@
 [submodule "book/hydroinformatics/2-Programming-Basics"]
 	path = book/hydroinformatics/2-Programming-Basics
 	url = https://github.com/VT-Hydroinformatics/2-Programming-Basics.git
-[submodule "book/hydroinformatics/13-Geospatial-Raster-Hydro"]
-	path = book/hydroinformatics/13-Geospatial-Raster-Hydro
-	url = https://github.com/VT-Hydroinformatics/13-Geospatial-Raster-Hydro.git
-[submodule "book/hydroinformatics/16-Intro-Modeling-HBV"]
-	path = book/hydroinformatics/16-Intro-Modeling-HBV
-	url = https://github.com/VT-Hydroinformatics/16-Intro-Modeling-HBV.git
-[submodule "book/hydroinformatics/15-Watershed-Delineation"]
-	path = book/hydroinformatics/15-Watershed-Delineation
-	url = https://github.com/VT-Hydroinformatics/15-Watershed-Delineation.git
-[submodule "book/hydroinformatics/14-Summative2"]
-	path = book/hydroinformatics/14-Summative2
-	url = https://github.com/VT-Hydroinformatics/14-Summative2.git
-[submodule "book/hydroinformatics/18-Final-Summative-Assess"]
-	path = book/hydroinformatics/18-Final-Summative-Assess
-	url = https://github.com/VT-Hydroinformatics/18-Final-Summative-Assess.git
-[submodule "book/hydroinformatics/17-calibrate-model-for-loops"]
-	path = book/hydroinformatics/17-calibrate-model-for-loops
-	url = https://github.com/VT-Hydroinformatics/17-calibrate-model-for-loops.git
-[submodule "book/hydroinformatics/4-Intro-Stats"]
-	path = book/hydroinformatics/4-Intro-Stats
-	url = https://github.com/VT-Hydroinformatics/4-Intro-Stats.git
-[submodule "book/hydroinformatics/12-Intro_Geospatial_Vector"]
-	path = book/hydroinformatics/12-Intro_Geospatial_Vector
-	url = https://github.com/VT-Hydroinformatics/12-Intro_Geospatial_Vector.git
-[submodule "book/hydroinformatics/10-Low-Flow-Analysis"]
-	path = book/hydroinformatics/10-Low-Flow-Analysis
-	url = https://github.com/VT-Hydroinformatics/10-Low-Flow-Analysis.git
-[submodule "book/hydroinformatics/9-Flow-Duration-Curves"]
-	path = book/hydroinformatics/9-Flow-Duration-Curves
-	url = https://github.com/VT-Hydroinformatics/9-Flow-Duration-Curves.git
-[submodule "book/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval"]
-	path = book/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval
-	url = https://github.com/VT-Hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval.git
-[submodule "book/hydroinformatics/6-Get-Format-Plot-HydroData"]
-	path = book/hydroinformatics/6-Get-Format-Plot-HydroData
-	url = https://github.com/VT-Hydroinformatics/6-Get-Format-Plot-HydroData.git
-[submodule "book/hydroinformatics/1-Intro-plotting-R"]
-	path = book/hydroinformatics/1-Intro-plotting-R
-	url = https://github.com/VT-Hydroinformatics/1-Intro-plotting-R.git
 [submodule "book/hydroinformatics/3-Activity-Intro-Skills"]
 	path = book/hydroinformatics/3-Activity-Intro-Skills
 	url = https://github.com/VT-Hydroinformatics/3-Activity-Intro-Skills.git
+[submodule "book/hydroinformatics/4-Intro-Stats"]
+	path = book/hydroinformatics/4-Intro-Stats
+	url = https://github.com/VT-Hydroinformatics/4-Intro-Stats.git
 [submodule "book/hydroinformatics/5-Intro-Stats-Activity"]
 	path = book/hydroinformatics/5-Intro-Stats-Activity
 	url = https://github.com/VT-Hydroinformatics/5-Intro-Stats-Activity.git
-[submodule "book/hydroinformatics/8-Test_1"]
-	path = book/hydroinformatics/8-Test_1
-	url = https://github.com/VT-Hydroinformatics/8-Test_1.git
-[submodule "book/hydroinformatics/11-Flood-Frequency-and-Functions"]
-	path = book/hydroinformatics/11-Flood-Frequency-and-Functions
-	url = https://github.com/VT-Hydroinformatics/11-Flood-Frequency-and-Functions.git
+[submodule "book/hydroinformatics/6-Get-Format-Plot-HydroData"]
+	path = book/hydroinformatics/6-Get-Format-Plot-HydroData
+	url = https://github.com/VT-Hydroinformatics/6-Get-Format-Plot-HydroData.git

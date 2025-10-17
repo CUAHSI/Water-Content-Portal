@@ -30,9 +30,7 @@ project:
         - file: 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.ipynb'
           title: Chapter 4
         - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
-          title: Chapter 5   
-        - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb'
-          title: Chapter 8  
+          title: Chapter 5
   requirements:
     - ./install_local.R
   jupyter:
