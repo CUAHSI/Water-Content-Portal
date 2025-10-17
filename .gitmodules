@@ -1,22 +1,22 @@
 [submodule "book/data-collection-protocols"]
-	path = ./book/data-collection-protocols
-	url = https://github.com/abnerbog/data-collection-protocols
+	path = book/data-collection-protocols
+	url = https://github.com/abnerbog/data-collection-protocols.git
 	branch = main
-[submodule "book/hydroinformatics/https://github.com/abnerbog/VT-Hydroinformatics.github.io"]
-	path = ./book/hydroinformatics/VT-Hydroinformatics.github.io
+[submodule "book/hydroinformatics"]
+	path = book/hydroinformatics
 	url = https://github.com/abnerbog/VT-Hydroinformatics.github.io.git
 [submodule "book/hydroinformatics/1-Intro-plotting-R"]
-	path = ./book/hydroinformatics/1-Intro-plotting-R
+	path = book/hydroinformatics/1-Intro-plotting-R
 	url = https://github.com/abnerbog/1-Intro-plotting-R.git
 [submodule "book/hydroinformatics/2-Programming-Basics"]
-	path = ./book/hydroinformatics/2-Programming-Basics
+	path = book/hydroinformatics/2-Programming-Basics
 	url = https://github.com/abnerbog/2-Programming-Basics.git
 [submodule "book/hydroinformatics/3-Activity-Intro-Skills"]
-	path = ./book/hydroinformatics/3-Activity-Intro-Skills
+	path = book/hydroinformatics/3-Activity-Intro-Skills
 	url = https://github.com/abnerbog/3-Activity-Intro-Skills.git
 [submodule "book/hydroinformatics/4-Intro-Stats"]
-	path = ./book/hydroinformatics/4-Intro-Stats
+	path = book/hydroinformatics/4-Intro-Stats
 	url = https://github.com/abnerbog/4-Intro-Stats.git
 [submodule "book/hydroinformatics/5-Intro-Stats-Activity"]
-	path = ./book/hydroinformatics/5-Intro-Stats-Activity
+	path = book/hydroinformatics/5-Intro-Stats-Activity
 	url = https://github.com/abnerbog/5-Intro-Stats-Activity.git
