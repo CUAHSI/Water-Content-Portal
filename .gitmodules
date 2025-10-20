@@ -17,3 +17,6 @@
 [submodule "book/book/hydroinformatics/2-Programming-Basics"]
 	path = book/book/hydroinformatics/2-Programming-Basics
 	url = https://github.com/abnerbog/2-Programming-Basics.git
+[submodule "book/hydroinformatics/2-Programming-Basics"]
+	path = book/hydroinformatics/2-Programming-Basics
+	url = https://github.com/abnerbog/2-Programming-Basics.git
