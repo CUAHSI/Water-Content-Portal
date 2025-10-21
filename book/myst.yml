@@ -33,7 +33,6 @@ project:
           title: Chapter 5
   requirements:
     - .binder/install.R
-  github: https://github.com/CUAHSI/Water-Content-Portal/tree/jupyter-book
   jupyter:
     binder:
       repo: CUAHSI/Water-Content-Portal
