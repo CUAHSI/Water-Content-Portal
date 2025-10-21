@@ -32,12 +32,14 @@ project:
         - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
           title: Chapter 5
   requirements:
-    - ./install_local.R
+    - .binder/install.R
+  github: https://github.com/CUAHSI/Water-Content-Portal/tree/jupyter-book
   jupyter:
     binder:
       repo: CUAHSI/Water-Content-Portal
       ref: jupyter-book
     kernelName: r
+  open_access: true
   license:
     content: CC-BY-4.0
     code: MIT
