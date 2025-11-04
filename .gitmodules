@@ -14,12 +14,6 @@
 [submodule "book/hydroinformatics/5-Intro-Stats-Activity"]
 	path = book/hydroinformatics/5-Intro-Stats-Activity
 	url = https://github.com/abnerbog/5-Intro-Stats-Activity.git
-[submodule "book/book/hydroinformatics/2-Programming-Basics"]
-	path = book/book/hydroinformatics/2-Programming-Basics
-	url = https://github.com/abnerbog/2-Programming-Basics.git
-[submodule "book/hydroinformatics/2-Programming-Basics"]
-	path = book/hydroinformatics/2-Programming-Basics
-	url = https://github.com/abnerbog/2-Programming-Basics.git
 [submodule "book/hydroinformatics/6-Get-Format-Plot-HydroData"]
 	path = book/hydroinformatics/6-Get-Format-Plot-HydroData
 	url = https://github.com/abnerbog/6-Get-Format-Plot-HydroData.git
@@ -53,3 +47,6 @@
 [submodule "book/hydroinformatics/18-Final-Summative-Assess"]
 	path = book/hydroinformatics/18-Final-Summative-Assess
 	url = https://github.com/abnerbog/18-Final-Summative-Assess.git
+[submodule "book/book/hydroinformatics/2-Programming-Basics"]
+	path = book/book/hydroinformatics/2-Programming-Basics
+	url = https://github.com/VT-Hydroinformatics/2-Programming-Basics.git
