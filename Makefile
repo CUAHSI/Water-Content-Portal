@@ -2,7 +2,6 @@
 update:
 	git submodule init
 	git submodule update --remote
-	git pull --recurse-submodules
 
 .PHONY: serve
 serve:
