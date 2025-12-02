@@ -44,9 +44,13 @@ project:
         - file: 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.ipynb'
           title: Chapter 11
         - file: 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.ipynb'
-          title: Chapter 12     
+          title: Chapter 12
+        - file: 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.ipynb'
+          title: Chapter 13         
         - file: 'hydroinformatics/14-Summative2/14-Summative-2-Student.ipynb'
-          title: Chapter 14     
+          title: Chapter 14
+        - file: 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.ipynb'
+          title: Chapter 15           
         - file: 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.ipynb'
           title: Chapter 16
         - file: 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.ipynb'
