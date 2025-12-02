@@ -1,7 +1,7 @@
 .PHONY: update
 update:
 	git submodule init
-	git submodule update --remote --recursive
+	git pull --recurse-submodules
 
 .PHONY: serve
 serve:
