@@ -5,6 +5,9 @@
 [submodule "book/hydroinformatics/1-Intro-plotting-R"]
 	path = book/hydroinformatics/1-Intro-plotting-R
 	url = https://github.com/abnerbog/1-Intro-plotting-R.git
+[submodule "book/2-Programming-Basics"]
+	path = book/2-Programming-Basics
+	url = https://github.com/VT-Hydroinformatics/2-Programming-Basics.git
 [submodule "book/hydroinformatics/3-Activity-Intro-Skills"]
 	path = book/hydroinformatics/3-Activity-Intro-Skills
 	url = https://github.com/abnerbog/3-Activity-Intro-Skills.git
