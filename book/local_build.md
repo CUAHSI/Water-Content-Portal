@@ -59,12 +59,12 @@ R --quiet -f install_local.R
 
 ### Serve the Book Locally
 
-The CUAHSI Water Content Portal is built using **`jupyter-book`**, and all the contents of the portal are under the `book` folder. The [`Makefile`](Makefile) in this folder also has a serve target that uses `jupyter-book start`.
+The CUAHSI Water Content Portal is built using **`jupyter-book`**, and all the contents of the portal are under the `book` folder. The [`Makefile`](../Makefile) also has a serve target that uses `jupyter-book start`.
 
 Navigate to the directory containing the `Makefile` and source files:
 
 ```console
-cd book
+cd ..
 ```
 
 To start the local development server, run the `make serve` command:
