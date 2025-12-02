@@ -50,3 +50,9 @@
 [submodule "book/hydroinformatics/2-Programming-Basics"]
 	path = book/hydroinformatics/2-Programming-Basics
 	url = https://github.com/abnerbog/2-Programming-Basics.git
+[submodule "book/hydroinformatics/13-Geospatial-Raster-Hydro"]
+	path = book/hydroinformatics/13-Geospatial-Raster-Hydro
+	url = https://github.com/abnerbog/13-Geospatial-Raster-Hydro.git
+[submodule "book/hydroinformatics/15-Watershed-Delineation"]
+	path = book/hydroinformatics/15-Watershed-Delineation
+	url = https://github.com/abnerbog/15-Watershed-Delineation.git
