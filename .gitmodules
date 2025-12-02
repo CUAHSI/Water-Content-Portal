@@ -47,6 +47,6 @@
 [submodule "book/hydroinformatics/18-Final-Summative-Assess"]
 	path = book/hydroinformatics/18-Final-Summative-Assess
 	url = https://github.com/abnerbog/18-Final-Summative-Assess.git
-[submodule "book/book/hydroinformatics/2-Programming-Basics"]
-	path = book/book/hydroinformatics/2-Programming-Basics
-	url = https://github.com/VT-Hydroinformatics/2-Programming-Basics.git
+[submodule "book/hydroinformatics/2-Programming-Basics"]
+	path = book/hydroinformatics/2-Programming-Basics
+	url = https://github.com/abnerbog/2-Programming-Basics.git
