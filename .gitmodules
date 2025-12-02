@@ -38,9 +38,15 @@
 [submodule "book/hydroinformatics/12-Intro_Geospatial_Vector"]
 	path = book/hydroinformatics/12-Intro_Geospatial_Vector
 	url = https://github.com/abnerbog/12-Intro_Geospatial_Vector.git
+[submodule "book/hydroinformatics/13-Geospatial-Raster-Hydro"]
+	path = book/hydroinformatics/13-Geospatial-Raster-Hydro
+	url = https://github.com/abnerbog/13-Geospatial-Raster-Hydro.git
 [submodule "book/hydroinformatics/14-Summative2"]
 	path = book/hydroinformatics/14-Summative2
 	url = https://github.com/abnerbog/14-Summative2.git
+[submodule "book/hydroinformatics/15-Watershed-Delineation"]
+	path = book/hydroinformatics/15-Watershed-Delineation
+	url = https://github.com/abnerbog/15-Watershed-Delineation.git
 [submodule "book/hydroinformatics/16-Intro-Modeling-HBV"]
 	path = book/hydroinformatics/16-Intro-Modeling-HBV
 	url = https://github.com/abnerbog/16-Intro-Modeling-HBV.git
