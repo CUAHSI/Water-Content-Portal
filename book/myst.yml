@@ -13,11 +13,8 @@ project:
     - file: contribute.md
     - file: data-collection-protocols/docs/index.md
       children:
-        - file: data-collection-protocols/docs/AIMS_project/index.md
-          title: AIMS project SOPs
-          children:
-            - file: data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
-              title: Surface Water Chemistry Sampling
+          - file: data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
+            title: Surface Water Chemistry Sampling
     - file: hydroinformatics/index.md
       title: Hydroinformatics Textbook
       children:
