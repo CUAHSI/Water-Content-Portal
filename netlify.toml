@@ -1,4 +1,4 @@
 [build]
 base = "book/"
-command = "./netlify/build.sh"
+command = "chmod 777 netlify/build.sh && ./netlify/build.sh"
 publish = "_build/html"
