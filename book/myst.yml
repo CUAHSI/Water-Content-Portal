@@ -22,9 +22,8 @@ project:
         - file: 'hydroinformatics/2-Programming-Basics/02-Programming_Basics_Demo_COMPLETE.ipynb'
         - file: 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.ipynb'
         - file: 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.ipynb'
+        - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
         
-        #   title: Chapter 4
-        # - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
         #   title: Chapter 5
         # - file: 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.ipynb'
         #   title: Chapter 6
