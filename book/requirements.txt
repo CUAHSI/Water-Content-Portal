@@ -1,1 +1,3 @@
 jupyter-book==2.0.0b0
+myst-parser~=0.17.2
+myst-nb==0.14.0
