@@ -18,8 +18,7 @@ project:
     - file: hydroinformatics/index.md
       title: Hydroinformatics Textbook
       children:
-        # - file: 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.ipynb'
-        #   title: Chapter 1
+        - file: 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.ipynb'
         - file: 'hydroinformatics/2-Programming-Basics/02-Programming_Basics_Demo_COMPLETE.ipynb'
    
         # - file: 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.ipynb'
