@@ -1,4 +1,4 @@
-# Water-Content-Portal
+# Water-Content-Portal!
  <img src="book/images/cuahsi_logo.png" width="300">
 
 Repository for hosting open learning materials for the water science community. More info coming soon.
