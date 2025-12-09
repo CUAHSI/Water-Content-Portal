@@ -1,4 +1,7 @@
 [build]
-base = "book/"
-command = "chmod 777 netlify/build.sh && ./netlify/build.sh"
-publish = "_build/html"
+  base = "book/"
+  command = "chmod 777 netlify/build.sh && ./netlify/build.sh"
+  publish = "_build/html"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
