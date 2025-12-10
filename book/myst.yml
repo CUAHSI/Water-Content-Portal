@@ -30,8 +30,7 @@ project:
         - file: 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.ipynb'
         - file: 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.ipynb'
         - file: 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.ipynb'
-        #   title: Chapter 12
-        # - file: 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.ipynb'
+        - file: 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.ipynb'
         #   title: Chapter 13         
         # - file: 'hydroinformatics/14-Summative2/14-Summative-2-Student.ipynb'
         #   title: Chapter 14
