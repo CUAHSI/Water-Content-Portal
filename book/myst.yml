@@ -24,8 +24,7 @@ project:
         - file: 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.ipynb'
         - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
         - file: 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.ipynb'
-        #   title: Chapter 6
-        # - file: 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.ipynb'
+        - file: 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.ipynb'
         #   title: Chapter 7     
         # - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb'
         #   title: Chapter 8      
