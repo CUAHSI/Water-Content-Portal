@@ -35,9 +35,8 @@ project:
         - file: 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.ipynb'        
         - file: 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.ipynb'
         - file: 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.ipynb'
-        #   title: Chapter 17
+        # don't include final exam for now
         # - file: 'hydroinformatics/18-Final-Summative-Assess/Final-Code.ipynb'
-        #   title: Chapter 18
 
   requirements:
     - .binder/install.R
