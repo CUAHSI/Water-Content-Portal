@@ -25,9 +25,8 @@ project:
         - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
         - file: 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.ipynb'
         - file: 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.ipynb'    
-        - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb'
-        #   title: Chapter 8      
-        # - file: 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.ipynb'
+        - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb' 
+        - file: 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.ipynb'
         #   title: Chapter 9
         # - file: 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.ipynb'
         #   title: Chapter 10
