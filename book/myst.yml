@@ -27,8 +27,8 @@ project:
         - file: 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.ipynb'    
         - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb' 
         - file: 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.ipynb'
-        #   title: Chapter 9
-        # - file: 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.ipynb'
+        - file: 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.ipynb'
+        
         #   title: Chapter 10
         # - file: 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.ipynb'
         #   title: Chapter 11
