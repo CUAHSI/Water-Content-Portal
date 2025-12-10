@@ -32,9 +32,8 @@ project:
         - file: 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.ipynb'
         - file: 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.ipynb' 
         - file: 'hydroinformatics/14-Summative2/14-Summative-2-Student.ipynb'
-        - file: 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.ipynb'
-        #   title: Chapter 15           
-        # - file: 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.ipynb'
+        - file: 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.ipynb'        
+        - file: 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.ipynb'
         #   title: Chapter 16
         # - file: 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.ipynb'
         #   title: Chapter 17
