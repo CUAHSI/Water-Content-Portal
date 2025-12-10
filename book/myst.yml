@@ -29,8 +29,7 @@ project:
         - file: 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.ipynb'
         - file: 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.ipynb'
         - file: 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.ipynb'
-        #   title: Chapter 11
-        # - file: 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.ipynb'
+        - file: 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.ipynb'
         #   title: Chapter 12
         # - file: 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.ipynb'
         #   title: Chapter 13         
