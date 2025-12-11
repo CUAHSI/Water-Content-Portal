@@ -1,4 +1,8 @@
-## Guide for Contributing to the CUAHSI Water Content Portal
+---
+# Frontmatter for contribute.md
+title: Guide for Contributing to the CUAHSI Water Content Portal
+---
+
 This guide outlines the process for contributing content to the CUAHSI Water Content Portal, which is hosted through Netlify and built using **MyST Markdown** and the **Jupyter Book** framework. We welcome proposals for updates, new pages, or improvements. All content in this platform is managed in version control using GitHub, a tool that facilitates collaborative change tracking and maintains an accurate revision history. More information coming soon. 
 <!-- 
 ### Quick Start Contribution Options (for users new to GitHub)
