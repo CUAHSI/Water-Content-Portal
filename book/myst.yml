@@ -1,0 +1,56 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: cuahsi-open-learning-platform
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/CUAHSI/Water-Content-Portal
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: index.md
+    - file: contribute.md
+    - file: data-collection-protocols/docs/index.md
+      children:
+        - file: data-collection-protocols/docs/AIMS_project/index.md
+          children:
+            - file: data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
+    - file: hydroinformatics/index.md
+      title: Hydroinformatics Textbook
+      children:
+        - file: 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.ipynb'
+        - file: 'hydroinformatics/2-Programming-Basics/02-Programming_Basics_Demo_COMPLETE.ipynb'
+        - file: 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.ipynb'
+        - file: 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.ipynb'
+        - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
+        - file: 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.ipynb'
+        - file: 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.ipynb'    
+        - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb' 
+        - file: 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.ipynb'
+        - file: 'hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.ipynb'
+        - file: 'hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.ipynb'
+        - file: 'hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.ipynb'
+        - file: 'hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.ipynb' 
+        - file: 'hydroinformatics/14-Summative2/14-Summative-2-Student.ipynb'
+        - file: 'hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.ipynb'        
+        - file: 'hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.ipynb'
+        - file: 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.ipynb'
+        # don't include final exam for now
+        # - file: 'hydroinformatics/18-Final-Summative-Assess/Final-Code.ipynb'
+
+  requirements:
+    - .binder/install.R
+  jupyter:
+    binder:
+      repo: CUAHSI/Water-Content-Portal
+      ref: jupyter-book
+    kernelName: r
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+site:
+  template: book-theme
+  options:
+    logo: images/cuahsi_logo.png
