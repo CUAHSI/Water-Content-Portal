@@ -3,6 +3,10 @@ update:
 	git submodule init
 	git submodule update --remote
 
+.PHONY: sync
+sync:
+	git submodule sync --recursive
+
 .PHONY: reset
 reset:
 	git reset --hard
@@ -28,6 +32,7 @@ clean:
 help:
 	@echo "Available commands:"
 	@echo "  make update                			- Update git submodules"
+	@echo "  make sync                				- Points local config to remote URLs defined in .gitmodules"
 	@echo "  make serve                 			- Start a webserver serving the book locally"
 	@echo "  make ci                				- Build the book in a non-interactive environment for CI"
 	@echo "  make clean                 			- Clean any build outputs and artifacts"
