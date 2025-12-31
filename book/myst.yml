@@ -6,7 +6,7 @@ project:
   # description:
   # keywords: []
   # authors: []
-  github: https://github.com/CUAHSI/Water-Content-Portal
+  # github: https://github.com/CUAHSI/Water-Content-Portal
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: index.md
@@ -38,14 +38,13 @@ project:
         - file: 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.ipynb'
         # don't include final exam for now
         # - file: 'hydroinformatics/18-Final-Summative-Assess/Final-Code.ipynb'
-
-  requirements:
-    - .binder/install.R
-  jupyter:
-    binder:
-      repo: CUAHSI/Water-Content-Portal
-      ref: jupyter-book
-    kernelName: r
+  # requirements:
+  #   - .binder/install.R
+  # jupyter:
+  #   binder:
+  #     repo: CUAHSI/Water-Content-Portal
+  #     ref: jupyter-book
+  #   kernelName: r
   open_access: true
   license:
     content: CC-BY-4.0
