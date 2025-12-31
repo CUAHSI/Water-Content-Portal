@@ -10,14 +10,7 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: index.md
-    - file: contribute.md
-    - file: data-collection-protocols/docs/index.md
-      children:
-        - file: data-collection-protocols/docs/AIMS_project/index.md
-          children:
-            - file: data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
     - file: hydroinformatics/index.md
-      title: Hydroinformatics Textbook
       children:
         - file: 'hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.ipynb'
         - file: 'hydroinformatics/2-Programming-Basics/02-Programming_Basics_Demo_COMPLETE.ipynb'
@@ -38,6 +31,13 @@ project:
         - file: 'hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.ipynb'
         # don't include final exam for now
         # - file: 'hydroinformatics/18-Final-Summative-Assess/Final-Code.ipynb'
+    - file: data-collection-protocols/docs/index.md
+      children:
+        - file: data-collection-protocols/docs/AIMS_project/index.md
+          children:
+            - file: data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
+    - file: contribute.md
+    - file: local_build.md
   # requirements:
   #   - .binder/install.R
   # jupyter:
