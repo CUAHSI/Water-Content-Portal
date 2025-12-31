@@ -3,6 +3,14 @@ update:
 	git submodule init
 	git submodule update --remote
 
+.PHONY: reset
+reset:
+	git reset --hard
+	git submodule sync --recursive
+	git submodule update --init --force --recursive
+	git clean -ffdx
+	git submodule foreach --recursive git clean -ffdx
+
 .PHONY: serve
 serve:
 	cd book && jupyter-book start
@@ -23,3 +31,4 @@ help:
 	@echo "  make serve                 			- Start a webserver serving the book locally"
 	@echo "  make ci                				- Build the book in a non-interactive environment for CI"
 	@echo "  make clean                 			- Clean any build outputs and artifacts"
+	@echo "  make reset                 			- Cleans and resets a git repo and its submodules"
