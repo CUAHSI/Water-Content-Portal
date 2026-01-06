@@ -3,39 +3,61 @@
 title: Guide for Contributing to the CUAHSI Water Content Portal
 ---
 
-This guide outlines the process for contributing content to the CUAHSI Water Content Portal, which is hosted through Netlify and built using **MyST Markdown** and the **Jupyter Book** framework. We welcome proposals for updates, new pages, or improvements. All content in this platform is managed in version control using GitHub, a tool that facilitates collaborative change tracking and maintains an accurate revision history. More information coming soon. 
-<!-- 
-### Quick Start Contribution Options (for users new to GitHub)
-_Note on GitHub Account:_ For option 1 below, you will need a GitHub account. If you don't have one already, you will need to go to https://github.com to create a user account, or you can use option 2 (_Send us an email!_) for suggesting edits or content.
-
-1. **Create a GitHub Issue.** You can suggest edits or content by creating an issue in the main GitHub repository (https://github.com/CUAHSI/Water-Content-Portal).
-    - Process: Post your suggested edits, new content ideas, or external content proposals in the issue. This is also the best method for submitting content that is not currently in a GitHub repository.
-    - Discussion: Others can comment and discuss the suggestion before any changes are made to the page itself.
-    - Tracking: Keep an eye on your GitHub notifications to follow how your suggestion is being implemented.
-    - _Addition note on external content proposal:_ If you are proposing content not in GitHub, please include details on where the file lives (e.g., a link or storage location), the file name, and any relevant rendering information so that we can ingest and render the outside content properly. Alternatively, you may reach out to help@cuahsi.org to initiate the contribution process for external content.
-2. **Send us an email!** Send us an email directly at help@cuahsi.org with your suggested edits or content to the platform.
-3. **(For Data Collection Protocols) Make edit through Decap CMS.** TODO: add content here.
-
-### Suggesting changes through GitHub
-1. **Edit the content and push changes.**
+The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
 
 
-2. **Direct Edits in GitHub.** For those comfortable suggesting edits directly to the content already in the repository, you can use direct browser editing or make edits on your local machine that can be pushed to GitHub. If you have write access, you can follow a process similar to the one outlined in the reference document for editing:
-    - Create a new branch.
-    - Find the file you wish to edit.
-    - Edit the file directly in the browser editor and commit changes to your new branch. Remember the website uses Markdown (.md) for text.
-    - Start a pull request to get your changes reviewed and merged into the `main` branch.
+## 🛠 Ways to Contribute
+
+There are three primary ways you can help improve this resource:
+
+1. **Suggesting Changes:** Reporting typos, broken links, or platform bugs.
+2. **Editing Existing Content:** Updating text or code in markdown-based content or computational narratives (e.g., Jupyter Notebooks).
+3. **Syncing External Content:** Notifying us when a external repository existing in the platform has been updated.
 
 
+## 📝 Suggesting Platform Edits
 
-### Contributing Content already living in a seperate GitHub repository
-Our platform is configured to support [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), which allows us to embed content from other repositories (like yours) into the portal. If you have content in a separate GitHub repository (e.g., a tutorial, documentation, or textbook) that you would like to contribute:
+If you notice an issue with the website itself (navigation, styling, or general errors), please do one of the following:
 
-- Create a New Issue: Start by following the Create an Issue step above.
-- Provide Repository Details: In the issue, clearly specify:
-    - The GitHub URL of your repository.
-    - The specific file name(s) or folder(s) you want to include in the portal.
-    - The desired location and title within the portal's navigation structure (which is defined in `mkdocs.yml`).
-- Core Team Action: A core team member will be responsible for:
-    - Adding your repository as a Git submodule.
-    - Updating the main project's `mkdocs.yml` file to include the paths to your documentation files in the navigation (nav section). -->
+* **Create a GitHub Issue:** Visit our [Main Repository](https://github.com/CUAHSI/Water-Content-Portal) and open an issue.
+
+
+* **Email Us:** You can also reach out directly to **help@cuahsi.org** with your suggestions.
+
+
+## 🖊 Editing Existing Content
+
+The portal is built using **MyST Markdown** and **Jupyter Book**, supporting both standard documentation and computational narratives.
+
+### 🔗 Using the "Edit" Buttons
+
+Some pages in the portal currently include a pencil and paper edit button at the top. Please note that clicking this edit button will redirect you away from this portal to the **external repository** where the source content actually lives and is managed by the contributor themeselves. The edit button can take you to different ways to contribute content:
+
+* **GitHub (Standard):** For computational narratives (Jupyter Notebooks) and some markdown files, you will be directed to make edits in GitHub.
+
+* **Decap CMS (In Development):** For users newer to GitHub and making edits on certain markdown-based content, we are implementing a simplified workflow via a user-friendly and Git-synced content management system called [Decap CMS](https://decapcms.org/).
+
+
+## 🔄 Updating External Content (via Git submodules)
+
+Because this portal aggregates content from various external repositories using [**Git submodules**](https://git-scm.com/book/en/v2/Git-Tools-Submodules), updates made to a source repository do not always appear here automatically.
+
+If you have updated a chapter or notebook in an external repo (e.g., chapter 2 in the Hydroinformatics E-book) and want to see it reflected in the portal:
+
+1. **Open a GitHub Issue** in the [Water-Content-Portal repository](https://github.com/CUAHSI/Water-Content-Portal).
+2. **Title the Issue:** E.g., "Update to Hydroinformatics Textbook"
+3. **Provide Details:** Briefly mention which chapters or files were updated so the core team can run a `make update` to sync the changes.
+
+### 💻 Building the Portal Locally to Preview Changes
+
+If you want to preview your contributions before submitting them, you can build the book on your local machine:
+
+1. Clone the repo: `git clone git@github.com:CUAHSI/Water-Content-Portal.git`.
+
+2. Create the environment: `conda env create --file environment.yml`.
+
+3. Update content in external repo: `make update`.
+
+4. Serve the book: `make serve`.
+
+For more detailed steps, see the [Local Build Instructions](local_build.md).
