@@ -53,3 +53,5 @@ site:
   template: book-theme
   options:
     logo: images/cuahsi_logo.png
+  parts:
+    footer: heap.html
