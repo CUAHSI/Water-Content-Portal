@@ -1,5 +1,10 @@
 ---
-title: Building the page locally
+title: Building the Page Locally
+github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/local_build.md
+edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/local_build.md 
+date: 2026-01-07
+author:
+    - name: CUAHSI
 ---
 
 This guide outlines the steps to build the **CUAHSI Water Content Portal** locally.
