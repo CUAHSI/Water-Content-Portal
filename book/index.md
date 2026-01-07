@@ -1,5 +1,10 @@
 ---
 title: CUAHSI Water Content Portal
+github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/index.md
+edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/index.md 
+date: 2026-01-07
+author:
+    - name: CUAHSI
 ---
 
 Welcome to the **CUAHSI Water Content Portal**, a community-built resource for hosting and sharing open learning materials in the water sciences.
@@ -18,19 +23,10 @@ Current open learning resources available in the CUAHSI Water Content Portal inc
 * **[Data Collection Protocols Repository](data-collection-protocols/docs/index.md)**: Collection of standard operating procedures for data collection methods used in the lab and field in the water sciences. 
     * _**Note: this section is in development.**_
 
-These materials are sourced from external repositories and ingested using the [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) tool in Git. A description of this workflow and features are below:
-
-![submodules-workflow](images/submodules_workflow.png)
-
-
-### Technical Architecture
-
-This platform is built using the [**Jupyter Book**](https://pypi.org/project/jupyter-book/) Python package and [**MyST Markdown**](https://mystmd.org/), allowing for the integration of computational narratives (e.g., Jupyter Notebooks) and standard documentation. We use [Heap Analytics](https://www.heap.io/) to track how each resource is being used by the community. The site is deployed via the web hosting serive [**Netlify**](https://www.netlify.com/).
-
 ## Getting started
 
 The CUAHSI Water Content Portal is not meant to be read from start to finish. Browse the different guides that make up the book, or use the search box to search for whatever you would like to learn about first.
 
-### Guide for Collaboration
+## Guide for Collaboration
 
 To get started with contributing or building the webpage locally, please see the [Contribution Guide](contribute.md) and the [Local Build Instructions](local_build.md). 
