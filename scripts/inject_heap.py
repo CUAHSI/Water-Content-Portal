@@ -11,10 +11,10 @@ import sys
 from pathlib import Path
 
 
-HEAP_APP_ID = os.environ.get("HEAP_APP_ID") or "902525459"
+HEAP_APP_ID = os.environ.get("HEAP_APP_ID") or "902525459" # TODO: remove after testing
 OUTPUT_ROOTS = [Path("book/_build/html"), Path("book/_build/site/public")]
 
-SNIPPET = """<!-- Heap Analytics -->
+SNIPPET = """
 <script>
   window.heap = window.heap || [];
   heap.load = function (appid, config) {
