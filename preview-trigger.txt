@@ -1,0 +1,1 @@
+Preview trigger file to create a diff for Netlify deploy previews. No functional site changes.
