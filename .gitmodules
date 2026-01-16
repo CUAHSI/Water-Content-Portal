@@ -56,7 +56,3 @@
 [submodule "book/hydroinformatics/15-Watershed-Delineation"]
 	path = book/hydroinformatics/15-Watershed-Delineation
 	url = https://github.com/abnerbog/15-Watershed-Delineation.git
-[submodule "book/hydroinformatics/Quarto_Book"]
-	path = book/hydroinformatics/Quarto_Book
-	url = https://github.com/abnerbog/Quarto_Book.git
-	branch = main
