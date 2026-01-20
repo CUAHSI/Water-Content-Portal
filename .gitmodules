@@ -4,58 +4,75 @@
 	branch = main
 [submodule "book/hydroinformatics/1-Intro-plotting-R"]
 	path = book/hydroinformatics/1-Intro-plotting-R
-	url = https://github.com/abnerbog/1-Intro-plotting-R.git
+	url = https://github.com/VT-Hydroinformatics/1-Intro-plotting-R.git
+	branch = master
 [submodule "book/hydroinformatics/3-Activity-Intro-Skills"]
 	path = book/hydroinformatics/3-Activity-Intro-Skills
-	url = https://github.com/abnerbog/3-Activity-Intro-Skills.git
+	url = https://github.com/VT-Hydroinformatics/3-Activity-Intro-Skills.git
 [submodule "book/hydroinformatics/4-Intro-Stats"]
 	path = book/hydroinformatics/4-Intro-Stats
-	url = https://github.com/abnerbog/4-Intro-Stats.git
+	url = https://github.com/VT-Hydroinformatics/4-Intro-Stats.git
+	branch = master
 [submodule "book/hydroinformatics/5-Intro-Stats-Activity"]
 	path = book/hydroinformatics/5-Intro-Stats-Activity
-	url = https://github.com/abnerbog/5-Intro-Stats-Activity.git
+	url = https://github.com/VT-Hydroinformatics/5-Intro-Stats-Activity.git
+	branch = master
 [submodule "book/hydroinformatics/6-Get-Format-Plot-HydroData"]
 	path = book/hydroinformatics/6-Get-Format-Plot-HydroData
-	url = https://github.com/abnerbog/6-Get-Format-Plot-HydroData.git
+	url = https://github.com/VT-Hydroinformatics/6-Get-Format-Plot-HydroData.git
+	branch = master
 [submodule "book/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval"]
 	path = book/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval
-	url = https://github.com/abnerbog/7-Activity-Joins-Pivots_dataRetrieval.git
+	url = https://github.com/VT-Hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval.git
+	branch = master
 [submodule "book/hydroinformatics/8-Test_1"]
 	path = book/hydroinformatics/8-Test_1
-	url = https://github.com/abnerbog/8-Test_1.git
+	url = https://github.com/VT-Hydroinformatics/8-Test_1.git
+	branch = master
 [submodule "book/hydroinformatics/9-Flow-Duration-Curves"]
 	path = book/hydroinformatics/9-Flow-Duration-Curves
-	url = https://github.com/abnerbog/9-Flow-Duration-Curves.git
+	url = https://github.com/VT-Hydroinformatics/9-Flow-Duration-Curves.git
+	branch = master
 [submodule "book/hydroinformatics/10-Low-Flow-Analysis"]
 	path = book/hydroinformatics/10-Low-Flow-Analysis
-	url = https://github.com/abnerbog/10-Low-Flow-Analysis.git
+	url = https://github.com/VT-Hydroinformatics/10-Low-Flow-Analysis.git
+	branch = master
 [submodule "book/hydroinformatics/11-Flood-Frequency-and-Functions"]
 	path = book/hydroinformatics/11-Flood-Frequency-and-Functions
-	url = https://github.com/abnerbog/11-Flood-Frequency-and-Functions.git
+	url = https://github.com/VT-Hydroinformatics/11-Flood-Frequency-and-Functions.git
+	branch = master
 [submodule "book/hydroinformatics/12-Intro_Geospatial_Vector"]
 	path = book/hydroinformatics/12-Intro_Geospatial_Vector
-	url = https://github.com/abnerbog/12-Intro_Geospatial_Vector.git
+	url = https://github.com/VT-Hydroinformatics/12-Intro_Geospatial_Vector.git
+	branch = master
 [submodule "book/hydroinformatics/14-Summative2"]
 	path = book/hydroinformatics/14-Summative2
-	url = https://github.com/abnerbog/14-Summative2.git
+	url = https://github.com/VT-Hydroinformatics/14-Summative2.git
+	branch = master
 [submodule "book/hydroinformatics/16-Intro-Modeling-HBV"]
 	path = book/hydroinformatics/16-Intro-Modeling-HBV
-	url = https://github.com/abnerbog/16-Intro-Modeling-HBV.git
+	url = https://github.com/VT-Hydroinformatics/16-Intro-Modeling-HBV.git
+	branch = master
 [submodule "book/hydroinformatics/17-calibrate-model-for-loops"]
 	path = book/hydroinformatics/17-calibrate-model-for-loops
-	url = https://github.com/abnerbog/17-calibrate-model-for-loops.git
+	url = https://github.com/VT-Hydroinformatics/17-calibrate-model-for-loops.git
+	branch = master
 [submodule "book/hydroinformatics/18-Final-Summative-Assess"]
 	path = book/hydroinformatics/18-Final-Summative-Assess
-	url = https://github.com/abnerbog/18-Final-Summative-Assess.git
+	url = https://github.com/VT-Hydroinformatics/18-Final-Summative-Assess.git
+	branch = master
 [submodule "book/hydroinformatics/2-Programming-Basics"]
 	path = book/hydroinformatics/2-Programming-Basics
-	url = https://github.com/abnerbog/2-Programming-Basics.git
+	url = https://github.com/VT-Hydroinformatics/2-Programming-Basics.git
+	branch = master
 [submodule "book/hydroinformatics/13-Geospatial-Raster-Hydro"]
 	path = book/hydroinformatics/13-Geospatial-Raster-Hydro
-	url = https://github.com/abnerbog/13-Geospatial-Raster-Hydro.git
+	url = https://github.com/VT-Hydroinformatics/13-Geospatial-Raster-Hydro.git
+	branch = master
 [submodule "book/hydroinformatics/15-Watershed-Delineation"]
 	path = book/hydroinformatics/15-Watershed-Delineation
-	url = https://github.com/abnerbog/15-Watershed-Delineation.git
+	url = https://github.com/VT-Hydroinformatics/15-Watershed-Delineation.git
+	branch = master
 [submodule "book/hydroinformatics/Front_Matter"]
 	path = book/hydroinformatics/Front_Matter
 	url = https://github.com/VT-Hydroinformatics/Front_Matter
