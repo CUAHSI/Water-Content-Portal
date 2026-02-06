@@ -19,8 +19,8 @@ This portal aggregates diverse educational content for water researchers into a 
 
 Current open learning resources available in the CUAHSI Water Content Portal include the following:
 
-* **[Hydroinformatics E-book](hydroinformatics/index.md)**: A comprehensive course on data analysis techniques in hydrology using the R programming language, authored by [JP Gannon](https://jpgannon.github.io/), associate professor at Virgnia Tech. Topics range from basic plotting and statistics to flow duration curves and flood frequency analysis.
-* **[Data Collection Protocols Repository](data-collection-protocols/docs/index.md)**: Collection of standard operating procedures for data collection methods used in the lab and field in the water sciences. 
+* **Hydroinformatics E-book**: A comprehensive course on data analysis techniques in hydrology using the R programming language, authored by [JP Gannon](https://jpgannon.github.io/), associate professor at Virgnia Tech. Topics range from basic plotting and statistics to flow duration curves and flood frequency analysis.
+* **Data Collection Protocols Repository**: Collection of standard operating procedures for data collection methods used in the lab and field in the water sciences. 
     * _**Note: this section is in development.**_
 
 ## Getting started
