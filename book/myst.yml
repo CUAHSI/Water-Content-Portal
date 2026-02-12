@@ -17,7 +17,7 @@ project:
         - file: 'hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.ipynb'
         - file: 'hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.ipynb'
         - file: 'hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.ipynb'
-        - file: 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.ipynb'
+        - file: 'hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.md'
         - file: 'hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.ipynb'    
         - file: 'hydroinformatics/8-Test_1/08-Summative_Activity.ipynb' 
         - file: 'hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.ipynb'
