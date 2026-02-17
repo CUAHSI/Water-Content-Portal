@@ -1,35 +1,55 @@
 ---
 title: CUAHSI Water Content Portal
-github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/index.md
-edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/index.md 
-date: 2026-01-07
-author:
-    - name: CUAHSI
 ---
 
-Welcome to the **CUAHSI Water Content Portal**, a community-built resource for hosting and sharing open learning materials in the water sciences.
+<div style="background: linear-gradient(135deg, #003366 0%, #006699 100%); padding: 4rem 2rem; color: white; text-align: center; margin-bottom: 3rem; border-radius: 8px;">
+
+# Welcome to the CUAHSI Water Content Portal
+
+### A community-built resource for hosting and sharing open learning materials in the water sciences.
+
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+
+<div style="border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
+
+### [Courseware](/courseware/index)
+Structured academic curriculum including semester-long paths, syllabi, and lecture series for formal education.
+</div>
+
+<div style="border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
+
+### [Code Labs](/code-labs/index)
+The "Workbench" for applied technical skills and reproducible science using Jupyter and R.
+</div>
+
+<div style="border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
+
+### [Workshops](/workshops/index)
+Short modules and technical webinars designed for rapid upskilling and professional development.
+</div>
+
+<div style="border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
+
+### [Standards & Protocols](/standards-and-protocols/index)
+Standard operating procedures and technical manuals ensuring data quality across the water science community.
+</div>
+
+<div style="border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
+
+### [Impact Stories](/impact-stories/index)
+Real-world case studies and data reports that contextualize water science theory with complex challenges.
+</div>
+
+</div>
+
+<div style="margin-top: 4rem; padding: 2rem; border-top: 1px solid #eee;">
 
 ## About this Resource
 
-This portal aggregates diverse educational content for water researchers into a single, accessible book.
+This portal aggregates diverse educational content for water researchers into a single, accessible platform. It is designed to be a living resource that grows with community contributions.
 
 ![open_learning_infrastructure_graphic](./images/open_learning_infrastructure_graphic.png)
 
-### Community-sourced content
-
-The CUAHSI Water Content Portal organizes resources into several key categories to support different learning and professional needs:
-
-* **[Courseware: Structured Academic Curriculum](courseware/index.md)**: Semester-long paths, syllabi, and lecture series for formal education.
-* **[Code Labs: Interactive & Computational Labs](code-labs/index.md)**: The "Workbench" for applied technical skills and reproducible science using Jupyter and R.
-* **[Workshops: Micro-Learning & Professional Development](workshops/index.md)**: Short modules and technical webinars for rapid upskilling.
-* **[Standards & Protocols: Field Protocols, Instrumentation & Data Policy](standards-and-protocols/index.md)**: Standard operating procedures and technical manuals to ensure data quality.
-* **[Impact Stories: Case Study & Data Repositories](impact-stories/index.md)**: Real-world case studies and data reports contextualizing water science theory.
-
-
-## Getting started
-
-The CUAHSI Water Content Portal is not meant to be read from start to finish. Browse the different guides that make up the book, or use the search box to search for whatever you would like to learn about first.
-
-## Guide for Collaboration
-
-To get started with contributing or building the webpage locally, please see the [Contribution Guide](contribute.md) and the [Local Build Instructions](local_build.md). 
+</div>

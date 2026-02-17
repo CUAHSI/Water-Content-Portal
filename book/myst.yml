@@ -2,12 +2,6 @@
 version: 1
 project:
   id: cuahsi-open-learning-platform
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github: https://github.com/CUAHSI/Water-Content-Portal
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: index.md
     - file: courseware/index.md
@@ -43,18 +37,27 @@ project:
     - file: impact-stories/index.md
     - file: contribute.md
     - file: local_build.md
-  # requirements:
-  #   - .binder/install.R
-  # jupyter:
-  #   binder:
-  #     repo: CUAHSI/Water-Content-Portal
-  #     ref: jupyter-book
-  #   kernelName: r
   open_access: true
   license:
     content: CC-BY-4.0
     code: MIT
 site:
   template: book-theme
+  nav:
+    - title: Courseware
+      url: /courseware/index
+    - title: Code Labs
+      url: /code-labs/index
+    - title: Workshops
+      url: /workshops/index
+    - title: Standards & Protocols
+      url: /standards-and-protocols/index
+    - title: Impact Stories
+      url: /impact-stories/index
+    - title: How to Contribute
+      url: /contribute
+    - title: Local Build
+      url: /local_build
   options:
     logo: images/cuahsi_logo.png
+    github_url: https://github.com/CUAHSI/Water-Content-Portal
