@@ -17,11 +17,14 @@ This portal aggregates diverse educational content for water researchers into a 
 
 ### Community-sourced content
 
-Current open learning resources available in the CUAHSI Water Content Portal include the following:
+The CUAHSI Water Content Portal organizes resources into several key categories to support different learning and professional needs:
 
-* **Hydroinformatics E-book**: A comprehensive course on data analysis techniques in hydrology using the R programming language, authored by [JP Gannon](https://jpgannon.github.io/), associate professor at Virgnia Tech. Topics range from basic plotting and statistics to flow duration curves and flood frequency analysis.
-* **Data Collection Protocols Repository**: Collection of standard operating procedures for data collection methods used in the lab and field in the water sciences. 
-    * _**Note: this section is in development.**_
+* **[Courseware: Structured Academic Curriculum](courseware/index.md)**: Semester-long paths, syllabi, and lecture series for formal education.
+* **[Code Labs: Interactive & Computational Labs](code-labs/index.md)**: The "Workbench" for applied technical skills and reproducible science using Jupyter and R.
+* **[Workshops: Micro-Learning & Professional Development](workshops/index.md)**: Short modules and technical webinars for rapid upskilling.
+* **[Standards & Protocols: Field Protocols, Instrumentation & Data Policy](standards-and-protocols/index.md)**: Standard operating procedures and technical manuals to ensure data quality.
+* **[Impact Stories: Case Study & Data Repositories](impact-stories/index.md)**: Real-world case studies and data reports contextualizing water science theory.
+
 
 ## Getting started
 
