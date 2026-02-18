@@ -33,6 +33,15 @@ body[data-page-slug="index"] .bd-content {
   max-width: 100% !important;
 }
 
+/* Enlarge CUAHSI logo in header */
+.myst-home-link-logo img {
+  height: 52px !important;
+  width: auto !important;
+}
+.myst-top-nav {
+  height: 72px !important;
+}
+
 /* Resource pages: show only the active resource + its children in the left sidebar */
 .myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]),
 .myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]),
