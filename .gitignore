@@ -180,3 +180,4 @@ dmypy.json
 /forest/sensors/forest-sensors-fluxnet.ipynb
 # Local Netlify folder
 .netlify
+GEMINI.readme
