@@ -7,7 +7,7 @@ hide_sidebar: true
 
 # A community-built resource for hosting and sharing open learning materials in the water sciences
 
-### This platform consolidates five distinct types of open resources to support the water science community.
+### This platform brings together five distinct categories of open resources to support the water science community. It centralizes diverse educational materials for water researchers in a single, accessible space, and is designed as a living resource that evolves through ongoing community contributions.
 
 </div>
 
@@ -49,7 +49,6 @@ hide_sidebar: true
 
 ## About this Resource
 
-This portal aggregates diverse educational content for water researchers into a single, accessible platform. It is designed to be a living resource that grows with community contributions.
 
 <div style="text-align: center; margin-top: 2rem;">
 <img src="./images/open_learning_infrastructure_graphic.png" alt="open_learning_infrastructure_graphic" style="max-width: 80%; height: auto;">
