@@ -33,6 +33,24 @@ body[data-page-slug="index"] .bd-content {
   max-width: 100% !important;
 }
 
+/* Home page: expand content to use sidebar space */
+body:has(.home-hero) main,
+body:has(.home-hero) .article,
+body:has(.home-hero) .article-grid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+body:has(.home-hero) .article-grid {
+  grid-template-columns: 1fr !important;
+}
+
+/* Home page: hide the heading-generated duplicate title */
+body:has(.home-hero) h2#cuahsi-water-content-portal,
+body:has(.home-hero) h2#cuahsi-water-content-portal * {
+  display: none !important;
+}
+
 /* Enlarge CUAHSI logo in header */
 .myst-home-link-logo img {
   height: 52px !important;
@@ -75,12 +93,31 @@ body:has(.no-sidebar-marker) .myst-primary-sidebar-pointer {
 }
 
 /* Home Page Specific Refactoring */
+.home-hero {
+    text-align: center;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.home-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #0b2a3a;
+}
+
+.home-blurb {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #234a63;
+}
+
 .hero-banner {
     background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%) !important;
     padding: 2rem 2.5rem;
     color: #003366;
     text-align: left;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     border-radius: 12px;
     border: 1px solid #b3e5fc;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -103,9 +140,9 @@ body:has(.no-sidebar-marker) .myst-primary-sidebar-pointer {
 
 .resource-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
 }
 
 .resource-card {
@@ -176,7 +213,21 @@ body:has(.no-sidebar-marker) .myst-primary-sidebar-pointer {
     max-width: 70ch;
 }
 
+@media (max-width: 1024px) {
+    .home-title {
+        font-size: 2.2rem;
+    }
+}
+
 /* Dark theme adjustments for readability */
+.dark .home-title {
+    color: #e2e8f0;
+}
+
+.dark .home-blurb {
+    color: #cbd5f5;
+}
+
 .dark .hero-banner {
     background: linear-gradient(135deg, #0f172a 0%, #0b2a3a 100%) !important;
     color: #e2e8f0;
