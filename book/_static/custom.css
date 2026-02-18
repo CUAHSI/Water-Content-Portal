@@ -73,6 +73,7 @@ body[data-page-slug="index"] .bd-content {
     padding: 2.5rem;
     border-radius: 16px;
     background: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: 100%;
     display: flex;
@@ -111,4 +112,25 @@ body[data-page-slug="index"] .bd-content {
     margin-bottom: 0;
     color: #4a5568;
     line-height: 1.6;
+}
+
+.resources-intro{
+    margin: 0 0 1.5rem 0;
+    padding: 0 0.25rem;
+}
+
+.resources-title{
+    margin: 0 0 0.35rem 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #003366;
+    letter-spacing: -0.01em;
+}
+
+.resources-subtitle{
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #1a3a54;
+    max-width: 70ch;
 }

@@ -12,6 +12,13 @@ site:
   </p>
 </div>
 
+<section class="resources-intro" aria-label="Explore resources">
+  <h2 class="resources-title">Explore the Five Resources</h2>
+  <p class="resources-subtitle">
+    Start here to browse courseware, code labs, workshops, standards &amp; protocols, and impact stories.
+  </p>
+</section>
+
 <div class="resource-grid">
 
 <!-- Courseware -->

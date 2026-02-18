@@ -69,3 +69,4 @@ site:
   options:
     logo: images/cuahsi_logo.png
     github_url: https://github.com/CUAHSI/Water-Content-Portal
+    style: _static/custom.css
