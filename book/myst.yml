@@ -2,7 +2,6 @@
 version: 1
 project:
   id: cuahsi-open-learning-platform
-  hide_toc: true
   toc:
     - file: index.md
     - title: Resources
@@ -38,6 +37,10 @@ project:
                   children:
                     - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
         - file: impact-stories/impact-stories.md
+    - file: local_build.md
+      hidden: true
+    - file: contribute.md
+      hidden: true
   open_access: true
   license:
     content: CC-BY-4.0
@@ -68,3 +71,5 @@ site:
   options:
     logo: images/cuahsi_logo.png
     github_url: https://github.com/CUAHSI/Water-Content-Portal
+    hide_sidebar_on_index: true
+    hide_toc_on_index: true

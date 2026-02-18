@@ -6,6 +6,8 @@ edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/contribu
 date: 2026-01-07
 author:
     - name: CUAHSI
+hide_sidebar: true
+hide_toc: false
 ---
 
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
