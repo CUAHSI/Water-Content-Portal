@@ -8,7 +8,7 @@ site:
 <div class="hero-banner" style="background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%); padding: 2rem 2.5rem; color: #003366; text-align: left; margin-bottom: 3rem; border-radius: 12px; border: 1px solid #b3e5fc; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
   <h1 style="margin: 0 0 1.5rem 0; font-size: 2.2rem; font-weight: 700; line-height: 1.2; border-bottom: none;">A Community-Built Resource for Hosting and Sharing Open Learning Materials in the Water Sciences</h1>
   <p style="margin: 0; font-size: 1.15rem; line-height: 1.7; color: #1a3a54;">
-    This platform brings together five distinct categories of open resources to support the water science community. It centralizes diverse educational materials for water researchers in a single, accessible space and is designed as a living resource that evolves through ongoing community contributions.
+    This platform organizes diverse educational materials into five distinct categories for water researchers, bringing them together in a single, accessible space. Below, you can quickly explore each category to understand its purpose, goals, and the types of resources it offers. The platform is designed as a living resource that grows and evolves through ongoing community contributions.
   </p>
 </div>
 
