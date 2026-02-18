@@ -175,3 +175,41 @@ body:has(.no-sidebar-marker) .myst-primary-sidebar-pointer {
     color: #1a3a54;
     max-width: 70ch;
 }
+
+/* Dark theme adjustments for readability */
+.dark .hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #0b2a3a 100%) !important;
+    color: #e2e8f0;
+    border-color: #1e293b;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+}
+
+.dark .hero-banner p {
+    color: #cbd5f5;
+}
+
+.dark .resource-card {
+    background: #0f172a;
+    border-color: #1e293b;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+
+.dark .resource-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.45);
+}
+
+.dark .resource-card .card-title {
+    color: #e2e8f0;
+}
+
+.dark .resource-card p {
+    color: #cbd5f5;
+}
+
+.dark .resources-title {
+    color: #e2e8f0;
+}
+
+.dark .resources-subtitle {
+    color: #cbd5f5;
+}
