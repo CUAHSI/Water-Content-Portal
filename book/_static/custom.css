@@ -33,6 +33,70 @@ body[data-page-slug="index"] .bd-content {
   max-width: 100% !important;
 }
 
+/* Resource pages: show only the active resource + its children in the left sidebar */
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) {
+  --active-resource: 1;
+}
+
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]) {
+  --resource-prefix: "/courseware";
+}
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]) {
+  --resource-prefix: "/code-labs";
+}
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]) {
+  --resource-prefix: "/workshops";
+}
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]) {
+  --resource-prefix: "/standards-and-protocols";
+}
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) {
+  --resource-prefix: "/impact-stories";
+}
+
+.myst-primary-sidebar-nav[style],
+.myst-primary-sidebar-nav {
+  --resource-prefix: "";
+}
+
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) + .my-3.border-b-2 {
+  display: none !important;
+}
+
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > * {
+  display: none !important;
+}
+
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/courseware"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/courseware"]) .myst-primary-sidebar-toc .myst-toc > div:has(a[href^="/courseware"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/code-labs"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > div:has(a[href^="/code-labs"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/workshops"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > div:has(a[href^="/workshops"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/standards-and-protocols"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/standards-and-protocols"]) .myst-primary-sidebar-toc .myst-toc > div:has(a[href^="/standards-and-protocols"]),
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/impact-stories"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > div:has(a[href^="/impact-stories"]) {
+  display: block !important;
+}
+
 /* Home Page Specific Refactoring */
 .hero-banner {
     background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%) !important;
