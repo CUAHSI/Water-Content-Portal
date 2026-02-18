@@ -10,6 +10,9 @@ hide_sidebar: true
 hide_toc: false
 ---
 
+:::{div .no-sidebar-marker}
+:::
+
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
 
 

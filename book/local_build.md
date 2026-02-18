@@ -9,6 +9,9 @@ hide_sidebar: true
 hide_toc: false
 ---
 
+:::{div .no-sidebar-marker}
+:::
+
 This guide outlines the steps to build the **CUAHSI Water Content Portal** locally.
 
 ## Why build locally
