@@ -1,8 +1,8 @@
 ---
 title: CUAHSI Water Content Portal
-sidebar: false
-outline: false
-toc: false
+site:
+  hide_toc: true
+  hide_outline: true
 ---
 
 <div class="hero-banner" style="background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%); padding: 2rem 2.5rem; color: #003366; text-align: left; margin-bottom: 3rem; border-radius: 12px; border: 1px solid #b3e5fc; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
