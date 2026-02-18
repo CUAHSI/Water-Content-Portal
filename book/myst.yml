@@ -2,41 +2,42 @@
 version: 1
 project:
   id: cuahsi-open-learning-platform
+  hide_toc: true
   toc:
     - file: index.md
-    - file: courseware/index.md
+    - title: Resources
       children:
-        - file: courseware/hydroinformatics/Front_Matter/hydroinformatics.md
+        - file: courseware/courseware.md
           children:
-            - file: 'courseware/hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'
-            - file: 'courseware/hydroinformatics/2-Programming-Basics/02-Programming_Basics_Demo_COMPLETE.md'
-            - file: 'courseware/hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
-            - file: 'courseware/hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
-            - file: 'courseware/hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.md'
-            - file: 'courseware/hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.md'
-            - file: 'courseware/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.md'    
-            - file: 'courseware/hydroinformatics/8-Test_1/08-Summative_Activity.md' 
-            - file: 'courseware/hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.md'
-            - file: 'courseware/hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.md'
-            - file: 'courseware/hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.md'
-            - file: 'courseware/hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.md'
-            - file: 'courseware/hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.md' 
-            - file: 'courseware/hydroinformatics/14-Summative2/14-Summative-2-Student.md'
-            - file: 'courseware/hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.md'        
-            - file: 'courseware/hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
-            - file: 'courseware/hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
-    - file: code-labs/index.md
-    - file: workshops/index.md
-    - file: standards-and-protocols/index.md
-      children:
-        - file: standards-and-protocols/data-collection-protocols/docs/index.md
-          children:
-            - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/index.md
+            - file: courseware/hydroinformatics/Front_Matter/hydroinformatics.md
               children:
-                - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
-    - file: impact-stories/index.md
-    - file: contribute.md
-    - file: local_build.md
+                - file: 'courseware/hydroinformatics/1-Intro-plotting-R/01-Plotting_Demo_COMPLETE.md'
+                - file: 'courseware/hydroinformatics/2-Programming-Basics/02-Programming_Basics_Demo_COMPLETE.md'
+                - file: 'courseware/hydroinformatics/3-Activity-Intro-Skills/03-Activity-Intro-Skills.md'
+                - file: 'courseware/hydroinformatics/4-Intro-Stats/04-Intro-Stats-Completed.md'
+                - file: 'courseware/hydroinformatics/5-Intro-Stats-Activity/05-Intro-Stats-Activity.md'
+                - file: 'courseware/hydroinformatics/6-Get-Format-Plot-HydroData/06-Get-Format-Plot-hydrodata_COMPLETE.md'
+                - file: 'courseware/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval/07-Activity-Joins-Pivots_dataRetrieval.md'    
+                - file: 'courseware/hydroinformatics/8-Test_1/08-Summative_Activity.md' 
+                - file: 'courseware/hydroinformatics/9-Flow-Duration-Curves/09-Flow_Duration_Curves.md'
+                - file: 'courseware/hydroinformatics/10-Low-Flow-Analysis/10-LowFLowStats-FDC.md'
+                - file: 'courseware/hydroinformatics/11-Flood-Frequency-and-Functions/11-Flood_Frequency.md'
+                - file: 'courseware/hydroinformatics/12-Intro_Geospatial_Vector/12-Intro-Geospatial-R.md'
+                - file: 'courseware/hydroinformatics/13-Geospatial-Raster-Hydro/13-Geospatial-Raster-Hydro.md' 
+                - file: 'courseware/hydroinformatics/14-Summative2/14-Summative-2-Student.md'
+                - file: 'courseware/hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.md'        
+                - file: 'courseware/hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
+                - file: 'courseware/hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
+        - file: code-labs/code-labs.md
+        - file: workshops/workshops.md
+        - file: standards-and-protocols/standards-and-protocols.md
+          children:
+            - file: standards-and-protocols/data-collection-protocols/docs/index.md
+              children:
+                - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/index.md
+                  children:
+                    - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
+        - file: impact-stories/impact-stories.md
   open_access: true
   license:
     content: CC-BY-4.0
@@ -44,20 +45,26 @@ project:
 site:
   template: book-theme
   nav:
-    - title: Courseware
-      url: /courseware/index
-    - title: Code Labs
-      url: /code-labs/index
-    - title: Workshops
-      url: /workshops/index
-    - title: Standards & Protocols
-      url: /standards-and-protocols/index
-    - title: Impact Stories
-      url: /impact-stories/index
-    - title: How to Contribute
-      url: /contribute
-    - title: Local Build
-      url: /local_build
+    - title: Home
+      url: /index
+    - title: Resources
+      children:
+        - title: Courseware
+          url: /courseware
+        - title: Code Labs
+          url: /code-labs
+        - title: Workshops
+          url: /workshops
+        - title: Standards & Protocols
+          url: /standards-and-protocols
+        - title: Impact Stories
+          url: /impact-stories
+    - title: Community
+      children:
+        - title: Building Locally
+          url: /local-build
+        - title: How to Contribute
+          url: /contribute
   options:
     logo: images/cuahsi_logo.png
     github_url: https://github.com/CUAHSI/Water-Content-Portal

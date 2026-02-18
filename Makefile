@@ -25,7 +25,7 @@ ci:
 
 .PHONY: clean
 clean:
-	cd book && jupyter-book clean --all --yes ./_build
+	cd book && /opt/anaconda3/envs/cuahsi-open-learning-env/bin/jupyter-book clean --all --yes ./_build
 
 
 .PHONY: help
