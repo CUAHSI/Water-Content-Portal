@@ -17,15 +17,15 @@ reset:
 
 .PHONY: serve
 serve:
-	cd book && /opt/anaconda3/envs/cuahsi-open-learning-env/bin/jupyter-book start
+	cd book && jupyter-book start
 
 .PHONY: ci
 ci:
-	cd book && /opt/anaconda3/envs/cuahsi-open-learning-env/bin/jupyter-book build --html --ci
+	cd book && jupyter-book build --html --ci
 
 .PHONY: clean
 clean:
-	cd book && /opt/anaconda3/envs/cuahsi-open-learning-env/bin/jupyter-book clean --all --yes ./_build
+	cd book && jupyter-book clean --all --yes ./_build
 
 
 .PHONY: help
