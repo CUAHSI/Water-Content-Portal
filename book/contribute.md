@@ -73,7 +73,7 @@ If you want to preview your contributions before submitting them, you can build 
 
 4. Serve the book: `make serve`.
 
-For more detailed steps, see the [Local Build Instructions](local_build.md).
+For more detailed steps, see the [Local Build Instructions](https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/local_build.md).
 
 ## Technical Architecture
 

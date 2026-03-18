@@ -60,10 +60,8 @@ site:
           url: /standards-and-protocols
         - title: Impact Stories
           url: /impact-stories
-    - title: Community
+    - title: Contribute
       children:
-        - title: Building Locally
-          url: /local-build
         - title: How to Contribute
           url: /contribute
   options:
