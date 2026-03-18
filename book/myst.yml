@@ -29,11 +29,9 @@ project:
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
       children:
-        - file: standards-and-protocols/data-collection-protocols/docs/index.md
+        - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/index.md
           children:
-            - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/index.md
-              children:
-                - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
+            - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
     - file: impact-stories/impact-stories.md
     - file: local_build.md
       hidden: true
