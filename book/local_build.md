@@ -5,7 +5,12 @@ edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/local_bu
 date: 2026-01-07
 author:
     - name: CUAHSI
+hide_sidebar: true
+hide_toc: false
 ---
+
+:::{div .no-sidebar-marker}
+:::
 
 This guide outlines the steps to build the **CUAHSI Water Content Portal** locally.
 

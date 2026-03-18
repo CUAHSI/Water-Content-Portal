@@ -1,32 +1,51 @@
 ---
 title: CUAHSI Water Content Portal
-github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/index.md
-edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/index.md 
-date: 2026-01-07
-author:
-    - name: CUAHSI
+site:
+  hide_toc: true
+  hide_outline: true
 ---
 
-Welcome to the **CUAHSI Water Content Portal**, a community-built resource for hosting and sharing open learning materials in the water sciences.
+<section class="home-hero" aria-label="CUAHSI Water Content Portal">
+  <h2 class="home-title">What is this portal?</h2>
+  <p class="home-blurb">A Community-Built Resource for Hosting and Sharing Open Learning Materials in the Water Sciences</p>
+</section>
 
-## About this Resource
+<div class="hero-banner">
+  <p>
+    This platform organizes diverse educational materials into <strong>five distinct categories</strong> for water researchers, bringing them together in a single, accessible space. Below, you can quickly explore each category to understand its purpose, goals, and the types of resources it offers. The platform is designed as a living resource that grows and evolves through ongoing community contributions. If you are interested in contributing, please visit the resources under the <strong>Community</strong> tab.
+  </p>
+</div>
 
-This portal aggregates diverse educational content for water researchers into a single, accessible book.
+<section class="resources-intro" aria-label="Explore resources">
+  <h2 class="resources-title">Explore the Five Resources</h2>
+  <p class="resources-subtitle">
+    Start here to browse courseware, code labs, workshops, standards &amp; protocols, and impact stories.
+  </p>
+</section>
 
-![open_learning_infrastructure_graphic](./images/open_learning_infrastructure_graphic.png)
+<div class="resource-grid">
+  <div class="resource-card">
+    <div class="card-title"><a href="/courseware">🎓 Courseware</a></div>
+    <p><strong>Structured Academic Curriculum</strong><br>Semester-long paths, syllabi, and lecture series for formal education.</p>
+  </div>
 
-### Community-sourced content
+  <div class="resource-card">
+    <div class="card-title"><a href="/code-labs">💻 Code Labs</a></div>
+    <p><strong>Interactive & Computational Labs</strong><br>The "Workbench" for applied technical skills and reproducible science using Jupyter and R.</p>
+  </div>
 
-Current open learning resources available in the CUAHSI Water Content Portal include the following:
+  <div class="resource-card">
+    <div class="card-title"><a href="/workshops">👥 Workshops</a></div>
+    <p><strong>Micro-Learning & Professional Development</strong><br>Short modules and technical webinars designed for rapid upskilling.</p>
+  </div>
 
-* **Hydroinformatics E-book**: A comprehensive course on data analysis techniques in hydrology using the R programming language, authored by [JP Gannon](https://jpgannon.github.io/), associate professor at Virgnia Tech. Topics range from basic plotting and statistics to flow duration curves and flood frequency analysis.
-* **Data Collection Protocols Repository**: Collection of standard operating procedures for data collection methods used in the lab and field in the water sciences. 
-    * _**Note: this section is in development.**_
+  <div class="resource-card">
+    <div class="card-title"><a href="/standards-and-protocols">📏 Standards & Protocols</a></div>
+    <p><strong>Field Protocols & Data Policies</strong><br>Standard operating procedures and technical manuals ensuring data quality.</p>
+  </div>
 
-## Getting started
-
-The CUAHSI Water Content Portal is not meant to be read from start to finish. Browse the different guides that make up the book, or use the search box to search for whatever you would like to learn about first.
-
-## Guide for Collaboration
-
-To get started with contributing or building the webpage locally, please see the [Contribution Guide](contribute.md) and the [Local Build Instructions](local_build.md). 
+  <div class="resource-card">
+    <div class="card-title"><a href="/impact-stories">📜 Impact Stories</a></div>
+    <p><strong>Case Study & Reports</strong><br>Real-world case studies and reports contextualizing water science theory.</p>
+  </div>
+</div>

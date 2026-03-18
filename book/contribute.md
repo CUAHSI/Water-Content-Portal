@@ -6,7 +6,12 @@ edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/contribu
 date: 2026-01-07
 author:
     - name: CUAHSI
+hide_sidebar: true
+hide_toc: false
 ---
+
+:::{div .no-sidebar-marker}
+:::
 
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
 
@@ -68,7 +73,7 @@ If you want to preview your contributions before submitting them, you can build 
 
 4. Serve the book: `make serve`.
 
-For more detailed steps, see the [Local Build Instructions](local_build.md).
+For more detailed steps, see the [Local Build Instructions](https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/local_build.md).
 
 ## Technical Architecture
 

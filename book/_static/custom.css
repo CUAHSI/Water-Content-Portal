@@ -1,0 +1,266 @@
+/* Hide right TOC ONLY on the home page */
+body.index .bd-toc,
+body[data-page-slug="index"] .bd-toc,
+body.index .outline,
+body[data-page-slug="index"] .outline,
+body.index nav.outline,
+body[data-page-slug="index"] nav.outline {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+}
+
+/* Hide left sidebar ONLY on the home page */
+body.index .bd-sidebar,
+body[data-page-slug="index"] .bd-sidebar,
+body.index .sidebar,
+body[data-page-slug="index"] .sidebar {
+  display: none !important;
+}
+
+/* Adjust layout ONLY on the home page to take up full width */
+body.index .bd-page,
+body[data-page-slug="index"] .bd-page,
+body.index main,
+body[data-page-slug="index"] main {
+  grid-template-columns: 1fr !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+body.index .bd-content,
+body[data-page-slug="index"] .bd-content {
+  max-width: 100% !important;
+}
+
+/* Home page: expand content to use sidebar space */
+body:has(.home-hero) main,
+body:has(.home-hero) .article,
+body:has(.home-hero) .article-grid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+body:has(.home-hero) .article-grid {
+  grid-template-columns: 1fr !important;
+}
+
+/* Home page: hide the heading-generated duplicate title */
+body:has(.home-hero) h2#cuahsi-water-content-portal,
+body:has(.home-hero) h2#cuahsi-water-content-portal * {
+  display: none !important;
+}
+
+/* Enlarge CUAHSI logo in header */
+.myst-home-link-logo img {
+  height: 52px !important;
+  width: auto !important;
+}
+.myst-top-nav {
+  height: 72px !important;
+}
+
+/* Hide sidebars on Community pages: Building Locally + How to Contribute */
+body:has(.no-sidebar-marker) .myst-primary-sidebar-nav,
+body:has(.no-sidebar-marker) .myst-primary-sidebar-pointer {
+  display: none !important;
+}
+
+/* Resource pages: show only the active resource + its children in the left sidebar */
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-topnav,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) + .my-3.border-b-2,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) + .my-3.border-b-2 {
+  display: none !important;
+}
+
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > *,
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > * {
+  display: none !important;
+}
+
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) .myst-primary-sidebar-toc .myst-toc > div[data-state="open"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/code-labs"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/workshops"],
+.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/impact-stories"] {
+  display: block !important;
+}
+
+/* Home Page Specific Refactoring */
+.home-hero {
+    text-align: center;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.home-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #0b2a3a;
+}
+
+.home-blurb {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #234a63;
+}
+
+.hero-banner {
+    background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%) !important;
+    padding: 2rem 2.5rem;
+    color: #003366;
+    text-align: left;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    border: 1px solid #b3e5fc;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.hero-banner h1 {
+    margin: 0 0 1.5rem 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    border-bottom: none;
+}
+
+.hero-banner p {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #1a3a54;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-bottom: 0;
+}
+
+.resource-card {
+    position: relative;
+    border: 1px solid #eef2f5;
+    padding: 2.5rem;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+}
+
+.resource-card .card-title {
+    margin: 0 0 1rem 0;
+    color: #003366;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.resource-card .card-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.resource-card a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.resource-card p {
+    margin-bottom: 0;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.resources-intro{
+    margin: 0 0 1.5rem 0;
+    padding: 0 0.25rem;
+}
+
+.resources-title{
+    margin: 0 0 0.35rem 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #003366;
+    letter-spacing: -0.01em;
+}
+
+.resources-subtitle{
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #1a3a54;
+    max-width: 70ch;
+}
+
+@media (max-width: 1024px) {
+    .home-title {
+        font-size: 2.2rem;
+    }
+}
+
+/* Dark theme adjustments for readability */
+.dark .home-title {
+    color: #e2e8f0;
+}
+
+.dark .home-blurb {
+    color: #cbd5f5;
+}
+
+.dark .hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #0b2a3a 100%) !important;
+    color: #e2e8f0;
+    border-color: #1e293b;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+}
+
+.dark .hero-banner p {
+    color: #cbd5f5;
+}
+
+.dark .resource-card {
+    background: #0f172a;
+    border-color: #1e293b;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+
+.dark .resource-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.45);
+}
+
+.dark .resource-card .card-title {
+    color: #e2e8f0;
+}
+
+.dark .resource-card p {
+    color: #cbd5f5;
+}
+
+.dark .resources-title {
+    color: #e2e8f0;
+}
+
+.dark .resources-subtitle {
+    color: #cbd5f5;
+}
