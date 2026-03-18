@@ -36,12 +36,12 @@ site:
 
   <div class="resource-card">
     <div class="card-title"><a href="/workshops">👥 Workshops</a></div>
-    <p><strong>Micro-Learning & Professional Dev</strong><br>Short modules and technical webinars designed for rapid upskilling.</p>
+    <p><strong>Micro-Learning & Professional Development</strong><br>Short modules and technical webinars designed for rapid upskilling.</p>
   </div>
 
   <div class="resource-card">
     <div class="card-title"><a href="/standards-and-protocols">📏 Standards & Protocols</a></div>
-    <p><strong>Field Protocols & Data Policy</strong><br>Standard operating procedures and technical manuals ensuring data quality.</p>
+    <p><strong>Field Protocols & Data Policies</strong><br>Standard operating procedures and technical manuals ensuring data quality.</p>
   </div>
 
   <div class="resource-card">
