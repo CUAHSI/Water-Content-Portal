@@ -31,7 +31,7 @@ All resources in this portal are tagged and filterable by **six** distinct and h
 - **Remote Sensing & Earth Observation**: Use of satellite, airborne, and drone-based sensor data to monitor and analyze water resources. <span style="background-color: #7B1FA2; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold; margin: 0 4px;">Remote Sensing</span>
 
 :::{attention}
-Click on the tabs below to browse resources by subject topic.
+**Click on the tabs below to browse resources by subject topic!** Note that a resource can be tagged with more than one subject topic.
 :::
 
 ::::{tab-set}
