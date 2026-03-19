@@ -13,7 +13,7 @@ Contextualizing theory with real-world complexities through case studies and rep
 
 <h3 style="margin-top: 0; color: #003366;">Overview</h3>
 
-- **Format:** Documentaries, raw datasets, and "Lessons Learned" reports.
+- **Format:** Documentaries, blogs, and "Lessons Learned" reports.
 - **Goal:** Contextualizing theory with real-world complexities.
 
 </div>
