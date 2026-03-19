@@ -65,7 +65,3 @@ No resources currently available for this subject topic under this category.
 :::
 
 ::::
-
-
-## Available Resources
-
