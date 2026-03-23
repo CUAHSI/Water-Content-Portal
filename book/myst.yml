@@ -5,18 +5,31 @@ project:
   affiliations:
     - id: cuahsi-affiliation
       name: CUAHSI - Consortium of Universities for the Advancement of Hydrologic Science, Inc.
+    - id: iowa-state
+      name: Iowa State University
   authors:
     - id: cuahsi
       name: The CUAHSI Community
       affiliations:
       - cuahsi-affiliation
+    - id: aburgin
+      name: Amy Burgin
+      email: burginam@iastate.edu
+      orcid: 0000-0001-8489-4002
+      corresponding: true
+      roles:
+        - Writing - original draft
+        - Writing - Review & Editing
+        - Supervision
+      affiliations:
+      - iowa-state
   github: https://github.com/CUAHSI/Water-Content-Portal
   date: 2026-03-23
   # venue:
   #   title: CUAHSI Water Content Portal
   #   url: https://water-content-portal.cuahsi.io/
   toc:
-    - file: index.md
+    - file: home_page.md
     - file: courseware/courseware.md
       children:
         - file: courseware/hydroinformatics/Front_Matter/hydroinformatics.md
