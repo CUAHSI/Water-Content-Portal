@@ -1,13 +1,8 @@
 ---
-# Frontmatter for contribute.md
 title: Guide for Contributing to the CUAHSI Water Content Portal
-github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/contribute.md
-edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/contribute.md 
-date: 2026-01-07
-author:
-    - name: CUAHSI
-hide_sidebar: true
-hide_toc: false
+authors:
+  id: cuahsi
+date: 2023-03-23
 ---
 
 :::{div .no-sidebar-marker}

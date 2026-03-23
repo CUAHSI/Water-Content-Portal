@@ -1,9 +1,9 @@
 ---
-hide_sidebar: false
-hide_toc: false
+title: Code Labs
+authors:
+  id: cuahsi
+date: 2023-03-23
 ---
-
-# Code Labs
 
 [🏠 Back to Home](/)
 
