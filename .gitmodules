@@ -2,3 +2,57 @@
 	path = book/standards-and-protocols/data-collection-protocols
 	url = https://github.com/abnerbog/data-collection-protocols.git
 	branch = main
+[submodule "book/courseware/hydroinformatics/1-Intro-plotting-R"]
+	path = book/courseware/hydroinformatics/1-Intro-plotting-R
+	url = https://github.com/abnerbog/1-Intro-plotting-R
+[submodule "book/courseware/hydroinformatics/2-Programming-Basics"]
+	path = book/courseware/hydroinformatics/2-Programming-Basics
+	url = https://github.com/abnerbog/2-Programming-Basics
+[submodule "book/courseware/hydroinformatics/3-Activity-Intro-Skills"]
+	path = book/courseware/hydroinformatics/3-Activity-Intro-Skills
+	url = https://github.com/abnerbog/3-Activity-Intro-Skills
+[submodule "book/courseware/hydroinformatics/4-Intro-Stats"]
+	path = book/courseware/hydroinformatics/4-Intro-Stats
+	url = https://github.com/abnerbog/4-Intro-Stats
+[submodule "book/courseware/hydroinformatics/5-Intro-Stats-Activity"]
+	path = book/courseware/hydroinformatics/5-Intro-Stats-Activity
+	url = https://github.com/abnerbog/5-Intro-Stats-Activity
+[submodule "book/courseware/hydroinformatics/6-Get-Format-Plot-HydroData"]
+	path = book/courseware/hydroinformatics/6-Get-Format-Plot-HydroData
+	url = https://github.com/abnerbog/6-Get-Format-Plot-HydroData
+[submodule "book/courseware/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval"]
+	path = book/courseware/hydroinformatics/7-Activity-Joins-Pivots_dataRetrieval
+	url = https://github.com/abnerbog/7-Activity-Joins-Pivots_dataRetrieval
+[submodule "book/courseware/hydroinformatics/8-Test_1"]
+	path = book/courseware/hydroinformatics/8-Test_1
+	url = https://github.com/abnerbog/8-Test_1
+[submodule "book/courseware/hydroinformatics/9-Flow-Duration-Curves"]
+	path = book/courseware/hydroinformatics/9-Flow-Duration-Curves
+	url = https://github.com/abnerbog/9-Flow-Duration-Curves
+[submodule "book/courseware/hydroinformatics/10-Low-Flow-Analysis"]
+	path = book/courseware/hydroinformatics/10-Low-Flow-Analysis
+	url = https://github.com/abnerbog/10-Low-Flow-Analysis
+[submodule "book/courseware/hydroinformatics/11-Flood-Frequency-and-Functions"]
+	path = book/courseware/hydroinformatics/11-Flood-Frequency-and-Functions
+	url = https://github.com/abnerbog/11-Flood-Frequency-and-Functions
+[submodule "book/courseware/hydroinformatics/12-Intro_Geospatial_Vector"]
+	path = book/courseware/hydroinformatics/12-Intro_Geospatial_Vector
+	url = https://github.com/abnerbog/12-Intro_Geospatial_Vector
+[submodule "book/courseware/hydroinformatics/13-Geospatial-Raster-Hydro"]
+	path = book/courseware/hydroinformatics/13-Geospatial-Raster-Hydro
+	url = https://github.com/abnerbog/13-Geospatial-Raster-Hydro
+[submodule "book/courseware/hydroinformatics/14-Summative2"]
+	path = book/courseware/hydroinformatics/14-Summative2
+	url = https://github.com/abnerbog/14-Summative2
+[submodule "book/courseware/hydroinformatics/15-Watershed-Delineation"]
+	path = book/courseware/hydroinformatics/15-Watershed-Delineation
+	url = https://github.com/abnerbog/15-Watershed-Delineation
+[submodule "book/courseware/hydroinformatics/16-Intro-Modeling-HBV"]
+	path = book/courseware/hydroinformatics/16-Intro-Modeling-HBV
+	url = https://github.com/abnerbog/16-Intro-Modeling-HBV
+[submodule "book/courseware/hydroinformatics/17-calibrate-model-for-loops"]
+	path = book/courseware/hydroinformatics/17-calibrate-model-for-loops
+	url = https://github.com/abnerbog/17-calibrate-model-for-loops
+[submodule "book/courseware/hydroinformatics/18-Final-Summative-Assess"]
+	path = book/courseware/hydroinformatics/18-Final-Summative-Assess
+	url = https://github.com/abnerbog/18-Final-Summative-Assess
