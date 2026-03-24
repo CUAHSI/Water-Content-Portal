@@ -1,12 +1,8 @@
 ---
 title: Building the Page Locally
-github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/local_build.md
-edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/local_build.md 
-date: 2026-01-07
-author:
-    - name: CUAHSI
-hide_sidebar: true
-hide_toc: false
+authors:
+  id: cuahsi
+date: 2026-03-23
 ---
 
 :::{div .no-sidebar-marker}
