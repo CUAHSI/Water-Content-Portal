@@ -2,8 +2,42 @@
 version: 1
 project:
   id: cuahsi-open-learning-platform
+  affiliations:
+    - id: cuahsi-affiliation
+      name: CUAHSI - Consortium of Universities for the Advancement of Hydrologic Science, Inc.
+    - id: iowa-state
+      name: Iowa State University
+      url: https://www.iastate.edu/
+    - id: vt-tech
+      name: Virginia Tech
+      url: https://www.vt.edu/
+  authors:
+    - id: cuahsi
+      name: The CUAHSI Community
+      affiliations:
+      - cuahsi-affiliation
+    - id: aburgin
+      name: Amy Burgin
+      email: burginam@iastate.edu
+      orcid: 0000-0001-8489-4002
+      corresponding: true
+      affiliations:
+      - iowa-state
+    - id: jpgannon
+      name: JP Gannon
+      email: jpgannon@vt.edu
+      orcid: 0000-0002-4595-3214
+      corresponding: true
+      url: https://jpgannon.github.io/
+      affiliations: 
+        - vt-tech
+  github: https://github.com/CUAHSI/Water-Content-Portal
+  date: 2026-03-23
+  # venue:
+  #   title: CUAHSI Water Content Portal
+  #   url: https://water-content-portal.cuahsi.io/
   toc:
-    - file: index.md
+    - file: home_page.md
     - file: courseware/courseware.md
       children:
         - file: courseware/hydroinformatics/Front_Matter/hydroinformatics.md
@@ -28,10 +62,10 @@ project:
     - file: code-labs/code-labs.md
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
-      children:
-        - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/index.md
-          children:
-            - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
+      # children:
+      #   - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/description_AIMS_project.md
+      #     children:
+      #       - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
     - file: impact-stories/impact-stories.md
     - file: local_build.md
       hidden: true

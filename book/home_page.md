@@ -1,5 +1,8 @@
 ---
 title: CUAHSI Water Content Portal
+authors:
+  id: cuahsi
+date: 2023-03-23
 site:
   hide_toc: true
   hide_outline: true

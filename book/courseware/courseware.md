@@ -1,9 +1,9 @@
 ---
-hide_sidebar: false
-hide_toc: false
+title: Courseware
+authors:
+  id: cuahsi
+date: 2026-03-23
 ---
-
-# Courseware
 
 [🏠 Back to Home](/)
 

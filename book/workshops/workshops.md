@@ -1,9 +1,9 @@
 ---
-hide_sidebar: false
-hide_toc: false
+title: Workshops
+authors:
+  id: cuahsi
+date: 2026-03-23
 ---
-
-# Workshops
 
 [🏠 Back to Home](/)
 
