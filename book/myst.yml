@@ -7,6 +7,10 @@ project:
       name: CUAHSI - Consortium of Universities for the Advancement of Hydrologic Science, Inc.
     - id: iowa-state
       name: Iowa State University
+      url: https://www.iastate.edu/
+    - id: vt-tech
+      name: Virginia Tech
+      url: https://www.vt.edu/
   authors:
     - id: cuahsi
       name: The CUAHSI Community
@@ -17,12 +21,16 @@ project:
       email: burginam@iastate.edu
       orcid: 0000-0001-8489-4002
       corresponding: true
-      roles:
-        - Writing - original draft
-        - Writing - Review & Editing
-        - Supervision
       affiliations:
       - iowa-state
+    - id: jpgannon
+      name: JP Gannon
+      email: jpgannon@vt.edu
+      orcid: 0000-0002-4595-3214
+      corresponding: true
+      url: https://jpgannon.github.io/
+      affiliations: 
+        - vt-tech
   github: https://github.com/CUAHSI/Water-Content-Portal
   date: 2026-03-23
   # venue:
