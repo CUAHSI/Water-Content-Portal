@@ -51,7 +51,7 @@ No resources currently available for this subject topic under this category.
 
 :::{tab-item} Surface Water
 :sync: surface-water
-- **[AIMS field and lab protocols](index-1)**: Collection of standard operating procedures for data collection methods for the Aquatic Intermittency Effects on Microbiomes in Streams (AIMS) project. <span style="background-color: #1976D2; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold; margin: 0 4px;">Surface Water</span>
+No resources currently available for this subject topic under this category.
 :::
 
 :::{tab-item} Groundwater
