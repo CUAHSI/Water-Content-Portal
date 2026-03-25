@@ -26,6 +26,7 @@ project:
     - id: jpgannon
       name: JP Gannon
       email: jpgannon@vt.edu
+      github: jpgannon
       orcid: 0000-0002-4595-3214
       corresponding: true
       url: https://jpgannon.github.io/
