@@ -37,7 +37,7 @@ project:
   #   title: CUAHSI Water Content Portal
   #   url: https://water-content-portal.cuahsi.io/
   toc:
-    - file: home_page.md
+    - file: home.md
     - file: courseware/courseware.md
       children:
         - file: courseware/hydroinformatics/Front_Matter/hydroinformatics.md
