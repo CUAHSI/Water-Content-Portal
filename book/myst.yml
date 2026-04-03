@@ -50,6 +50,8 @@ project:
       hidden: true
     - file: contribute.md
       hidden: true
+    - file: cite.md
+      hidden: true
   open_access: true
   license:
     content: CC-BY-4.0
@@ -72,9 +74,9 @@ site:
         - title: Impact Stories
           url: /impact-stories
     - title: Contribute
-      children:
-        - title: How to Contribute
-          url: /contribute
+      url: /contribute
+    - title: Cite
+      url: /cite
   options:
     logo: images/cuahsi_logo.png
     github_url: https://github.com/CUAHSI/Water-Content-Portal
