@@ -20,4 +20,4 @@ The "Workbench" for applied technical skills and reproducible science.
 
 ## Available Resources
 
-There are no resources currently available under this category. Check back soon!
+- **Collecting and Manipulating AORC Meteorological Data**: A notebook demonstrating how to access, subset, visualize, and align large cloud-hosted datasets—using the AORC meteorological dataset—with watershed boundaries using tools like xarray, dask, and geopandas.
