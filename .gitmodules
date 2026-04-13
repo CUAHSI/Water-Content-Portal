@@ -59,3 +59,7 @@
 [submodule "book/courseware/hydroinformatics/Front_Matter"]
 	path = book/courseware/hydroinformatics/Front_Matter
 	url = https://github.com/abnerbog/Front_Matter
+[submodule "book/code-labs/notebooks"]
+	path = book/code-labs/notebooks
+	url = https://github.com/CUAHSI/notebooks
+	branch = develop

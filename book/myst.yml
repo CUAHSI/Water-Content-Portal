@@ -39,6 +39,8 @@ project:
             - file: 'courseware/hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
             - file: 'courseware/hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
     - file: code-labs/code-labs.md
+      children:
+        - file: 'code-labs/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
       # children:
