@@ -20,4 +20,4 @@ The "Workbench" for applied technical skills and reproducible science.
 
 ## Available Resources
 
-- [Collecting and Manipulating AORC Meteorological Data](<notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst>): A notebook demonstrating how to access, subset, visualize, and align large cloud-hosted datasets—using the AORC meteorological dataset—with watershed boundaries using tools like xarray, dask, and geopandas.
+- [Collecting and Manipulating AORC Meteorological Data](<notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst>): A Jupyter notebook showing how to work with the NOAA Analysis of Record for Calibration (AORC) meteorological dataset from the cloud in Python, including subsetting, visualization, and linking gridded data to watershed boundaries.
