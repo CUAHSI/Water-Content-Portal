@@ -13,11 +13,11 @@ The "Workbench" for applied technical skills and reproducible science.
 
 <h3 style="margin-top: 0; color: #003366;">Overview</h3>
 
-- **Format:** Jupyter Books, Google Colab notebooks, and RShiny apps.
+- **Format:** Jupyter notebooks, Google Colab notebooks, and RShiny apps.
 - **Goal:** Applied technical skills and reproducible science.
 
 </div>
 
 ## Available Resources
 
-There are no resources currently available under this category. Check back soon!
+- [Collecting and Manipulating AORC Meteorological Data](<notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst>): A Jupyter notebook showing how to work with the NOAA Analysis of Record for Calibration (AORC) meteorological dataset from the cloud in Python, including subsetting, visualization, and linking gridded data to watershed boundaries.
