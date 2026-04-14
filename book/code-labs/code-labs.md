@@ -13,7 +13,7 @@ The "Workbench" for applied technical skills and reproducible science.
 
 <h3 style="margin-top: 0; color: #003366;">Overview</h3>
 
-- **Format:** Jupyter Books, Google Colab notebooks, and RShiny apps.
+- **Format:** Jupyter notebooks, Google Colab notebooks, and RShiny apps.
 - **Goal:** Applied technical skills and reproducible science.
 
 </div>
