@@ -97,3 +97,13 @@ The `Makefile` provides additional targets for maintaining the repository:
 | **Clean** | `make clean` | Removes all build outputs and artifacts from the build directory.|
 | **Reset** | `make reset` | Performs a hard reset and cleans the repo and submodules of all artifacts.|
 | **Help** | `make help` | Displays the list of available commands and their descriptions.|
+
+## Technical Architecture
+
+This platform is built using the [**Jupyter Book**](https://pypi.org/project/jupyter-book/) Python package and [**MyST Markdown**](https://mystmd.org/), allowing for the integration of computational narratives (e.g., Jupyter Notebooks) and standard documentation. We use [**Heap Analytics**](https://www.heap.io/) to track how each resource is being used by the community. 
+
+![book-building-usage-tracking-graphic](images/book_building_usage_tracking_graphic.png)
+
+The site is deployed via the web hosting serive [**Netlify**](https://www.netlify.com/). 
+
+![website-hosting-graphic](images/website_hosting_graphic.png)
