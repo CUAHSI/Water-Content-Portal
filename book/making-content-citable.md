@@ -7,7 +7,7 @@ date: 2026-04-17
 
 # Overview 
 
-All educational resources in this portal are designed to be reusable and citable to support open science and improve the findability, accessibility, interoperability, and reuse (FAIR) of these resources. Each educational resource (or collection of resource) in the CUAHSI Water Learning Hub is associated with a corresponding [HydroShare resource](https://hydroshare.org/), and is a part of the [CUAHSI Water Learning Hub HydroShare collection](https://hydroshare.org/resource/1c64dbc324bd46889b38a576bddb5a5a/). 
+All educational resources in the CUAHSI Water Learning Hub are designed to be reusable and citable to support open science practices in the water community and improve the findability, accessibility, interoperability, and reuse (FAIR) of these resources. To enable this, each educational resource (or collection of resources) is associated with a corresponding [HydroShare](https://hydroshare.org/) resource, and is a part of the [CUAHSI Water Learning Hub HydroShare collection](https://hydroshare.org/resource/1c64dbc324bd46889b38a576bddb5a5a/). 
 
 
 # Steps to Cite Your Resources
@@ -69,8 +69,10 @@ To lock in a specific, stable version of your content, create a [formal release 
 ## 5. Upload the Release to HydroShare
 Navigate to your newly created GitHub release and download a snapshot of the source code as zip; the name of the downloaded zip will be `{repository-name}-YYYY-MM-D.zip`; keep this filename as is and upload this snapshot file directly to your corresponding HydroShare resource.
 
-## 6. Add the GitHub repository to the Related Resources field in HydroShare
-Add a link to the main GitHub repository location (e.g., `https://github.com/VT-Hydroinformatics/1-Intro-plotting-R`) in the Related Resources field. This will ensure that some 
+## 6. Add link to GitHub Repository and Page in Water Learning Hub as `Related Resources` in HydroShare
+Add a link to the main GitHub repository location (e.g., `https://github.com/VT-Hydroinformatics/1-Intro-plotting-R`) in the `Related Resources` field along with the link the corresponding page in the CUAHSI Water Learning Hub, e.g. Chapter 1 of the Hydroinformatics book:
+
+![Related Resources](images/related-resources.png)
 
 
 ## 7. Add a README to the Resource
