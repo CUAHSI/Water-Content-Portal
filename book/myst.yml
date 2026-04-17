@@ -50,7 +50,9 @@ project:
       hidden: true
     - file: contribute.md
       hidden: true
-    - file: cite.md
+    - file: how-to-cite.md
+      hidden: true
+    - file: making-content-citable.md
       hidden: true
   open_access: true
   license:
@@ -76,7 +78,11 @@ site:
     - title: Contribute
       url: /contribute
     - title: Cite
-      url: /cite
+      children:
+        - title: How to Cite
+          url: /how-to-cite
+        - title: Making Your Content Citable
+          url: /making-content-citable
   options:
     logo: images/cuahsi_logo.png
     github_url: https://github.com/CUAHSI/Water-Content-Portal
