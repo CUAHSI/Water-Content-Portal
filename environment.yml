@@ -11,4 +11,5 @@ dependencies:
   - pip
   - pip:
     - jupyter-book==2.0.0b0
-    - jupytext # don't need this for now but may be useful later (https://jupytext.readthedocs.io/en/latest/)
+    - jupytext #(https://jupytext.readthedocs.io/en/latest/)
+    - jupyterlab_myst # required for jupytext to work with MyST markdown files

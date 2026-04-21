@@ -6,7 +6,7 @@ project:
     - id: cuahsi-affiliation
       name: CUAHSI - Consortium of Universities for the Advancement of Hydrologic Science, Inc.
   authors:
-    - id: cuahsi
+    - id: cuahsi 
       name: The CUAHSI Community
       affiliations:
       - cuahsi-affiliation
