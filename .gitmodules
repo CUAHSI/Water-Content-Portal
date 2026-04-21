@@ -59,3 +59,7 @@
 [submodule "book/courseware/hydroinformatics/Front_Matter"]
 	path = book/courseware/hydroinformatics/Front_Matter
 	url = https://github.com/abnerbog/Front_Matter
+[submodule "book/code-labs/neon-data-skills"]
+	path = book/code-labs/neon-data-skills
+	url = https://github.com/abnerbog/NEON-Data-Skills
+	branch = mystify-hydrology-discharge-tutorial
