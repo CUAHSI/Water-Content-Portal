@@ -40,7 +40,9 @@ project:
             - file: 'courseware/hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
     - file: code-labs/code-labs.md
       children:
-        - file: 'code-labs/notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
+        - file: code-labs/cuahsi-research-notebooks/cuahsi-research-notebooks.md
+          children:
+            - file: 'code-labs/cuahsi-research-notebooks/notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
       # children:
