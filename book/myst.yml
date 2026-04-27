@@ -43,6 +43,9 @@ project:
         - file: code-labs/cuahsi-research-notebooks/cuahsi-research-notebooks.md
           children:
             - file: 'code-labs/cuahsi-research-notebooks/notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
+        - file: code-labs/neon-data-skills/neon-hydrology-tutorials.md
+          children:
+            - file: 'code-labs/neon-data-skills/tutorials/Tabbed/Aquatics/Hydrology-Water-Cycle/neon-hydro-colocated-water-cycle-python-myst.ipynb'
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
       # children:

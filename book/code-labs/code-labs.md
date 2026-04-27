@@ -20,4 +20,5 @@ The "Workbench" for applied technical skills and reproducible science.
 
 ## Available Collections
 
-- [CUAHSI Research Notebook collection](<cuahsi-research-notebooks>): A collection of CUAHSI research Jupyter notebooks used for workshops. 
+- [CUAHSI Research Notebooks](<cuahsi-research-notebooks>): A collection of notebooks developed at CUAHSI to support workshops and trainings for the water science community. 
+- [NEON Data Skills Tutorials for Water Researchers](<cuahsi-research-notebooks>): Data skills tutorials for water researchers to work with NEON data. 
