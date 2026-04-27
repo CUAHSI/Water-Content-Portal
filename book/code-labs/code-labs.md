@@ -18,8 +18,9 @@ The "Workbench" for applied technical skills and reproducible science.
 
 </div>
 
-## Available Resources
+## Available Collections
 
 - [Collecting and Manipulating AORC Meteorological Data](<notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst>): A Jupyter notebook showing how to work with the NOAA Analysis of Record for Calibration (AORC) meteorological dataset from the cloud in Python, including subsetting, visualization, and linking gridded data to watershed boundaries.
 
 - [Accessing and Visualizing NEON Hydrologic Data at Co-Located Sites](neon-data-skills/tutorials/Tabbed/Aquatics/Hydrology-Water-Cycle/neon-hydro-colocated-water-cycle-python-myst): A Jupyter notebook demonstrating how to download and process NEON hydrologic data across instrumented, observational, and remote sensing subsystems, including workflows for retrieving data via the NEON API and merging precipitation, groundwater, and discharge datasets to visualize the water cycle at co-located field sites.
+- [CUAHSI Research Notebook collection](<cuahsi-research-notebooks>): A collection of CUAHSI research Jupyter notebooks used for workshops. 

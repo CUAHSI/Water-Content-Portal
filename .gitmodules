@@ -64,6 +64,6 @@
 	url = https://github.com/abnerbog/NEON-Data-Skills
 	branch = mystify-hydrology-discharge-tutorial
 [submodule "book/code-labs/notebooks"]
-	path = book/code-labs/notebooks
+	path = book/code-labs/cuahsi-research-notebooks/notebooks
 	url = https://github.com/CUAHSI/notebooks
 	branch = develop
