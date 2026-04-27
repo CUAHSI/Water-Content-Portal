@@ -18,6 +18,6 @@ The "Workbench" for applied technical skills and reproducible science.
 
 </div>
 
-## Available Resources
+## Available Collections
 
-- [Collecting and Manipulating AORC Meteorological Data](<notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst>): A Jupyter notebook showing how to work with the NOAA Analysis of Record for Calibration (AORC) meteorological dataset from the cloud in Python, including subsetting, visualization, and linking gridded data to watershed boundaries.
+- [CUAHSI Research Notebook collection](<cuahsi-research-notebooks>): A collection of CUAHSI research Jupyter notebooks used for workshops. 
