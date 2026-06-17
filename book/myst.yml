@@ -40,7 +40,9 @@ project:
             - file: 'courseware/hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
     - file: code-labs/code-labs.md
       children:
+        - file: 'code-labs/notebooks/Science Examples/Detecting Atmospheric Rivers from CESM2 LENS Data/Access_IVT_and_Explore_AR_myst.ipynb'      
         - file: 'code-labs/notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
+        - file: 'code-labs/notebooks/Data Access Examples/BigQuery/access-nwm-forecasts-using-bigquery-myst.ipynb'
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
       # children:
