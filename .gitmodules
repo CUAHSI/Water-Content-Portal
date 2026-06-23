@@ -1,6 +1,6 @@
 [submodule "book/standards-and-protocols/data-collection-protocols"]
 	path = book/standards-and-protocols/data-collection-protocols
-	url = https://github.com/abnerbog/data-collection-protocols.git
+	url = https://github.com/abnerbog/data-collection-protocols
 	branch = main
 [submodule "book/courseware/hydroinformatics/1-Intro-plotting-R"]
 	path = book/courseware/hydroinformatics/1-Intro-plotting-R
