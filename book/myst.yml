@@ -43,6 +43,7 @@ project:
         - file: 'code-labs/notebooks/Science Examples/Detecting Atmospheric Rivers from CESM2 LENS Data/Access_IVT_and_Explore_AR_myst.ipynb'      
         - file: 'code-labs/notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
         - file: 'code-labs/notebooks/Data Access Examples/BigQuery/access-nwm-forecasts-using-bigquery-myst.ipynb'
+        - file: 'code-labs/neon-data-skills/tutorials/Tabbed/Aquatics/Hydrology-Water-Cycle/neon-hydro-colocated-water-cycle-python-myst.ipynb'
     - file: workshops/workshops.md
     - file: standards-and-protocols/standards-and-protocols.md
       # children:

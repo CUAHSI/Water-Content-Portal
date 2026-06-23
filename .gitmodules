@@ -63,3 +63,7 @@
 	path = book/code-labs/notebooks
 	url = https://github.com/CUAHSI/notebooks
 	branch = develop
+[submodule "book/code-labs/neon-data-skills"]
+	path = book/code-labs/neon-data-skills
+	url = https://github.com/abnerbog/NEON-Data-Skills
+	branch = mystify-hydrology-discharge-tutorial
