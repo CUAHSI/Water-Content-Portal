@@ -1,11 +1,12 @@
 ---
 title: Building the Page Locally
-github: https://github.com/CUAHSI/Water-Content-Portal/blob/main/book/local_build.md
-edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/main/book/local_build.md 
-date: 2026-01-07
-author:
-    - name: CUAHSI
+authors:
+  id: cuahsi
+date: 2026-03-23
 ---
+
+:::{div .no-sidebar-marker}
+:::
 
 This guide outlines the steps to build the **CUAHSI Water Content Portal** locally.
 
@@ -96,3 +97,13 @@ The `Makefile` provides additional targets for maintaining the repository:
 | **Clean** | `make clean` | Removes all build outputs and artifacts from the build directory.|
 | **Reset** | `make reset` | Performs a hard reset and cleans the repo and submodules of all artifacts.|
 | **Help** | `make help` | Displays the list of available commands and their descriptions.|
+
+## Technical Architecture
+
+This platform is built using the [**Jupyter Book**](https://pypi.org/project/jupyter-book/) Python package and [**MyST Markdown**](https://mystmd.org/), allowing for the integration of computational narratives (e.g., Jupyter Notebooks) and standard documentation. We use [**Heap Analytics**](https://www.heap.io/) to track how each resource is being used by the community. 
+
+![book-building-usage-tracking-graphic](images/book_building_usage_tracking_graphic.png)
+
+The site is deployed via the web hosting serive [**Netlify**](https://www.netlify.com/). 
+
+![website-hosting-graphic](images/website_hosting_graphic.png)
