@@ -89,5 +89,6 @@ site:
           url: /making-content-citable
   options:
     logo: images/cuahsi_logo.png
+    favicon: images/favicon.ico
     github_url: https://github.com/CUAHSI/Water-Content-Portal
     style: _static/custom.css
