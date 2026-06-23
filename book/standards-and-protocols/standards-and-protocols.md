@@ -19,5 +19,4 @@ Standardizing practices and ensuring data quality/integrity across contributions
 </div>
 
 ## Available Resources
-
-There are no resources currently available under this category. Check back soon!
+- [Surface Water Chemistry Field Sampling](surface-water-chemistry-sampling): Protocol describe the process of collecting samples for water chemistry in the field. This protocol was used for all Approaches in AIMS wherein field water samples were collected.
