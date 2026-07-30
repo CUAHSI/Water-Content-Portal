@@ -2,7 +2,7 @@
 title: Guide for Contributing to the CUAHSI Water Content Portal
 authors:
   id: cuahsi
-date: 2023-03-23
+date: 2026-03-23
 ---
 
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
