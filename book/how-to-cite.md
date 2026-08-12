@@ -8,7 +8,7 @@ date: 2026-03-23
 :::{div .no-sidebar-marker}
 :::
 
-The content of the CUAHSI Water Learning Hub is licensed for free and open use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. All materials are designed to be reusable and citable to support open science and improve the findability, accessibility, interoperability, and reuse (FAIR) of these educational resources.
+The content of the Water Content Portal is licensed for free and open use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. All materials are designed to be reusable and citable to support open science and improve the findability, accessibility, interoperability, and reuse (FAIR) of these educational resources.
 
 ## How to Cite
 
