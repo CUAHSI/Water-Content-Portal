@@ -56,26 +56,20 @@ downloads:
 ---
 ```
 
-## 3. Add a CITATION.cff File
-
-Create a [`CITATION.cff`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) file in the root directory of your GitHub repository. This plain-text file provides human and machine readable citation metadata, allowing GitHub to automatically generate formatted citations (like APA or BibTeX) for anyone visiting your repository via GitHub. This creates a badge in the home page of your GitHub repository for citing your materials. 
-
-To create your `CITATION.cff` file, we suggest using [`cffinit`](https://citation-file-format.github.io/cff-initializer-javascript/#/), a web application which guides you through the process of creating a valid citation file.
-
-## 4. Create a GitHub Release
+## 3. Create a GitHub Release
 
 To lock in a specific, stable version of your content, create a [formal release in your GitHub repository](https://docs.github.com/en/repositories/releasing-projects-on-github). Tag the release with a version number (e.g., `v1.0.0`) and provide brief release notes detailing the scope of the content.
 
-## 5. Upload the Release to HydroShare
+## 4. Upload the Release to HydroShare
 Navigate to your newly created GitHub release and download a snapshot of the source code as zip; the name of the downloaded zip will be `{repository-name}-YYYY-MM-D.zip`; keep this filename as is and upload this snapshot file directly to your corresponding HydroShare resource.
 
-## 6. Add link to GitHub Repository and Page in Water Content Portal as `Related Resources` in HydroShare
+## 5. Add link to GitHub Repository and Page in Water Content Portal as `Related Resources` in HydroShare
 Add a link to the main GitHub repository location (e.g., `https://github.com/VT-Hydroinformatics/1-Intro-plotting-R`) in the `Related Resources` field along with the link the corresponding page in the CUAHSI Water Content Portal, e.g. Chapter 1 of the Hydroinformatics book:
 
 ![Related Resources](images/related-resources.png)
 
 
-## 7. Add a README to the Resource
+## 6. Add a README to the Resource
 Finally, ensure your HydroShare resource includes a clear and consise `README.md` file. This document must include explicit instructions noting exactly where the content was extracted from (e.g., pointing back to the specific GitHub repository URL and the versioned release), e.g.,:
 
 ```markdown
