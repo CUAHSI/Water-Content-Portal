@@ -44,6 +44,12 @@ project:
         - file: 'code-labs/notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst.ipynb'
         - file: 'code-labs/notebooks/Data Access Examples/BigQuery/access-nwm-forecasts-using-bigquery-myst.ipynb'
     - file: workshops/workshops.md
+      children:
+          - file: workshops/hydroviz/README.md
+            children:
+              - file: workshops/hydroviz/Activity1/Activity1.md
+              - file: workshops/hydroviz/Activity2/Activity2.md
+              - file: workshops/hydroviz/Activity3/Activity3.md
     - file: standards-and-protocols/standards-and-protocols.md
       # children:
       #   - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/description_AIMS_project.md
