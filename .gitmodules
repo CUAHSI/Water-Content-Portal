@@ -67,3 +67,7 @@
 	path = book/code-labs/neon-data-skills
 	url = https://github.com/abnerbog/NEON-Data-Skills
 	branch = mystify-hydrology-discharge-tutorial
+[submodule "book/workshops/hydroviz"]
+	path = book/workshops/hydroviz
+	url = https://github.com/hydrokeira/CUAHSI_HydroViz/
+	branch = main
