@@ -15,12 +15,21 @@ There is some specific information needed from authors when requesting an ad-hoc
 
 There are two data sets that need to be generated with Heap and downloaded as CSVs. The names of these files should be prefixed with the date range requested by the author. This date range should be formatted as `YYMMDD_YYMMDD`. For example, if an author requests data from January 1st, 2026 to September 1st, 2026, the date range would be formatted as `260101_260901`.
 
-Details about each Heap export:
+To begin, first navigate to https://www.heap.io/ and log in. If you do not have credentials to CUAHSI's account on Heap, contact Martin Seul. After logging in, make sure that that the `Apps` tab in the bottom left is selected to `Water Content Portal` so that you can see user analytics specifically for the open learning pages. 
 
--   User analytics grouped by country: `YYMMDD_YYMMDD_heap_analytics_country.csv`
-    -   TODO
--   User analytics grouped by region: `YYMMDD_YYMMDD_heap_analytics_region.csv`
-    -   TODO
+Below are details for generating each Heap export:
+
+- **User analytics grouped by country:** 
+    - [Use this link](https://heapanalytics.com/app/env/902525459/pages/chart/Region-specific-analytics-complete-country-19332860) to navigate to the chart containing page-level engagement by country for first time page viewers in a given time range
+    - Under `Filter Results`, change the date range as per the author's request
+    - Click `Export` and `Export Result to CSV`
+    - Save exported file as `YYMMDD_YYMMDD_heap_analytics_country.csv` replacing `YYMMDD_YYMMDD` with the date range of interest as described above
+    - `YYMMDD_YYMMDD_heap_analytics_country.csv`
+- **User analytics grouped by region (e.g., US state):**
+    - [Use this link](https://heapanalytics.com/app/env/902525459/pages/chart/Region-specific-analytics-19302305) to navigate to the chart containing page-level engagement by region for first time page viewers in a given time range
+    - Under `Filter Results`, change the date range as per the author's request
+    - Click `Export` and `Export Result to CSV`
+    - Save exported file as `YYMMDD_YYMMDD_heap_analytics_region.csv` replacing `YYMMDD_YYMMDD` with the date range of interest as described above
 
 ## Generating the authorship impact report locally
 
