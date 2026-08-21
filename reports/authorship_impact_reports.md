@@ -24,7 +24,6 @@ Below are details for generating each Heap export:
     - Under `Filter Results`, change the date range as per the author's request
     - Click `Export` and `Export Result to CSV`
     - Save exported file as `YYMMDD_YYMMDD_heap_analytics_country.csv` replacing `YYMMDD_YYMMDD` with the date range of interest as described above
-    - `YYMMDD_YYMMDD_heap_analytics_country.csv`
 - **User analytics grouped by region (e.g., US state):**
     - [Use this link](https://heapanalytics.com/app/env/902525459/pages/chart/Region-specific-analytics-19302305) to navigate to the chart containing page-level engagement by region for first time page viewers in a given time range
     - Under `Filter Results`, change the date range as per the author's request
