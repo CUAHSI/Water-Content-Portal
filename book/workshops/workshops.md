@@ -20,4 +20,4 @@ Short modules and technical webinars for rapid learning and professional develop
 
 ## Available Resources
 
-There are no resources currently available under this category. Check back soon!
+- **[HydroViz Teaching Modules](readme)**: A set of three guided activities built around an interactive app for exploring hydrologic and geochemical concepts through the exploration of real-world data from rivers across North America.

@@ -63,3 +63,7 @@
 	path = book/code-labs/notebooks
 	url = https://github.com/CUAHSI/notebooks
 	branch = develop
+[submodule "book/workshops/hydroviz"]
+	path = book/workshops/hydroviz
+	url = https://github.com/hydrokeira/CUAHSI_HydroViz/
+	branch = main
