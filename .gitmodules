@@ -1,7 +1,3 @@
-[submodule "book/standards-and-protocols/data-collection-protocols"]
-	path = book/standards-and-protocols/data-collection-protocols
-	url = https://github.com/abnerbog/data-collection-protocols
-	branch = main
 [submodule "book/courseware/hydroinformatics/1-Intro-plotting-R"]
 	path = book/courseware/hydroinformatics/1-Intro-plotting-R
 	url = https://github.com/abnerbog/1-Intro-plotting-R
@@ -63,15 +59,7 @@
 	path = book/code-labs/notebooks
 	url = https://github.com/CUAHSI/notebooks
 	branch = develop
-[submodule "book/code-labs/neon-data-skills"]
-	path = book/code-labs/neon-data-skills
-	url = https://github.com/abnerbog/NEON-Data-Skills
-	branch = mystify-hydrology-discharge-tutorial
 [submodule "book/workshops/hydroviz"]
 	path = book/workshops/hydroviz
 	url = https://github.com/hydrokeira/CUAHSI_HydroViz/
 	branch = main
-[submodule "book/courseware/analytic_gw_book"]
-	path = book/courseware/analytic_gw_book
-	url = https://github.com/abnerbog/analytic_gw_book
-	branch = add-cuahsi-landing-page
