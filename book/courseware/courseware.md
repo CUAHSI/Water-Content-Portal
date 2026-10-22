@@ -2,7 +2,7 @@
 title: Courseware
 authors:
   id: cuahsi
-date: 2026-03-23
+date: 2026-09-28
 ---
 
 [🏠 Back to Home](/)
@@ -23,3 +23,4 @@ Structured Academic Curriculum provides semester-long paths, syllabi, and lectur
 ## Available Resources
 
 - **[Hydroinformatics Textbook](hydroinformatics)**: A comprehensive guide to common hydrology data analyses using R.
+- **[Analytical Groundwater Modeling](analytical-groundwater-modeling)**: A hands-on introduction to groundwater flow and analytical modeling, with interactive Python examples and exercises.
