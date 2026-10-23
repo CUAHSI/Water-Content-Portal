@@ -19,6 +19,21 @@ The "Workbench" for applied technical skills and reproducible science.
 </div>
 
 ## Available Resources
-- [Analyzing Cloud-Native IVT Data for Atmospheric Rivers](<notebooks/Science Examples/Detecting Atmospheric Rivers from CESM2 LENS Data/Access_IVT_and_Explore_AR_myst>): A Jupyter notebook showing how to work with a HydroShare-hosted Zarr dataset of integrated vapor transport (IVT) in Python, including cloud access, time and location subsetting, atmospheric river detection, event categorization, and saving outputs back to HydroShare.
-- [Collecting and Manipulating AORC Meteorological Data](<notebooks/Data Access Examples/AORC - Data Collection and Manipulation Primer/collecting-and-manipulating-aorc-v1.1-myst>): A Jupyter notebook showing how to work with the NOAA Analysis of Record for Calibration (AORC) meteorological dataset from the cloud in Python, including subsetting, visualization, and linking gridded data to watershed boundaries.
-- [Accessing National Water Model Forecasts using BigQuery](<notebooks/Data Access Examples/BigQuery/access-nwm-forecasts-using-bigquery-myst>): A Jupyter notebook showing how to access operational NOAA National Water Model forecasts in Python through the CIROH BigQuery API, including retrieving streamflow time series, comparing forecasts across reference times, and mapping model reaches.
+
+<div class="resource-gallery">
+  <a class="gallery-card" href="/access-ivt-and-explore-ar-myst">
+    <img class="gallery-cover" src="../images/thumbnails/atmospheric-rivers.png" alt="" />
+    <span class="gallery-title">Analyzing Cloud-Native IVT Data for Atmospheric Rivers</span>
+    <span class="gallery-description">A Jupyter notebook showing how to work with a HydroShare-hosted Zarr dataset of integrated vapor transport (IVT) in Python, including cloud access, time and location subsetting, atmospheric river detection, event categorization, and saving outputs back to HydroShare.</span>
+  </a>
+  <a class="gallery-card" href="/collecting-and-manipulating-aorc-v1-1-myst">
+    <img class="gallery-cover" src="../images/thumbnails/aorc.png" alt="" />
+    <span class="gallery-title">Collecting and Manipulating AORC Meteorological Data</span>
+    <span class="gallery-description">A Jupyter notebook showing how to work with the NOAA Analysis of Record for Calibration (AORC) meteorological dataset from the cloud in Python, including subsetting, visualization, and linking gridded data to watershed boundaries.</span>
+  </a>
+  <a class="gallery-card" href="/access-nwm-forecasts-using-bigquery-myst">
+    <img class="gallery-cover" src="../images/thumbnails/nwm-bigquery.png" alt="" />
+    <span class="gallery-title">Accessing National Water Model Forecasts using BigQuery</span>
+    <span class="gallery-description">A Jupyter notebook showing how to access operational NOAA National Water Model forecasts in Python through the CIROH BigQuery API, including retrieving streamflow time series, comparing forecasts across reference times, and mapping model reaches.</span>
+  </a>
+</div>
