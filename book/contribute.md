@@ -1,9 +1,13 @@
 ---
+subject: Contribute
 title: Guide for Contributing to the CUAHSI Water Content Portal
+subtitle: "Help grow the portal by suggesting edits or adding your own water science learning materials."
 authors:
   id: cuahsi
 date: 2026-03-23
 ---
+
+<div class="portal-page-marker"></div>
 
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
 

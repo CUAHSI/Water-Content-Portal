@@ -51,7 +51,7 @@ project:
               - file: workshops/hydroviz/Activity1/Activity1.md
               - file: workshops/hydroviz/Activity2/Activity2.md
               - file: workshops/hydroviz/Activity3/Activity3.md
-    - file: standards-and-protocols/standards-and-protocols.md 
+    - file: standards-and-protocols/standards-and-protocols.md
       # children:
       #   - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/description_AIMS_project.md
       #     children:
@@ -65,6 +65,8 @@ project:
       hidden: true
     - file: making-content-citable.md
       hidden: true
+    - file: splash.md
+      hidden: true
   open_access: true
   license:
     content: CC-BY-4.0
@@ -72,6 +74,8 @@ project:
 site:
   template: book-theme
   nav:
+    - title: Splash
+      url: /splash
     - title: Home
       url: /index
     - title: Resources

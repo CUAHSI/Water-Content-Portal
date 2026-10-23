@@ -1,13 +1,15 @@
 ---
+subject: Resources
 title: Impact Stories
+subtitle: "Contextualizing theory with real-world complexities through case studies and reports."
 authors:
   id: cuahsi
 date: 2026-03-23
 ---
 
-[🏠 Back to Home](/)
+<div class="portal-page-marker"></div>
 
-Contextualizing theory with real-world complexities through case studies and reports.
+[🏠 Back to Home](/)
 
 <div style="background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%); padding: 1rem 1.5rem; color: #003366; margin-bottom: 2rem; border-radius: 8px; border: 1px solid #b3e5fc;">
 
