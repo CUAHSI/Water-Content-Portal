@@ -1,23 +1,19 @@
 ---
+subject: Resources
 title: Workshops
-authors:
-  id: cuahsi
-date: 2026-03-23
+subtitle: "Short modules for rapid learning and professional development."
 ---
 
-[🏠 Back to Home](/)
-
-Short modules and technical webinars for rapid learning and professional development.
-
-<div style="background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%); padding: 1rem 1.5rem; color: #003366; margin-bottom: 2rem; border-radius: 8px; border: 1px solid #b3e5fc;">
-
-<h3 style="margin-top: 0; color: #003366;">Overview</h3>
-
-- **Format:** Short modules (15–60 mins), "Knowledge Bites," and technical webinars.
-- **Goal:** Rapid learning for working professionals outside of degree programs.
-
-</div>
+<div class="portal-page-marker"></div>
 
 ## Available Resources
 
-- **[HydroViz Teaching Modules](readme)**: A set of three guided activities built around an interactive app for exploring hydrologic and geochemical concepts through the exploration of real-world data from rivers across North America.
+<div class="resource-gallery">
+  <a class="gallery-card" href="/readme">
+    <img class="gallery-cover" src="../images/thumbnails/hydroviz.png" alt="" />
+    <span class="gallery-title">HydroViz Teaching Modules</span>
+    <span class="gallery-description">A set of three guided activities built around an interactive app for exploring hydrologic and geochemical concepts through the exploration of real-world data from rivers across North America.</span>
+    <span class="gallery-tags"><span class="gallery-tag">hydrology</span><span class="gallery-tag">geochemistry</span><span class="gallery-tag">teaching</span></span>
+    <span class="gallery-tags"><span class="gallery-tag gallery-tag-tool">interactive app</span></span>
+  </a>
+</div>

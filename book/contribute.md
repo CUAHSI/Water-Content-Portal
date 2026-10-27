@@ -1,9 +1,10 @@
 ---
+subject: Contribute
 title: Guide for Contributing to the CUAHSI Water Content Portal
-authors:
-  id: cuahsi
-date: 2026-03-23
+subtitle: "Help grow the portal by suggesting edits or adding your own water science learning materials."
 ---
+
+<div class="portal-page-marker"></div>
 
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
 
@@ -12,16 +13,16 @@ The **CUAHSI Water Content Portal** is a community-driven resource. We rely on c
 
 There are three primary ways you can help improve this resource:
 
-1. **Suggesting Platform Edits:** Reporting typos, broken links, or platform bugs.
-2. **Request to Add Your Existing Content:** If you have educational water learning materials on GitHub that you would like to be hosted on our platform, please reach out to **help@cuahsi.org** with a link to your educational material(s) and a description of how and where this fits in the CUAHSI Water Content Portal.
-3. **Keep Your Content in the Portal Up-to-Date:** Once your content is added to the portal, notify us in a [GitHub issue](https://github.com/CUAHSI/Water-Content-Portal/issues) when your repository existing in the platform has been updated, e.g. individual chapters in the Hydroinformatics book:
-![Example syncing](images/example_syncing.png)
-- _Note: When you update your content, you will also need to follow [these instructions](making-content-citable.md) to update the citation of your resource in HydroShare following_.
+1. **Suggest a platform edit:** Report a typo, broken link, navigation issue, or other problem with the portal. See [Suggesting a platform edit](contribute-platform-edits.md).
+2. **Add existing content:** Ask us to include educational water science materials you already maintain. See [Requesting to add existing content](contribute-existing-content.md).
+3. **Keep contributed content up to date:** Update the material in its source repository, then let us know so we can update the portal. See [Keeping your portal content up to date](contribute-content-updates.md).
 
-# Content Managment Workflow
+# Content Management Workflow
 
-This portal aggregates educational resources directly from contributor's external repositories using [**Git submodules**](https://git-scm.com/book/en/v2/Git-Tools-Submodules). A description of this workflow is described below using [Chapter 1 of the Hydroinformatics book](https://water-content-portal.cuahsi.io/plotting-demo-complete/) as an example:
+The portal aggregates educational resources from contributors' external repositories using [**Git submodules**](https://git-scm.com/book/en/v2/Git-Tools-Submodules). The source material stays in its original repository, and the portal points to a specific version of that material. When a source repository changes, the portal needs to be updated to point to the newer version.
+
+The diagram below shows this workflow using [Chapter 1 of the Hydroinformatics book](https://water-content-portal.cuahsi.io/plotting-demo-complete/) as an example:
 
 ![submodules-workflow](images/submodules_workflow.png)
 
-This approach has served as an facile and effective way to ingest and update content in a trackable manner. 
+If you maintain an existing resource, start with [Requesting to add existing content](contribute-existing-content.md). If your resource is already in the portal, follow [Keeping your portal content up to date](contribute-content-updates.md) when you publish changes.

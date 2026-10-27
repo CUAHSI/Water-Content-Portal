@@ -1,9 +1,13 @@
 ---
+subject: Cite
 title: Citing Content from this Portal
+subtitle: "Credit the authors and HydroShare resources behind the materials you use."
 authors:
   id: cuahsi
 date: 2026-03-23
 ---
+
+<div class="portal-page-marker"></div>
 
 :::{div .no-sidebar-marker}
 :::

@@ -2,16 +2,7 @@
 version: 1
 project:
   id: cuahsi-open-learning-platform
-  affiliations:
-    - id: cuahsi-affiliation
-      name: CUAHSI - Consortium of Universities for the Advancement of Hydrologic Science, Inc.
-  authors:
-    - id: cuahsi 
-      name: The CUAHSI Community
-      affiliations:
-      - cuahsi-affiliation
   github: https://github.com/CUAHSI/Water-Content-Portal
-  date: 2026-03-23
   # venue:
   #   title: CUAHSI Water Content Portal
   #   url: https://water-content-portal.cuahsi.io/
@@ -51,7 +42,7 @@ project:
               - file: workshops/hydroviz/Activity1/Activity1.md
               - file: workshops/hydroviz/Activity2/Activity2.md
               - file: workshops/hydroviz/Activity3/Activity3.md
-    - file: standards-and-protocols/standards-and-protocols.md 
+    - file: standards-and-protocols/standards-and-protocols.md
       # children:
       #   - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/description_AIMS_project.md
       #     children:
@@ -60,6 +51,12 @@ project:
     - file: local_build.md
       hidden: true
     - file: contribute.md
+      hidden: true
+    - file: contribute-platform-edits.md
+      hidden: true
+    - file: contribute-existing-content.md
+      hidden: true
+    - file: contribute-content-updates.md
       hidden: true
     - file: how-to-cite.md
       hidden: true
@@ -71,6 +68,8 @@ project:
     code: MIT
 site:
   template: book-theme
+  parts:
+    footer: _parts/footer.md
   nav:
     - title: Home
       url: /index
@@ -87,7 +86,15 @@ site:
         - title: Impact Stories
           url: /impact-stories
     - title: Contribute
-      url: /contribute
+      children:
+        - title: Overview
+          url: /contribute
+        - title: Suggesting a Platform Edit
+          url: /contribute-platform-edits
+        - title: Requesting to Add Existing Content
+          url: /contribute-existing-content
+        - title: Keeping Your Portal Content Up to Date
+          url: /contribute-content-updates
     - title: Cite
       children:
         - title: How to Cite

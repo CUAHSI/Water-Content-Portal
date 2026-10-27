@@ -1,9 +1,13 @@
 ---
+subject: Cite
 title: Making Your Content Citable
+subtitle: "Link your GitHub content to HydroShare so others can cite it and you get credit for it."
 authors:
   id: cuahsi
 date: 2026-04-17
 ---
+
+<div class="portal-page-marker"></div>
 
 # Overview 
 
