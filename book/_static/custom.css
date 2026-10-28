@@ -349,6 +349,17 @@ a:hover > .home-arrow,
     box-shadow: 0 18px 32px -18px rgba(15, 46, 68, 0.45);
 }
 
+.resource-card-disabled {
+    filter: grayscale(1);
+    background: var(--home-sand);
+    cursor: not-allowed;
+}
+
+.resource-card-disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
 .resource-card .card-kicker {
     font-size: 0.69rem;
     letter-spacing: 0.06em;
@@ -388,6 +399,14 @@ a:hover > .home-arrow,
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--home-water);
+}
+
+.resource-card-disabled .card-go {
+    color: var(--home-muted);
+    font-family: var(--home-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Authorship impact */
@@ -452,6 +471,17 @@ a:hover > .home-arrow,
     .resource-card:hover {
         transform: none;
     }
+}
+
+/*
+  Disable MyST's built-in hover-card link previews (the floating thumbnail +
+  title popup shown when hovering internal links, e.g. the hero "Explore
+  resources" button or the resource cards). Links remain fully clickable;
+  only the popup preview is suppressed.
+*/
+.hover-card-content {
+    display: none !important;
+    pointer-events: none !important;
 }
 
 /*"Available Resources" gallery */

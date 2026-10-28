@@ -42,15 +42,21 @@ project:
               - file: workshops/hydroviz/Activity1/Activity1.md
               - file: workshops/hydroviz/Activity2/Activity2.md
               - file: workshops/hydroviz/Activity3/Activity3.md
-    - file: standards-and-protocols/standards-and-protocols.md
+    # - file: standards-and-protocols/standards-and-protocols.md
       # children:
       #   - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/description_AIMS_project.md
       #     children:
       #       - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
-    - file: impact-stories/impact-stories.md
+    # - file: impact-stories/impact-stories.md
     - file: local_build.md
       hidden: true
     - file: contribute.md
+      hidden: true
+    - file: contribute-platform-edits.md
+      hidden: true
+    - file: contribute-existing-content.md
+      hidden: true
+    - file: contribute-content-updates.md
       hidden: true
     - file: how-to-cite.md
       hidden: true
@@ -62,6 +68,8 @@ project:
     code: MIT
 site:
   template: book-theme
+  parts:
+    footer: _parts/footer.md
   nav:
     - title: Home
       url: /index
@@ -73,12 +81,20 @@ site:
           url: /code-labs
         - title: Workshops
           url: /workshops
-        - title: Standards & Protocols
-          url: /standards-and-protocols
-        - title: Impact Stories
-          url: /impact-stories
+        # - title: Standards & Protocols
+        #   url: /standards-and-protocols
+        # - title: Impact Stories
+        #   url: /impact-stories
     - title: Contribute
-      url: /contribute
+      children:
+        - title: Contributing Overview
+          url: /contribute
+        - title: Suggesting a Platform Edit
+          url: /contribute-platform-edits
+        - title: Requesting to Add Existing Content
+          url: /contribute-existing-content
+        - title: Keeping Your Portal Content Up to Date
+          url: /contribute-content-updates
     - title: Cite
       children:
         - title: How to Cite
