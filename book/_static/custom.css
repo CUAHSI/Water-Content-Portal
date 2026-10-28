@@ -488,6 +488,7 @@ a:hover > .home-arrow,
 .resource-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-auto-rows: 1fr;
     gap: 1rem;
     margin: 1.25rem 0 2rem 0;
 }
@@ -500,6 +501,8 @@ body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content
 .gallery-card {
     display: flex;
     width: 100%;
+    height: 100%;
+    box-sizing: border-box;
     flex-direction: column;
     padding: 0.5rem 1rem 0.75rem;
     border: 1px solid rgba(15, 33, 43, 0.15);
@@ -520,10 +523,19 @@ body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content
     display: block;
     box-sizing: border-box;
     width: 100%;
+    height: 160px;
+    flex-shrink: 0;
     margin: 0 0 0.5rem 0 !important;
     padding: 0.6rem;
     border-radius: 8px;
-    background: rgba(128, 128, 128, 0.12);
+}
+
+/* MyST renders the cover as <picture class="gallery-cover"><img></picture> */
+.gallery-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .gallery-title {
@@ -599,7 +611,8 @@ body:has(.portal-page-marker) #skip-to-frontmatter {
     --fm-surface: linear-gradient(180deg, #f3f8fc 0%, #e8f1f9 100%);
     --fm-line: rgba(15, 46, 68, 0.1);
     --fm-pill: rgba(31, 111, 178, 0.1);
-    margin: 1.25rem 0 2rem 0;
+    margin: 0 0 2rem 0;
+    margin-top: 2rem !important;
     padding: 1rem 1.5rem 1.25rem;
     border: 1px solid var(--fm-line);
     border-top: 4px solid var(--fm-accent);
