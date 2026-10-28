@@ -2,11 +2,11 @@
 subject: Resources
 title: Code Labs
 subtitle: "The \"Workbench\" for applied technical skills and reproducible science."
+site:
+  hide_footer_links: true
 ---
 
 <div class="portal-page-marker"></div>
-
-## Available Resources
 
 <div class="resource-gallery">
   <a class="gallery-card" href="/access-ivt-and-explore-ar-myst">

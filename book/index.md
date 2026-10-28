@@ -1,17 +1,15 @@
 ---
 title: CUAHSI Water Content Portal
-authors:
-  id: cuahsi
-date: 2026-03-23
 site:
   hide_toc: true
   hide_outline: true
+  hide_footer_links: true
 ---
 
 <div class="home-hero" aria-label="CUAHSI Water Content Portal">
   <div class="home-hero-inner">
     <div class="home-title">Open learning materials for the <span class="home-title-accent">water sciences</span></div>
-    <div class="home-blurb">A community-built, living resource where water researchers and educators host, share, and get credit for courseware, code labs, workshops, protocols, and impact stories.</div>
+    <div class="home-blurb">A community-built, free and living resource where water scientists host, share, and get credit for their open learning materials for research and education purposes.</div>
     <div class="home-actions">
       <a class="home-btn home-btn-primary" href="/courseware">Explore resources <span class="home-arrow">→</span></a>
       <a class="home-btn home-btn-ghost" href="/contribute">Contribute yours</a>
@@ -53,31 +51,9 @@ site:
   -->
 </div>
 
-<div class="home-section" aria-label="Who the portal is for">
-  <span class="home-kicker">Who it's for</span>
-  <div class="home-heading">Wherever you are in water science, start here.</div>
-  <div class="home-audience">
-    <div class="home-audience-card">
-      <span class="home-step">Use it</span>
-      <div class="home-card-title">Learners</div>
-      <p>Work through hands-on lessons and notebooks at your own pace, using real hydrologic data in R and Python.</p>
-    </div>
-    <div class="home-audience-card">
-      <span class="home-step">Teach it</span>
-      <div class="home-card-title">Educators</div>
-      <p>Adopt openly licensed modules in your courses and workshops, from a single activity to a full semester.</p>
-    </div>
-    <div class="home-audience-card">
-      <span class="home-step">Join it</span>
-      <div class="home-card-title">Authors</div>
-      <p>Host your materials alongside the community's, make them citable, and see how far they travel.</p>
-    </div>
-  </div>
-</div>
-
 <div class="home-section" aria-label="Explore resources">
   <span class="home-kicker">Explore</span>
-  <div class="home-heading">Five kinds of resources, one place.</div>
+  <div class="home-heading">Diverse types of resources, one place.</div>
   <div class="resource-grid">
     <div class="resource-card">
       <span class="card-kicker">Structured academic curriculum</span>
@@ -97,17 +73,39 @@ site:
       <p>Short modules and technical webinars designed for rapid upskilling.</p>
       <span class="card-go">See workshops <span class="home-arrow">→</span></span>
     </div>
-    <div class="resource-card">
+    <div class="resource-card resource-card-disabled">
       <span class="card-kicker">Field protocols &amp; data policies</span>
-      <div class="card-title"><a href="/standards-and-protocols">Standards &amp; Protocols</a></div>
+      <div class="card-title">Standards &amp; Protocols</div>
       <p>Standard operating procedures and technical manuals ensuring data quality.</p>
-      <span class="card-go">Read protocols <span class="home-arrow">→</span></span>
+      <span class="card-go">Coming soon</span>
     </div>
-    <div class="resource-card">
+    <div class="resource-card resource-card-disabled">
       <span class="card-kicker">Case studies &amp; reports</span>
-      <div class="card-title"><a href="/impact-stories">Impact Stories</a></div>
+      <div class="card-title">Impact Stories</div>
       <p>Real-world case studies and reports contextualizing water science theory.</p>
-      <span class="card-go">Read impact stories <span class="home-arrow">→</span></span>
+      <span class="card-go">Coming soon</span>
+    </div>
+  </div>
+</div>
+
+<div class="home-section" aria-label="Who the portal is for">
+  <span class="home-kicker">Who it's for</span>
+  <div class="home-heading">Wherever you are in water science, start here.</div>
+  <div class="home-audience">
+    <div class="home-audience-card">
+      <span class="home-step">Use it</span>
+      <div class="home-card-title">Learners</div>
+      <p>Work through hands-on lessons and notebooks at your own pace, using real hydrologic data in R and Python.</p>
+    </div>
+    <div class="home-audience-card">
+      <span class="home-step">Teach it</span>
+      <div class="home-card-title">Educators</div>
+      <p>Adopt openly licensed modules in your courses and workshops, from a single activity to a full semester.</p>
+    </div>
+    <div class="home-audience-card">
+      <span class="home-step">Join it</span>
+      <div class="home-card-title">Authors</div>
+      <p>Host your materials alongside the community's, make them citable, and see how far they travel.</p>
     </div>
   </div>
 </div>

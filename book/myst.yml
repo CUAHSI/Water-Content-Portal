@@ -42,12 +42,12 @@ project:
               - file: workshops/hydroviz/Activity1/Activity1.md
               - file: workshops/hydroviz/Activity2/Activity2.md
               - file: workshops/hydroviz/Activity3/Activity3.md
-    - file: standards-and-protocols/standards-and-protocols.md
+    # - file: standards-and-protocols/standards-and-protocols.md
       # children:
       #   - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/description_AIMS_project.md
       #     children:
       #       - file: standards-and-protocols/data-collection-protocols/docs/AIMS_project/Surface_water_chemistry_sampling.md
-    - file: impact-stories/impact-stories.md
+    # - file: impact-stories/impact-stories.md
     - file: local_build.md
       hidden: true
     - file: contribute.md
@@ -81,13 +81,13 @@ site:
           url: /code-labs
         - title: Workshops
           url: /workshops
-        - title: Standards & Protocols
-          url: /standards-and-protocols
-        - title: Impact Stories
-          url: /impact-stories
+        # - title: Standards & Protocols
+        #   url: /standards-and-protocols
+        # - title: Impact Stories
+        #   url: /impact-stories
     - title: Contribute
       children:
-        - title: Overview
+        - title: Contributing Overview
           url: /contribute
         - title: Suggesting a Platform Edit
           url: /contribute-platform-edits

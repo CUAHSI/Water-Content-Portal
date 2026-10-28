@@ -2,11 +2,11 @@
 subject: Resources
 title: Workshops
 subtitle: "Short modules for rapid learning and professional development."
+site:
+  hide_footer_links: true
 ---
 
 <div class="portal-page-marker"></div>
-
-## Available Resources
 
 <div class="resource-gallery">
   <a class="gallery-card" href="/readme">
