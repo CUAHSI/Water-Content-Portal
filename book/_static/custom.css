@@ -582,7 +582,8 @@ body:has(.portal-page-marker) #skip-to-frontmatter {
     --fm-surface: linear-gradient(180deg, #f3f8fc 0%, #e8f1f9 100%);
     --fm-line: rgba(15, 46, 68, 0.1);
     --fm-pill: rgba(31, 111, 178, 0.1);
-    margin: 1.25rem 0 2rem 0;
+    margin: 0 0 2rem 0;
+    margin-top: 2rem !important;
     padding: 1rem 1.5rem 1.25rem;
     border: 1px solid var(--fm-line);
     border-top: 4px solid var(--fm-accent);
