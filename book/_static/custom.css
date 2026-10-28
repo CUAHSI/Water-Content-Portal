@@ -531,6 +531,7 @@ body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content
 }
 
 /* MyST renders the cover as <picture class="gallery-cover"><img></picture> */
+img.gallery-cover,
 .gallery-cover img {
     object-fit: contain;
     object-position: center;
