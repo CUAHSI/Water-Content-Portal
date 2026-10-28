@@ -528,7 +528,6 @@ body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content
     margin: 0 0 0.5rem 0 !important;
     padding: 0.6rem;
     border-radius: 8px;
-    background: rgba(128, 128, 128, 0.12);
 }
 
 /* MyST renders the cover as <picture class="gallery-cover"><img></picture> */
