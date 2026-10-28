@@ -1,12 +1,20 @@
 ---
-subject: Contribute
+subject: Contributing Overview
 title: Guide for Contributing to the CUAHSI Water Content Portal
-subtitle: "Help grow the portal by suggesting edits or adding your own water science learning materials."
 ---
 
 <div class="portal-page-marker"></div>
 
 The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
+
+
+# Why Contribute?
+
+Contributing helps make useful water science learning materials easier to discover, access, reuse, and **be recognized**. This portal is designed to support open, and FAIR (Findable, Accessible, Interoperable and Reusable) use, and resources can be archived in HydroShare to increase its visibility and so that learners and other researchers can cite a specific page or collection. 
+
+Authors may also request an Authorship Impact Report to summarize engagement with the pages they contributed; this information may help communicate the reach of their work in a CV, resume, or other professional materials.
+
+By sharing new materials, correcting issues, and keeping resources current, contributors help strengthen an accurate, growing collection for the water science community. Learn more about [making your content citable](making-content-citable.md) and [keeping it up to date](contribute-content-updates.md).
 
 
 # Ways to Contribute
