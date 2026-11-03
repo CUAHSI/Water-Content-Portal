@@ -32,7 +32,7 @@ site:
     <div class="home-stat-label">Countries reached</div>
   </div>
   <div class="home-stat">
-    <div class="home-stat-number">7</div>
+    <div class="home-stat-number">8</div>
     <div class="home-stat-label">Contributing authors</div>
   </div>
   <!--
