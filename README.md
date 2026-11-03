@@ -1,7 +1,7 @@
-# Water-Content-Portal
+# Water-Learning-Commons
  <img src="book/images/cuahsi_logo.png" width="300">
 
-The **CUAHSI Water Content Portal** is a community-driven repository for hosting and sharing open learning materials within the water science community. This platform organizes educational materials into five categories: Courseware, Code Labs, Workshops, Standards & Protocols, and Impact Stories. By bringing these materials together in a single accessible space built with Jupyter Book, it serves as a central hub for water researchers and educators.
+The **CUAHSI Water Learning Commons** is a community-driven repository for hosting and sharing open learning materials within the water science community. This platform organizes educational materials into five categories: Courseware, Code Labs, Workshops, Standards & Protocols, and Impact Stories. By bringing these materials together in a single accessible space built with Jupyter Book, it serves as a central hub for water researchers and educators.
 
 ## Adding External Content via Git Submodules
 
@@ -43,6 +43,18 @@ The standard local testing workflow requires you to:
 ### 4. Commit Your Changes
 
 Once you confirm the local build looks correct, you can stage and commit your changes. Make sure you include the updated `.gitmodules` file, the new submodule directory, and the modified `book/myst.yml` file.
+
+### 5. Check Frontmatter URLs
+
+Pages built from submodules often set a page-level `github` frontmatter field pointing at the submodule's own repository. MyST automatically appends the page's project-relative path (e.g. `courseware/hydroinformatics/Front_Matter/hydroinformatics.md`) to that repository to build the "Edit this page" link, which 404s whenever the submodule repo's own layout doesn't match (most submodule repos only contain the file at their root, e.g. `hydroinformatics.md`). The same kind of typo/staleness problem can affect any other URL-like frontmatter field (`doi`, `venue.url`, author/affiliation `url`/`github`/`orcid`, `binder`, `arxiv`).
+
+Run the checker to find every frontmatter field across the book whose URL doesn't resolve:
+
+```bash
+make check-frontmatter-urls
+```
+
+This never edits content files. It writes one CSV row per broken field to `scripts/reports/frontmatter-url-report.csv` (columns: `path`, `field`, `value`) so you can report issues back to content authors. Results are cached in `scripts/.cache/` so re-runs only re-check pages that changed and URLs that haven't been verified recently; pass `--refresh` to bypass the cache. Set a `GITHUB_TOKEN` environment variable before running to avoid GitHub API rate limiting.
 
 ## Removing a Git Submodule
 

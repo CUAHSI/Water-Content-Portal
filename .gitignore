@@ -51,6 +51,10 @@ _site
 _build
 _temp
 
+# Frontmatter URL checker cache and generated report
+scripts/.cache/
+scripts/reports/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

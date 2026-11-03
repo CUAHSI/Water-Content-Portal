@@ -15,7 +15,7 @@ There is some specific information needed from authors when requesting an ad-hoc
 
 There are two data sets that need to be generated with Heap and downloaded as CSVs. The names of these files should be prefixed with the date range requested by the author. This date range should be formatted as `YYMMDD_YYMMDD`. For example, if an author requests data from January 1st, 2026 to September 1st, 2026, the date range would be formatted as `260101_260901`.
 
-To begin, first navigate to https://www.heap.io/ and log in. If you do not have credentials to CUAHSI's account on Heap, contact Martin Seul. After logging in, make sure that that the `Apps` tab in the bottom left is selected to `Water Content Portal` so that you can see user analytics specifically for the open learning pages. 
+To begin, first navigate to https://www.heap.io/ and log in. If you do not have credentials to CUAHSI's account on Heap, contact Martin Seul. After logging in, make sure that that the `Apps` tab in the bottom left is selected to `Water Learning Commons` so that you can see user analytics specifically for the open learning pages. 
 
 Below are details for generating each Heap export:
 
