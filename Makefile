@@ -27,6 +27,10 @@ ci:
 clean:
 	cd book && jupyter-book clean --all --yes ./_build
 
+.PHONY: check-frontmatter-urls
+check-frontmatter-urls:
+	python scripts/check_frontmatter_urls.py
+
 
 .PHONY: help
 help:
@@ -37,3 +41,4 @@ help:
 	@echo "  make ci                				- Build the book in a non-interactive environment for CI"
 	@echo "  make clean                 			- Clean any build outputs and artifacts"
 	@echo "  make reset                 			- Cleans and resets a git repo and its submodules"
+	@echo "  make check-frontmatter-urls 			- Report frontmatter URL fields (edit_url, doi, venue, etc.) that don't resolve"
