@@ -1,6 +1,6 @@
 ---
-subject: Contributing Overview
-title: Guide for Contributing to the CUAHSI Water Learning Commons
+subject: Contribute
+title: Contributing Overview
 ---
 
 <div class="portal-page-marker"></div>

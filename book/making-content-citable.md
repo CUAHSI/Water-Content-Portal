@@ -1,10 +1,6 @@
 ---
 subject: Cite
 title: Making Your Content Citable
-subtitle: "Link your GitHub content to HydroShare so others can cite it and you get credit for it."
-authors:
-  id: cuahsi
-date: 2026-04-17
 ---
 
 <div class="portal-page-marker"></div>
@@ -24,7 +20,7 @@ Begin by creating a new resource (or a new version of an existing resource) in H
 
 ## 2. Update Page-level Frontmatter
 
-Once your HydroShare resource is created, you need to link it directly to your source files. Add the HydroShare URL and the placeholder DOI to the page-level frontmatter of your `.md` or `.ipynb` file. 
+Once your HydroShare resource is created, you need to link it directly to your source files. Add the HydroShare URL and the DOI (if applicable) to the page-level frontmatter of your `.md` or `.ipynb` file. 
 
 ![HydroShare Citation](images/hydroshare_citation.png)
 
@@ -60,20 +56,21 @@ downloads:
 ---
 ```
 
-## 3. Create a GitHub Release
+<!-- Remove this requirement for now -->
+<!-- ## 3. Create a GitHub Release
 
-To lock in a specific, stable version of your content, create a [formal release in your GitHub repository](https://docs.github.com/en/repositories/releasing-projects-on-github). Tag the release with a version number (e.g., `v1.0.0`) and provide brief release notes detailing the scope of the content.
+To lock in a specific, stable version of your content, create a [formal release in your GitHub repository](https://docs.github.com/en/repositories/releasing-projects-on-github). Tag the release with a version number (e.g., `v1.0.0`) and provide brief release notes detailing the scope of the content. -->
 
-## 4. Upload the Release to HydroShare
-Navigate to your newly created GitHub release and download a snapshot of the source code as zip; the name of the downloaded zip will be `{repository-name}-YYYY-MM-D.zip`; keep this filename as is and upload this snapshot file directly to your corresponding HydroShare resource.
+## 3. Upload a snapshot of the GitHub repository to HydroShare
+Navigate to your GitHub repository where the content lives and download a snapshot of the source code as zip; the name of the downloaded zip will be `{repository-name}-YYYY-MM-D.zip`; keep this filename as is and upload this snapshot file directly to your corresponding HydroShare resource.
 
-## 5. Add link to GitHub Repository and Page in Water Learning Commons as `Related Resources` in HydroShare
+## 4. Add link to GitHub Repository and Page in Water Learning Commons as `Related Resources` in HydroShare
 Add a link to the main GitHub repository location (e.g., `https://github.com/VT-Hydroinformatics/1-Intro-plotting-R`) in the `Related Resources` field along with the link the corresponding page in the CUAHSI Water Learning Commons, e.g. Chapter 1 of the Hydroinformatics book:
 
 ![Related Resources](images/related-resources.png)
 
 
-## 6. Add a README to the Resource
+## 5. Add a README to the Resource
 Finally, ensure your HydroShare resource includes a clear and consise `README.md` file. This document must include explicit instructions noting exactly where the content was extracted from (e.g., pointing back to the specific GitHub repository URL and the versioned release), e.g.,:
 
 ```markdown

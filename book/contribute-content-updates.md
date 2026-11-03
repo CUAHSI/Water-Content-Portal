@@ -1,6 +1,6 @@
 ---
 subject: Contribute
-title: Keeping Your Content in the Portal Up to Date
+title: Keeping Your Content Up to Date
 ---
 
 <div class="portal-page-marker"></div>
