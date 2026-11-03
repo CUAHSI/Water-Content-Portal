@@ -1,11 +1,11 @@
 ---
-subject: Contributing Overview
-title: Guide for Contributing to the CUAHSI Water Content Portal
+subject: Contribute
+title: Contributing Overview
 ---
 
 <div class="portal-page-marker"></div>
 
-The **CUAHSI Water Content Portal** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
+The **CUAHSI Water Learning Commons** is a community-driven resource. We rely on contributions from water science researchers and educators to keep our learning materials accurate and comprehensive.
 
 
 # Why Contribute?
@@ -29,7 +29,7 @@ There are three primary ways you can help improve this resource:
 
 The portal aggregates educational resources from contributors' external repositories using [**Git submodules**](https://git-scm.com/book/en/v2/Git-Tools-Submodules). The source material stays in its original repository, and the portal points to a specific version of that material. When a source repository changes, the portal needs to be updated to point to the newer version.
 
-The diagram below shows this workflow using [Chapter 1 of the Hydroinformatics book](https://water-content-portal.cuahsi.io/plotting-demo-complete/) as an example:
+The diagram below shows this workflow using [Chapter 1 of the Hydroinformatics book](https://water-learning-commons.cuahsi.io/plotting-demo-complete/) as an example:
 
 ![submodules-workflow](images/submodules_workflow.png)
 

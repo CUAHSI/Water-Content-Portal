@@ -12,7 +12,7 @@ date: 2026-03-23
 :::{div .no-sidebar-marker}
 :::
 
-This guide outlines the steps to build the **CUAHSI Water Content Portal** locally.
+This guide outlines the steps to build the **CUAHSI Water Learning Commons** locally.
 
 ## Why build locally
 
@@ -66,7 +66,7 @@ You will know the environment is active when your command prompt starts with the
 
 ### Update and Serve the Book
 
-The CUAHSI Water Content Portal is built using **`jupyter-book`**, and all the contents are under the `book` folder. Before serving the book, you must ensure your submodules are initialized and up to date.
+The CUAHSI Water Learning Commons is built using **`jupyter-book`**, and all the contents are under the `book` folder. Before serving the book, you must ensure your submodules are initialized and up to date.
 
 First, update the git submodules through the `make update` command:
 

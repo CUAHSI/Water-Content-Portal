@@ -1,10 +1,6 @@
 ---
 subject: Cite
-title: Citing Content from this Portal
-subtitle: "Credit the authors and HydroShare resources behind the materials you use."
-authors:
-  id: cuahsi
-date: 2026-03-23
+title: Citing Content from this Platform
 ---
 
 <div class="portal-page-marker"></div>
@@ -12,13 +8,13 @@ date: 2026-03-23
 :::{div .no-sidebar-marker}
 :::
 
-The content of the Water Content Portal is licensed for free and open use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. All materials are designed to be reusable and citable to support open science and improve the findability, accessibility, interoperability, and reuse (FAIR) of these educational resources.
+The content of the Water Learning Commons is licensed for free and open use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license unless specifically defined as otherwise in the page-level frontmatter. All materials are designed to be reusable and citable to support open science and improve the findability, accessibility, interoperability, and reuse (FAIR) of these educational resources.
 
 ## How to Cite
 
-Each collection and page in this portal is associated with a corresponding resource in [HydroShare](http://hydroshare.org/).
+Each collection and page hosted directly on this platform is associated with a corresponding resource in [HydroShare](http://hydroshare.org/). For content that is shared on this platform but hosted elsewhere, please search for instructions on citing on those pages or reach out to the authors directly.
 
-There are two ways to cite content, depending on what you are referencing:
+There are two ways to cite hosted content, depending on what you are referencing:
 
 ### Citing a Collection (e.g., a book)
 
@@ -46,12 +42,12 @@ Use this when:
 A typical citation will look like the following in HydroShare:
 ![hydroshare-citation](images/hydroshare_citation.png)
 
-## Citing the Entire Portal
+## Citing the Entire Platform
 
 The complete collection of open learning materials is available here: 
 https://www.hydroshare.org/resource/1c64dbc324bd46889b38a576bddb5a5a/
 
-You can cite this resource when referring to the full portal. In most cases, it is preferable to cite a specific collection or page to provide a more precise reference.
+You can cite this resource when referring to the full platform. In most cases, it is preferable to cite a specific collection or page to provide a more precise reference.
 
 ## Questions or Contributions
 

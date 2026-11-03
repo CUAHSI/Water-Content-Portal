@@ -5,7 +5,7 @@ title: Requesting to Add Existing Content
 
 <div class="portal-page-marker"></div>
 
-If you have water science teaching materials that you would like to share through the CUAHSI Water Content Portal, contact us at [help@cuahsi.org](mailto:help@cuahsi.org). The portal hosts materials maintained in external repositories, so your content can continue to be developed in its existing home.
+If you have water science teaching materials that you would like to share through the CUAHSI Water Learning Commons, contact us at [help@cuahsi.org](mailto:help@cuahsi.org). The portal hosts materials maintained in external repositories, so your content can continue to be developed in its existing home.
 
 ## Before you contact us
 
