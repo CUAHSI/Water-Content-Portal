@@ -17,7 +17,7 @@ For example, authors of individual chapters in the Hydroinformatics book maintai
 
 ## Tell us which version to use
 
-Open an issue in the [Water Content Portal issue tracker](https://github.com/CUAHSI/Water-Content-Portal/issues) and include:
+Open an issue in the [Water Learning Commons issue tracker](https://github.com/CUAHSI/Water-Content-Portal/issues) and include:
 
 - The portal page that should be updated.
 - A link to the source repository and the specific file or folder, if applicable.

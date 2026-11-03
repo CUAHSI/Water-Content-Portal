@@ -52,7 +52,7 @@ DEFAULT_CACHE_TTL_DAYS = 30
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 GITHUB_URL_RE = re.compile(r"^https?://github\.com/([^/]+)/?([^/]*?)/?$")
-USER_AGENT = "Mozilla/5.0 (compatible; Water-Content-Portal link checker)"
+USER_AGENT = "Mozilla/5.0 (compatible; Water-Learning-Commons link checker)"
 
 # frontmatter keys whose string value is a GitHub repo/user reference rather
 # than a literal URL (handled via the GitHub API for accuracy + caching)

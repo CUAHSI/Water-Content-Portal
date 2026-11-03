@@ -1,12 +1,12 @@
 ---
-title: CUAHSI Water Content Portal
+title: CUAHSI Water Learning Commons
 site:
   hide_toc: true
   hide_outline: true
   hide_footer_links: true
 ---
 
-<div class="home-hero" aria-label="CUAHSI Water Content Portal">
+<div class="home-hero" aria-label="CUAHSI Water Learning Commons">
   <div class="home-hero-inner">
     <div class="home-title">Open learning materials for the <span class="home-title-accent">water sciences</span></div>
     <div class="home-blurb">A community-built, free and living resource where water scientists host, share, and get credit for their open learning materials for research and education purposes.</div>

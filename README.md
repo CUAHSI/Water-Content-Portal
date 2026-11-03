@@ -1,7 +1,7 @@
-# Water-Content-Portal
+# Water-Learning-Commons
  <img src="book/images/cuahsi_logo.png" width="300">
 
-The **CUAHSI Water Content Portal** is a community-driven repository for hosting and sharing open learning materials within the water science community. This platform organizes educational materials into five categories: Courseware, Code Labs, Workshops, Standards & Protocols, and Impact Stories. By bringing these materials together in a single accessible space built with Jupyter Book, it serves as a central hub for water researchers and educators.
+The **CUAHSI Water Learning Commons** is a community-driven repository for hosting and sharing open learning materials within the water science community. This platform organizes educational materials into five categories: Courseware, Code Labs, Workshops, Standards & Protocols, and Impact Stories. By bringing these materials together in a single accessible space built with Jupyter Book, it serves as a central hub for water researchers and educators.
 
 ## Adding External Content via Git Submodules
 

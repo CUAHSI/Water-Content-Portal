@@ -9,7 +9,7 @@ The portal is a community resource, and reports from readers help us keep it cle
 
 ## Report an issue
 
-Use the [Water Content Portal issue tracker](https://github.com/CUAHSI/Water-Content-Portal/issues) to report a typo, broken link, display problem, confusing navigation, or other issue with the portal itself.
+Use the [Water Learning Commons issue tracker](https://github.com/CUAHSI/Water-Content-Portal/issues) to report a typo, broken link, display problem, confusing navigation, or other issue with the portal itself.
 
 When you open an issue, include:
 
@@ -22,7 +22,7 @@ Use a short, specific title, such as "Broken link on the courseware page." Befor
 
 ## Make a change yourself
 
-If you are comfortable editing the project, you can propose a correction as a pull request instead. The portal is built with MyST Markdown. For changes to the site itself, edit the relevant files in the [Water Content Portal repository](https://github.com/CUAHSI/Water-Content-Portal) and check that the change builds as expected. The [local build guide](local_build.md) explains how to preview your work.
+If you are comfortable editing the project, you can propose a correction as a pull request instead. The portal is built with MyST Markdown. For changes to the site itself, edit the relevant files in the [Water Learning Commons repository](https://github.com/CUAHSI/Water-Content-Portal) and check that the change builds as expected. The [local build guide](local_build.md) explains how to preview your work.
 
 If the issue is in a lesson or other resource maintained in a separate repository, make the correction in that source repository rather than editing the portal's copy. If you are not sure where the material is maintained, open an issue and include the portal page address.
 

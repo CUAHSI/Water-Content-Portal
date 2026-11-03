@@ -48,8 +48,8 @@ body:has(.home-hero) article.article-grid {
 }
 
 /* Home page: hide the heading-generated duplicate title */
-body:has(.home-hero) h2#cuahsi-water-content-portal,
-body:has(.home-hero) h2#cuahsi-water-content-portal * {
+body:has(.home-hero) h2#cuahsi-water-learning-commons,
+body:has(.home-hero) h2#cuahsi-water-learning-commons * {
     display: none !important;
 }
 
