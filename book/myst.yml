@@ -2,7 +2,7 @@
 version: 1
 project:
   id: cuahsi-open-learning-platform
-  github: https://github.com/CUAHSI/Water-Content-Portal
+  github: https://github.com/CUAHSI/Water-Learning-Commons
   # venue:
   #   title: CUAHSI Water Learning Commons
   #   url: https://water-learning-commons.cuahsi.io/
@@ -104,5 +104,5 @@ site:
   options:
     logo: images/water_learning_commons_logo.png
     favicon: images/favicon.ico
-    github_url: https://github.com/CUAHSI/Water-Content-Portal
+    github_url: https://github.com/CUAHSI/Water-Learning-Commons
     style: _static/custom.css
